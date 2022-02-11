@@ -1,3 +1,3 @@
 <?php
-print("HELLO11")
+print("HELLO11");
 ?>

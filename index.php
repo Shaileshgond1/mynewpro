@@ -1,906 +1,220 @@
 
+
+
+
+
 <!DOCTYPE html>
-<html  >
-<head>
-  <!-- Site made with Mobirise Website Builder v5.3.4, https://mobirise.com -->
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="Mobirise v5.3.4, mobirise.com">
-  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
-  <link rel="shortcut icon" href="assets/images/logo.png" type="image/x-icon">
-  <meta name="description" content="New SoftwareM4 HTML Template - Download Now!">
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Build a Website with HTML, CSS, and Github Pages | Codecademy</title>
+    <link rel="shortcut icon" type="image/x-icon" href="https://www.codecademy.com/favicon.ico" />
+    <link rel="canonical" href="https://www.codecademy.com/learn/paths/learn-how-to-build-websites" />
+    <link rel="alternate" type="application/rss+xml" title="Codecademy Blog" href="/blog.rss" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="apple-itunes-app" content="app-id=1376029326">
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="reIpXvLJA7TNWTF2qYRtvgX9U5VXkj9FHl2dxhLrmavdpv8s9RdHlk6/JEPZliwFrEA9+T73XW5IVqSHytqAyA==" />
+    <meta name="theme-color" content="#10162F"/>
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="manifest" href="/manifest.json" crossorigin="use-credentials">
+
+        <meta name="description" content="One of the best ways to start coding is by building websites. Whether you want your team to be empowered to tweak your business’s site, hone their web development skills, or learn to better collaborate with developers, this Skill Path will get them there."/>
+    <meta name="keywords" content=""/>
+
+
+
+    
+<meta property="fb:app_id" content="212500508799908"/>
+<meta property="fb:profile_id" content="codecademy"/>
+<meta property="og:url" content="https://www.codecademy.com/learn/paths/learn-how-to-build-websites?g_network=g&amp;g_device=c&amp;g_adid=527136056381&amp;g_keyword=build%20website%20html%20css&amp;g_campaign=IN+Skill+Path%3A+Pro+-+Broad&amp;g_acctid=243-039-7011&amp;g_adtype=search&amp;g_adgroupid=122004100559&amp;g_keywordid=kwd-1403686979204&amp;g_campaignid=13245796046&amp;utm_id=t_kwd-1403686979204:ag_122004100559:cp_13245796046:n_g:d_c&amp;utm_term=build%20website%20html%20css&amp;utm_campaign=IN%20Skill%20Path%3A%20Pro%20-%20Broad&amp;utm_source=google&amp;utm_medium=paid-search&amp;utm_content=527136056381&amp;hsa_acc=2430397011&amp;hsa_cam=13245796046&amp;hsa_grp=122004100559&amp;hsa_ad=527136056381&amp;hsa_src=g&amp;hsa_tgt=kwd-1403686979204&amp;hsa_kw=build%20website%20html%20css&amp;hsa_mt=p&amp;hsa_net=adwords&amp;hsa_ver=3&amp;gclid=Cj0KCQiA3rKQBhCNARIsACUEW_arSRSA8gfkzqRUxMeL8cXo3nHxGMuu5yoGjKdb-Nnm4ddh_dmiQw0aAtNeEALw_wcB"/>
+<meta property="og:site_name" content="Codecademy" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Master a Skill - Build Websites for your Business | Codecademy" />
+<meta property="og:description" content="One of the best ways to start coding is by building websites. Whether you want your team to be empowered to tweak your business’s site, hone their web development skills, or learn to better collaborate with developers, this Skill Path will get them there." />
+<meta property="og:rich_attachment" content="true" />
+<meta property="og:image" content="https://images.codecademy.com/social/logo-codecademy-social.png" />
+    
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@codecademy" />
+<meta name="twitter:title" content="Master a Skill - Build Websites for your Business | Codecademy" />
+<meta name="twitter:description" content="One of the best ways to start coding is by building websites. Whether you want your team to be empowered to tweak your business’s site, hone their web development skills, or learn to better collaborate with developers, this Skill Path will get them there." />
+<meta name="twitter:image" content="https://images.codecademy.com/social/logo-codecademy-social.png" />
+    
+<meta itemprop="name" content="Master a Skill - Build Websites for your Business | Codecademy" />
+<meta itemprop="description"  content="One of the best ways to start coding is by building websites. Whether you want your team to be empowered to tweak your business’s site, hone their web development skills, or learn to better collaborate with developers, this Skill Path will get them there." />
+<meta itemprop="image" content="https://images.codecademy.com/social/logo-codecademy-social.png" />
+
+
+    
+    
+
+
+    
+
+
+
+    
+
+        <link data-chunk="portal-scenes-Paths" rel="stylesheet" href="/webpack/5.2b8e4552d70cf8bdea04.chunk.css">
+<link data-chunk="portal-scenes-Paths" rel="stylesheet" href="/webpack/2.833a521f6a4645e3a2dd.chunk.css">
+<link data-chunk="portal-scenes-Paths" rel="stylesheet" href="/webpack/87.6bfb925e3b27a4a37774.chunk.css">
+<link data-chunk="portal-scenes-Paths" rel="stylesheet" href="/webpack/82.9b10b4ceded36a8960c3.chunk.css">
+<link data-chunk="portal-scenes-Paths" rel="stylesheet" href="/webpack/94.d3bb6a7ed701f86252a3.chunk.css">
+<link data-chunk="portal-scenes-Paths" rel="stylesheet" href="/webpack/62.319b434b0af013ed36a9.chunk.css">
+<link data-chunk="portal-scenes-Paths" rel="stylesheet" href="/webpack/67.6fe2c033c8928c22dd93.chunk.css">
+<link data-chunk="portal-scenes-Paths" rel="stylesheet" href="/webpack/37.186faf78952c9b9e9a3f.chunk.css">
+<link data-chunk="portal-scenes-Paths" rel="stylesheet" href="/webpack/363.ca441ec5d7588a170cc5.chunk.css">
+<link data-chunk="portal-scenes-Paths" rel="stylesheet" href="/webpack/236.0ff3db0259d407292941.chunk.css">
+<link data-chunk="portal-scenes-Paths" rel="stylesheet" href="/webpack/661.5ebf5b04cee47d8a5315.chunk.css">
+
+
+      <script>
+//<![CDATA[
+var CCDATA = CCDATA || {};
+//]]>
+</script>
+
+      <script id="CCDATA">
+//<![CDATA[
+
+  var CCDATA = CCDATA || {};  CCDATA['authenticity_token'] = "NeaJno5xCwAbx5TV01P7ldfidzJ0gcIX3yT0uwDKbZBFol/sia9PIpghgeCjQboufl8ZXh3koDyJL8362Pt08w=="; CCDATA['env'] = "production"; CCDATA['push_sign_up_event'] = null; CCDATA['recaptcha_key_v2'] = "6LfzD8YaAAAAAGEvyWkvzxdlOxOKxcJBrsE-Ihyq"; CCDATA['recaptcha_key_v3'] = "6LfbE8YaAAAAAG61KkVNtRRVZ5hxgPwDiehR-pdQ"; CCDATA['dd_service'] = "Codecademy-production"; CCDATA['dd_version'] = "7cbd27c1"; CCDATA['request_host'] = "www.codecademy.com"; CCDATA['request_href'] = "https://www.codecademy.com/learn/paths/learn-how-to-build-websites?g_network=g\u0026g_device=c\u0026g_adid=527136056381\u0026g_keyword=build%20website%20html%20css\u0026g_campaign=IN+Skill+Path%3A+Pro+-+Broad\u0026g_acctid=243-039-7011\u0026g_adtype=search\u0026g_adgroupid=122004100559\u0026g_keywordid=kwd-1403686979204\u0026g_campaignid=13245796046\u0026utm_id=t_kwd-1403686979204:ag_122004100559:cp_13245796046:n_g:d_c\u0026utm_term=build%20website%20html%20css\u0026utm_campaign=IN%20Skill%20Path%3A%20Pro%20-%20Broad\u0026utm_source=google\u0026utm_medium=paid-search\u0026utm_content=527136056381\u0026hsa_acc=2430397011\u0026hsa_cam=13245796046\u0026hsa_grp=122004100559\u0026hsa_ad=527136056381\u0026hsa_src=g\u0026hsa_tgt=kwd-1403686979204\u0026hsa_kw=build%20website%20html%20css\u0026hsa_mt=p\u0026hsa_net=adwords\u0026hsa_ver=3\u0026gclid=Cj0KCQiA3rKQBhCNARIsACUEW_arSRSA8gfkzqRUxMeL8cXo3nHxGMuu5yoGjKdb-Nnm4ddh_dmiQw0aAtNeEALw_wcB"; CCDATA['request_path'] = "/learn/paths/learn-how-to-build-websites?g_network=g\u0026g_device=c\u0026g_adid=527136056381\u0026g_keyword=build%20website%20html%20css\u0026g_campaign=IN+Skill+Path%3A+Pro+-+Broad\u0026g_acctid=243-039-7011\u0026g_adtype=search\u0026g_adgroupid=122004100559\u0026g_keywordid=kwd-1403686979204\u0026g_campaignid=13245796046\u0026utm_id=t_kwd-1403686979204:ag_122004100559:cp_13245796046:n_g:d_c\u0026utm_term=build%20website%20html%20css\u0026utm_campaign=IN%20Skill%20Path%3A%20Pro%20-%20Broad\u0026utm_source=google\u0026utm_medium=paid-search\u0026utm_content=527136056381\u0026hsa_acc=2430397011\u0026hsa_cam=13245796046\u0026hsa_grp=122004100559\u0026hsa_ad=527136056381\u0026hsa_src=g\u0026hsa_tgt=kwd-1403686979204\u0026hsa_kw=build%20website%20html%20css\u0026hsa_mt=p\u0026hsa_net=adwords\u0026hsa_ver=3\u0026gclid=Cj0KCQiA3rKQBhCNARIsACUEW_arSRSA8gfkzqRUxMeL8cXo3nHxGMuu5yoGjKdb-Nnm4ddh_dmiQw0aAtNeEALw_wcB"; CCDATA['request_protocol'] = "https://"; CCDATA['response_status'] = 200; CCDATA['segment_write_key'] = "3YgquPWvCef9DxDzbV4DuNtAtBH9JLhQ"; CCDATA['anonymous_user'] = {"experiments":{},"authentication_token":"euWxWYyzaG4FMtDU-P5e","location":{"geo_continent":"Asia","geo_country":"IN","geo_city":"Pune","geo_postal":"411005","geo_region":"MH","in_eu":false}}; CCDATA['payments'] = {"defaultPlanId":"proPaytmAnnualV2","defaultTrialPlanId":"proPaytmAnnualV2"};
+
+//]]>
+</script>
+      
+      <script id="ASSETS_VERSION">
+//<![CDATA[
+
+  var ASSETS_VERSION = "assets-v0";
+
+//]]>
+</script>
+        <script>
+//<![CDATA[
+
+      var user = window.CCDATA && window.CCDATA.current_user;
+      if (!!user) {
+        window.dataLayer = window.dataLayer || [];
+        window.dataLayer.push({ codecademy_email: user.email });
+        if (user.active_subscription_id) {
+          window.dataLayer.push(
+            { codecademy_subscription_id: user.active_subscription_id },
+            { codecademy_subscription_provider_id: user.active_subscription_provider_id },
+            { codecademy_subscription_plan_code: user.active_subscription_plan_code }
+          );
+        }
+      }
+
+//]]>
+</script>
+          
+  <link data-react-helmet="true" rel="preload" href="https://static-assets.codecademy.com/gamut/apercu-regular-pro.woff" crossOrigin="anonymous" as="font" type="font/woff"/><link data-react-helmet="true" rel="preload" href="https://static-assets.codecademy.com/gamut/apercu-regular-pro.woff2" crossOrigin="anonymous" as="font" type="font/woff2"/><link data-react-helmet="true" rel="preload" href="https://static-assets.codecademy.com/gamut/apercu-italic-pro.woff" crossOrigin="anonymous" as="font" type="font/woff"/><link data-react-helmet="true" rel="preload" href="https://static-assets.codecademy.com/gamut/apercu-italic-pro.woff2" crossOrigin="anonymous" as="font" type="font/woff2"/><link data-react-helmet="true" rel="preload" href="https://static-assets.codecademy.com/gamut/apercu-bold-pro.woff" crossOrigin="anonymous" as="font" type="font/woff"/><link data-react-helmet="true" rel="preload" href="https://static-assets.codecademy.com/gamut/apercu-bold-pro.woff2" crossOrigin="anonymous" as="font" type="font/woff2"/><link data-react-helmet="true" rel="preload" href="https://static-assets.codecademy.com/gamut/apercu-bold-italic-pro.woff" crossOrigin="anonymous" as="font" type="font/woff"/><link data-react-helmet="true" rel="preload" href="https://static-assets.codecademy.com/gamut/apercu-bold-italic-pro.woff2" crossOrigin="anonymous" as="font" type="font/woff2"/><link data-react-helmet="true" rel="preload" href="https://static-assets.codecademy.com/gamut/SuisseIntlMono-Bold-WebS.woff" crossOrigin="anonymous" as="font" type="font/woff"/><link data-react-helmet="true" rel="preload" href="https://static-assets.codecademy.com/gamut/SuisseIntlMono-Bold-WebS.woff2" crossOrigin="anonymous" as="font" type="font/woff2"/><link data-react-helmet="true" rel="preload" href="https://static-assets.codecademy.com/gamut/SuisseIntlMono-Regular-WebS.woff" crossOrigin="anonymous" as="font" type="font/woff"/><link data-react-helmet="true" rel="preload" href="https://static-assets.codecademy.com/gamut/SuisseIntlMono-Regular-WebS.woff2" crossOrigin="anonymous" as="font" type="font/woff2"/>
+  <script id="__LOADABLE_REQUIRED_CHUNKS__" type="application/json">[188,5,28,2,68,129,4,87,117,15,25,0,82,22,40,70,114,12,88,143,94,62,102,67,95,37,242,141,249,83,277,137,60,264,355,363,34,326,296,212,21,285,24,159,35,213,92,210,236,661]</script>
+<script defer data-chunk="portal" src="/webpack/runtime~portal.5a0fc02ba8e332f7fbd6.js"></script>
+<script defer data-chunk="portal" src="/webpack/230.45981bd3e95cb8dede21.chunk.js"></script>
+<script defer data-chunk="portal" src="/webpack/11.29e0d9cd99dee4786e7b.chunk.js"></script>
+<script defer data-chunk="portal" src="/webpack/147.295cb12af5bb52b1d3ed.chunk.js"></script>
+<script defer data-chunk="portal" src="/webpack/194.6cd4dda0a17999978229.chunk.js"></script>
+<script defer data-chunk="portal" src="/webpack/18.46bbbe6299b65bf64490.chunk.js"></script>
+<script defer data-chunk="portal" src="/webpack/26.3d89e0d57ab968485a48.chunk.js"></script>
+<script defer data-chunk="portal" src="/webpack/100.b010bbff3c86c69ffe7c.chunk.js"></script>
+<script defer data-chunk="portal" src="/webpack/86.c029c18c90bb5e4b079b.chunk.js"></script>
+<script defer data-chunk="portal" src="/webpack/43.2a7d34b9553d46052768.chunk.js"></script>
+<script defer data-chunk="portal" src="/webpack/490.665a7e530ae1dfc691c2.chunk.js"></script>
+<script defer data-chunk="portal" src="/webpack/327.44c5f19df7e57c3b40e3.chunk.js"></script>
+<script defer data-chunk="portal" src="/webpack/360.e9512de78e9ddaacd46a.chunk.js"></script>
+<script defer data-chunk="portal" src="/webpack/214.1155caefcc30606be785.chunk.js"></script>
+<script defer data-chunk="portal" src="/webpack/55.a4eaec83b5859be25cb0.chunk.js"></script>
+<script defer data-chunk="portal" src="/webpack/206.2627e6c69d638afbf6a5.chunk.js"></script>
+<script defer data-chunk="portal" src="/webpack/131.4ccb5351a8a50f50ba46.chunk.js"></script>
+<script defer data-chunk="portal" src="/webpack/175.91c66018d9cf4ceb7a2c.chunk.js"></script>
+<script defer data-chunk="portal" src="/webpack/232.641cf807545e2690a3f9.chunk.js"></script>
+<script defer data-chunk="portal" src="/webpack/portal~d0ae3f07.a4a21012f80be8e2cfa3.chunk.js"></script>
+<script defer data-chunk="portal-scenes-Paths" src="/webpack/188.c67931ecbcfa0fb5429b.chunk.js"></script>
+<script defer data-chunk="portal-scenes-Paths" src="/webpack/5.1f1d24576fc9194d3cd1.chunk.js"></script>
+<script defer data-chunk="portal-scenes-Paths" src="/webpack/28.0d1e3d839a5097a67600.chunk.js"></script>
+<script defer data-chunk="portal-scenes-Paths" src="/webpack/2.ea5bf5b8e2bb24b5f5f0.chunk.js"></script>
+<script defer data-chunk="portal-scenes-Paths" src="/webpack/68.6d27c4894910e1bed864.chunk.js"></script>
+<script defer data-chunk="portal-scenes-Paths" src="/webpack/129.a08aa8034aaf011967ed.chunk.js"></script>
+<script defer data-chunk="portal-scenes-Paths" src="/webpack/4.f6d5a6a90859cfacccd0.chunk.js"></script>
+<script defer data-chunk="portal-scenes-Paths" src="/webpack/87.10e28ce3eb93799e337a.chunk.js"></script>
+<script defer data-chunk="portal-scenes-Paths" src="/webpack/117.e8aa855d69449e1a2e98.chunk.js"></script>
+<script defer data-chunk="portal-scenes-Paths" src="/webpack/15.ed4f43af5498d2c4c4b4.chunk.js"></script>
+<script defer data-chunk="portal-scenes-Paths" src="/webpack/25.e05efdaf35220a241e41.chunk.js"></script>
+<script defer data-chunk="portal-scenes-Paths" src="/webpack/0.56eef64553b5c6ebfb2b.chunk.js"></script>
+<script defer data-chunk="portal-scenes-Paths" src="/webpack/82.f5c9c3dc519ae2fae837.chunk.js"></script>
+<script defer data-chunk="portal-scenes-Paths" src="/webpack/22.e290bf5d8355fa85030e.chunk.js"></script>
+<script defer data-chunk="portal-scenes-Paths" src="/webpack/40.f37facf546cc588b0d15.chunk.js"></script>
+<script defer data-chunk="portal-scenes-Paths" src="/webpack/70.84b7274edff07581fbe9.chunk.js"></script>
+<script defer data-chunk="portal-scenes-Paths" src="/webpack/114.e736127120b28f90ed33.chunk.js"></script>
+<script defer data-chunk="portal-scenes-Paths" src="/webpack/12.0cae38838b37035664fa.chunk.js"></script>
+<script defer data-chunk="portal-scenes-Paths" src="/webpack/88.b15975c44ac1bceb9b20.chunk.js"></script>
+<script defer data-chunk="portal-scenes-Paths" src="/webpack/143.b2b743dedb46072f9e0f.chunk.js"></script>
+<script defer data-chunk="portal-scenes-Paths" src="/webpack/94.9124c3ad6c611686692d.chunk.js"></script>
+<script defer data-chunk="portal-scenes-Paths" src="/webpack/62.4732d0601f7ef0b14818.chunk.js"></script>
+<script defer data-chunk="portal-scenes-Paths" src="/webpack/102.b14228a22fd09e3160e2.chunk.js"></script>
+<script defer data-chunk="portal-scenes-Paths" src="/webpack/67.ef74e3a8f109cec7c4b3.chunk.js"></script>
+<script defer data-chunk="portal-scenes-Paths" src="/webpack/95.97a3622a6e9b2bdcfe1c.chunk.js"></script>
+<script defer data-chunk="portal-scenes-Paths" src="/webpack/37.d36881b7e7b17189c5be.chunk.js"></script>
+<script defer data-chunk="portal-scenes-Paths" src="/webpack/242.50194401700c13cc7f17.chunk.js"></script>
+<script defer data-chunk="portal-scenes-Paths" src="/webpack/141.322611f18ee6bd19dab6.chunk.js"></script>
+<script defer data-chunk="portal-scenes-Paths" src="/webpack/249.6ac3a6fc59e774a929a0.chunk.js"></script>
+<script defer data-chunk="portal-scenes-Paths" src="/webpack/83.0f3b9edbef0c90720e1b.chunk.js"></script>
+<script defer data-chunk="portal-scenes-Paths" src="/webpack/277.10a4f7e0ac0af89b3ef3.chunk.js"></script>
+<script defer data-chunk="portal-scenes-Paths" src="/webpack/137.ecd877433ca4708f4494.chunk.js"></script>
+<script defer data-chunk="portal-scenes-Paths" src="/webpack/60.660c7dc946217379a9c9.chunk.js"></script>
+<script defer data-chunk="portal-scenes-Paths" src="/webpack/264.979daea4058ef6b2179c.chunk.js"></script>
+<script defer data-chunk="portal-scenes-Paths" src="/webpack/355.dae500bf3b1e9225a95c.chunk.js"></script>
+<script defer data-chunk="portal-scenes-Paths" src="/webpack/363.4c125afdf84a7a3f8bc9.chunk.js"></script>
+<script defer data-chunk="portal-scenes-Paths" src="/webpack/34.69755c6762c3decb50bd.chunk.js"></script>
+<script defer data-chunk="portal-scenes-Paths" src="/webpack/326.1443e8d2e91bff720f81.chunk.js"></script>
+<script defer data-chunk="portal-scenes-Paths" src="/webpack/296.a5691706515b158fcb29.chunk.js"></script>
+<script defer data-chunk="portal-scenes-Paths" src="/webpack/212.223d702f188d1ab7bd71.chunk.js"></script>
+<script defer data-chunk="portal-scenes-Paths" src="/webpack/21.9e75e714d6a16de5c3bd.chunk.js"></script>
+<script defer data-chunk="portal-scenes-Paths" src="/webpack/285.1edc82b515d1c55905c4.chunk.js"></script>
+<script defer data-chunk="portal-scenes-Paths" src="/webpack/24.6e134d5a4235775c7560.chunk.js"></script>
+<script defer data-chunk="portal-scenes-Paths" src="/webpack/159.93fba784bd7a51984acf.chunk.js"></script>
+<script defer data-chunk="portal-scenes-Paths" src="/webpack/35.67767e1c9fb958b805df.chunk.js"></script>
+<script defer data-chunk="portal-scenes-Paths" src="/webpack/213.01408c539d74c7331f52.chunk.js"></script>
+<script defer data-chunk="portal-scenes-Paths" src="/webpack/92.3a26e614b031f6265d8b.chunk.js"></script>
+<script defer data-chunk="portal-scenes-Paths" src="/webpack/210.6afdeb97cea35aeb7e73.chunk.js"></script>
+<script defer data-chunk="portal-scenes-Paths" src="/webpack/236.9409c4407671f293f709.chunk.js"></script>
+<script defer data-chunk="portal-scenes-Paths" src="/webpack/portal-scenes-Paths~1c049ac7.f54e022d25fa72bf266a.chunk.js"></script>
   
-  
-  <title>SoftwareM4 Theme Mobile App Demo</title>
-  <link rel="stylesheet" href="assets/web/assets/mobirise-icons2/mobirise2.css">
-  <link rel="stylesheet" href="assets/tether/tether.min.css">
-  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
-  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
-  <link rel="stylesheet" href="assets/dropdown/css/style.css">
-  <link rel="stylesheet" href="assets/formstyler/jquery.formstyler.css">
-  <link rel="stylesheet" href="assets/formstyler/jquery.formstyler.theme.css">
-  <link rel="stylesheet" href="assets/datepicker/jquery.datetimepicker.min.css">
-  <link rel="stylesheet" href="assets/socicon/css/styles.css">
-  <link rel="stylesheet" href="assets/theme/css/style.css">
-  <link rel="stylesheet" href="assets/recaptcha.css">
-  <link rel="preload" href="https://fonts.googleapis.com/css?family=DM+Sans:400,400i,500,500i,700,700i&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=DM+Sans:400,400i,500,500i,700,700i&display=swap"></noscript>
-  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
-  
-  
-  
-  
-</head>
-<body>
-  
-  <section class="menu menu1 cid-st2eExKwNs" once="menu" id="menu01-1">
-    
-    <nav class="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg">
-        <div class="container-fluid">
-            <div class="navbar-brand">
-                <span class="navbar-logo">
-                    <a href="https://mobiri.se">
-                        <img src="assets/images/logo.png" alt="Mobirise" style="height: 3rem;">
-                    </a>
-                </span>
-                <span class="navbar-caption-wrap"><a class="navbar-caption text-black display-5" href="https://mobiri.se">SoftwareM4</a></span>
-            </div>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <div class="hamburger">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true">
-                    <li class="nav-item"><a class="nav-link link text-black display-7" href="#" aria-expanded="true">
-                            Home</a></li>
-                    <li class="nav-item"><a class="nav-link link text-black display-7" href="#" aria-expanded="true">
-                            About</a></li>
-                    <li class="nav-item"><a class="nav-link link text-black display-7" href="https://mobiri.se">
-                            Services</a></li>
-                    <li class="nav-item"><a class="nav-link link text-black display-7" href="https://mobiri.se">Contact</a>
-                    </li>
-                </ul>
-                <div class="icons-menu">
-                    <a class="iconfont-wrapper" href="https://mobiri.se" target="_blank">
-                        <span class="p-2 mbr-iconfont socicon-facebook socicon"></span>
-                    </a>
-                    <a class="iconfont-wrapper" href="https://mobiri.se" target="_blank">
-                        <span class="p-2 mbr-iconfont socicon-twitter socicon"></span>
-                    </a>
-                    <a class="iconfont-wrapper" href="https://mobiri.se" target="_blank">
-                        <span class="p-2 mbr-iconfont socicon-instagram socicon"></span>
-                    </a>
-                    
-                </div>
-                
-            </div>
-        </div>
-    </nav>
-</section>
+ 
 
-<section class="header1 cid-st2eElkdSs" id="header01-0">
-    
-    <div class="mbr-overlay" style="opacity: 0.1; background-color: rgb(255, 255, 255);"></div>
-    <div class="container">
-        <div class="row">
-            <div class="col-12 col-lg-6 align-left">
-                <h2 class="mbr-section-subtitle mbr-white mbr-fonts-style mb-3 display-7">
-                    <strong>Software Company</strong>
-                </h2>
-                <h1 class="mbr-section-title mbr-white mbr-fonts-style mb-4 display-1"><strong>Mobile App</strong></h1>
-                <p class="mbr-text mbr-semibold mbr-fonts-style mb-4 display-7">Lorem ipsum dolor sit amet, consectetur adipiscing
-                    elit. Accumsan porttitor egestas&nbsp;fermentum nulla.</p>
-                <div class="mbr-section-btn"><a class="btn btn-lg btn-primary display-4" href="https://mobiri.se">Get Started</a></div>
-            </div>
-        </div>
+
+      
+
+    <meta http-equiv="origin-trial" content="AqsBFdl1BsSccuYnn7nyOKJwRA8p+840XeK/vCTBUVlU7mPWWGq0k6cqXDpVU4OkQJbnIBQWFmwQYPmfrgExcw0AAABneyJvcmlnaW4iOiJodHRwczovL2NvZGVjYWRlbXkuY29tOjQ0MyIsImZlYXR1cmUiOiJEaWdpdGFsR29vZHMiLCJleHBpcnkiOjE2NDM1ODcxOTksImlzU3ViZG9tYWluIjp0cnVlfQ==">
+    <meta http-equiv="origin-trial" content="AtWCdS6VvZoHP9z0iLslSp7DD5PTEnXFfdHL08vADUd3kFChrovHl32cFY2JH/Xu2hpmrinJ7tIFzMmkYclXqAMAAABpeyJvcmlnaW4iOiJodHRwczovL2NvZGVjYWRlbXkuY29tOjQ0MyIsImZlYXR1cmUiOiJEaWdpdGFsR29vZHNWMiIsImV4cGlyeSI6MTY0Nzk5MzU5OSwiaXNTdWJkb21haW4iOnRydWV9">
+  </head>
+
+  <body browser="Windows">
+      <div id="emotion-styles">
+      <style data-emotion="gamut-global htlj6-typographyGlobals-typographyGlobals-typographyGlobals-typographyGlobals-typographyGlobals-typographyGlobals-typographyGlobals-typographyGlobals-typographyGlobals-typographyGlobals-typographyGlobals-typographyGlobals-typographyGlobals-typographyGlobals">@font-face{font-display:swap;font-family:'Apercu';font-style:normal;font-weight:normal;src:url("https://static-assets.codecademy.com/gamut/apercu-regular-pro.woff") format("woff"),url("https://static-assets.codecademy.com/gamut/apercu-regular-pro.woff2") format("woff2");}@font-face{font-display:swap;font-family:'Apercu';font-style:italic;font-weight:normal;src:url("https://static-assets.codecademy.com/gamut/apercu-italic-pro.woff") format("woff"),url("https://static-assets.codecademy.com/gamut/apercu-italic-pro.woff2") format("woff2");}@font-face{font-display:swap;font-family:'Apercu';font-style:normal;font-weight:bold;src:url("https://static-assets.codecademy.com/gamut/apercu-bold-pro.woff") format("woff"),url("https://static-assets.codecademy.com/gamut/apercu-bold-pro.woff2") format("woff2");}@font-face{font-display:swap;font-family:'Apercu';font-style:italic;font-weight:bold;src:url("https://static-assets.codecademy.com/gamut/apercu-bold-italic-pro.woff") format("woff"),url("https://static-assets.codecademy.com/gamut/apercu-bold-italic-pro.woff2") format("woff2");}@font-face{font-display:swap;font-family:'Suisse';font-style:normal;font-weight:bold;src:url("https://static-assets.codecademy.com/gamut/SuisseIntlMono-Bold-WebS.woff") format("woff"),url("https://static-assets.codecademy.com/gamut/SuisseIntlMono-Bold-WebS.woff2") format("woff2");}@font-face{font-display:swap;font-family:'Suisse';font-style:normal;font-weight:normal;src:url("https://static-assets.codecademy.com/gamut/SuisseIntlMono-Regular-WebS.woff") format("woff"),url("https://static-assets.codecademy.com/gamut/SuisseIntlMono-Regular-WebS.woff2") format("woff2");}h1,h2,h3,h4,h5,h6{margin-bottom:1rem;font-weight:700;line-height:1.1;}h1{font-size:4rem;}h2{font-size:2.75rem;}h3{font-size:2.125rem;}h4{font-size:1.625rem;}h5{font-size:1.375rem;}h6{font-size:1.25rem;}small{font-size:0.875rem;font-weight:400;}</style><style data-emotion="gamut-global c1o6aa-rebootStyles-rebootStyles">*,*::before,*::after{box-sizing:border-box;}html{font-family:sans-serif;line-height:1.15;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;-ms-overflow-style:scrollbar;-webkit-tap-highlight-color:rgba(0, 0, 0, 0);}article,aside,dialog,figcaption,figure,footer,header,hgroup,main,nav,section{display:block;}body{margin:0;font-family:"Apercu",-apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;font-weight:400;line-height:1.5;color:var(--color-text);text-align:left;background-color:var(--color-background);}[tabindex='-1']:focus{outline:0!important;}hr{box-sizing:content-box;height:0;overflow:visible;}h1,h2,h3,h4,h5,h6{margin-top:0;}p{margin-top:0;margin-bottom:1rem;}abbr[title],abbr[data-original-title]{-webkit-text-decoration:underline;text-decoration:underline;-webkit-text-decoration:underline dotted;text-decoration:underline dotted;cursor:help;border-bottom:0;}address{margin-bottom:1rem;font-style:normal;line-height:inherit;}ol,ul,dl{margin-top:0;margin-bottom:1rem;}ol ol,ul ul,ol ul,ul ol{margin-bottom:0;}dt{font-weight:700;}dd{margin-bottom:0.5rem;margin-left:0;}blockquote{margin:0 0 1rem;}dfn{font-style:italic;}b,strong{font-weight:700;}small{font-size:0.875rem;}sub,sup{position:relative;font-size:75%;line-height:0;vertical-align:baseline;}sub{bottom:-0.25em;}sup{top:-0.5em;}a{color:var(--color-primary);-webkit-text-decoration:none;text-decoration:none;background-color:transparent;-webkit-text-decoration-skip:objects;}a:hover{-webkit-text-decoration:underline;text-decoration:underline;}a:not([href]):not([tabindex]){color:inherit;-webkit-text-decoration:none;text-decoration:none;}a:not([href]):not([tabindex]):hover,a:not([href]):not([tabindex]):focus{color:inherit;-webkit-text-decoration:none;text-decoration:none;}a:not([href]):not([tabindex]):focus{outline:0;}pre,code,kbd,samp{font-family:monospace,monospace;font-size:1em;}pre{margin-top:0;margin-bottom:1rem;overflow:auto;-ms-overflow-style:scrollbar;}figure{margin:0 0 1rem;}img{vertical-align:middle;border-style:none;}svg:not(:root){overflow:hidden;}table{border-collapse:collapse;}caption{padding-top:1rem;padding-bottom:1rem;color:1rem;text-align:left;caption-side:bottom;}th{text-align:inherit;}label{display:inline-block;margin-bottom:0;}button{border-radius:0;}button[data-focus-visible-added]{outline:1px dotted;outline:5px auto -webkit-focus-ring-color;}input,button,select,optgroup,textarea{margin:0;font-family:inherit;font-size:inherit;line-height:inherit;}button,input{overflow:visible;}button,select{text-transform:none;}button,html [type='button'],[type='reset'],[type='submit']{-webkit-appearance:button;}input[type='radio'],input[type='checkbox']{box-sizing:border-box;padding:0;}input[type='date'],input[type='time'],input[type='datetime-local'],input[type='month']{-webkit-appearance:listbox;}textarea{overflow:auto;resize:vertical;}fieldset{min-width:0;padding:0;margin:0;border:0;}legend{display:block;width:100%;max-width:100%;padding:0;margin-bottom:0.5rem;font-size:1.5rem;line-height:inherit;color:inherit;white-space:normal;}progress{vertical-align:baseline;}[type='number']::-webkit-inner-spin-button,[type='number']::-webkit-outer-spin-button{height:auto;}[type='search']{outline-offset:-2px;-webkit-appearance:none;}[type='search']::-webkit-search-cancel-button,[type='search']::-webkit-search-decoration{-webkit-appearance:none;}::-webkit-file-upload-button{font:inherit;-webkit-appearance:button;}output{display:inline-block;}summary{display:-webkit-box;display:-webkit-list-item;display:-ms-list-itembox;display:list-item;cursor:pointer;}template{display:none;}[hidden]{display:none!important;}</style><style data-emotion="gamut-global 1xc8ipa-scopeVariables-scopeVariables">:root{--color-beige-100:#FFF0E5;--color-blue-0:#F5FCFF;--color-blue-300:#66C4FF;--color-blue-400:#3388FF;--color-blue-500:#1557FF;--color-blue-800:#1D2340;--color-navy-100:#F3F3F5;--color-navy-200:#DBDCE0;--color-navy-300:#C3C5CB;--color-navy-400:#9FA2AC;--color-navy-500:#707382;--color-navy-600:#585C6D;--color-navy-700:#34394C;--color-navy-800:#10162F;--color-navy-900:#0A0D1C;--color-green-0:#F5FFE3;--color-green-400:#AEE938;--color-green-700:#008A27;--color-yellow-0:#FFFAE5;--color-yellow-400:#CCA900;--color-yellow-500:#FFD300;--color-pink-0:#FFF5FF;--color-pink-400:#F966FF;--color-red-0:#E85D7F;--color-red-100:#DC5879;--color-red-500:#E91C11;--color-red-600:#BE1809;--color-orange-500:#FF8C00;--color-hyper-400:#5533FF;--color-hyper-500:#3A10E5;--color-gray-100:#F5F5F5;--color-gray-200:#EEEEEE;--color-gray-300:#E0E0E0;--color-gray-600:#9E9E9E;--color-gray-800:#616161;--color-gray-900:#424242;--color-shadow-black-slight:rgba(0,0,0,0.15);--color-shadow-black-heavy:rgba(0,0,0,0.75);--color-shadow-white-slight:rgba(255,255,255,0.15);--color-shadow-white-heavy:rgba(255,255,255,0.95);--color-beige:#FFF0E5;--color-blue:#1557FF;--color-green:#008A27;--color-hyper:#3A10E5;--color-lightBlue:#66C4FF;--color-lightGreen:#AEE938;--color-navy:#10162F;--color-orange:#FF8C00;--color-paleBlue:#F5FCFF;--color-paleGreen:#F5FFE3;--color-palePink:#FFF5FF;--color-paleYellow:#FFFAE5;--color-pink:#F966FF;--color-paleRed:#DC5879;--color-red:#E91C11;--color-yellow:#FFD300;--color-black:#000000;--color-white:#ffffff;--elements-headerHeight:4rem;--elements-headerZ:15;}@media only screen and (min-width: 1024px){:root{--elements-headerHeight:5rem;}}</style><style data-emotion="gamut-global xgdl3m-scopeVariables-scopeVariables">:root{--color-text:var(--color-navy-800);--color-text-accent:var(--color-navy-900);--color-text-disabled:var(--color-navy-500);--color-feedback-error:var(--color-red-600);--color-feedback-success:var(--color-green-700);--color-feedback-warning:var(--color-yellow);--color-background:var(--color-white);--color-background-current:var(--color-white);--color-background-primary:var(--color-beige);--color-background-selected:var(--color-navy-100);--color-background-disabled:var(--color-navy-200);--color-background-hover:var(--color-navy-200);--color-shadow-opaque:var(--color-shadow-white-heavy);--color-shadow-solid:var(--color-gray-200);--color-primary:var(--color-hyper-500);--color-primary-hover:var(--color-hyper-400);--color-secondary:var(--color-navy-800);--color-secondary-hover:var(--color-navy-700);--color-danger:var(--color-red-500);--color-danger-hover:var(--color-red-600);--color-interface:var(--color-hyper-500);--color-interface-hover:var(--color-hyper-400);}</style><style data-emotion="gamut otnx7u-AppWrapper dvsltw-VariableProvider-GlobalPageWrapper-AppWrapper 1efsrtw-Box q4okk-SkipToContentLink 1nszhsc-Svg 1hwoqu3-Box 1vbty7x-Box-HeaderHeightAreaBase riwa8u-Box-ContentContainer-StyledAppBar 6a1h4c-StyledMenuBar 9hhgap-Box-StyledListItem lh98ns-ResetElement-Anchor-AnchorBase mmsbw8-LogoSvg 1pqrswb-ResetElement-Anchor-AnchorBase 2i7nx7-ResetElement-Anchor-AnchorBase-DropdownAnchor tkbg6w-Text-StyledText 1yde4rw-Svg-DropdownIcon 1hg8ogv-StyledDropdown w1izya-StyledList-StyledLinkSection 1wip52v-StyledListItem x4nxfu-ResetElement-Anchor-AnchorBase 95bwlg-Badge 1jxg5g9-Box-StyledListItem jp8sb8-ResetElement-createButtonComponent mcjj5j-Svg 1yjqrs3-ResetElement-createButtonComponent olzyk2-ResetElement-createButtonComponent xhgjq-Box-HeaderHeightAreaBase 1cm7mum-Box-StyledListItem 17f3ssg-Box-StyledListItem kw6tlj-ResetElement-createButtonComponent yv5r9n-ResetElement-createButtonComponent 131si6e-Box-StyledListItem 1slall7-SkipToContentTarget-SkipToContentTarget-SkipToContentTarget w0w3ov-FlexBox-OuterBox 1hctfgq-Box-InnerBox gdf8jv-FooterContainer 3a1jmv-Box-ContentContainer r98xii-LayoutGrid-FooterNavLinksGrid 7d3xgk-Column 1l8m389-GridBox 126nnrg-Text-FooterHeading ve936v-Box-FooterLinkItems 1suzlqi-FooterLinkItem 1ssowio-ResetElement-Anchor-AnchorBase 1grh0nu-Box vpiljb-ResetElement-Anchor-AnchorBase sd6ku5-Svg 5ni28p-Box v74lgd-Text-FooterHeading 1htlgvz-Box 1uo0w30-Text-FooterHeading 3y8pr1-Box-FooterLinkItems xiov64-Box-MobileImageItem k7y38v-ResetElement-Anchor-AnchorBase-MobileImageLink 1n1j9zi-Box 19cjgpb-CatalogLinksContainer 11tw806-Box 15rmtb8-Box 13hprmi-Text-FooterSubHeading 17y66rx-Box-FooterLinkItems-CatalogLinkArea 1aj6u0o-FooterLinkItem-CatalogFooterLinkItem 41j7uy-Box 1uo4pga-Box-FooterLinkItems-CatalogLinkArea bk5xit-Box 13u8tr2-LegalLocalContainer 106htmh-LinksList 1s19zy9-LinksItem 1uhb0se-Box 1z13drh-ResetElement-Anchor-AnchorBase-HeartContainer">.gamut-otnx7u-AppWrapper{position:relative;z-index:1;}.gamut-dvsltw-VariableProvider-GlobalPageWrapper-AppWrapper{--color-background-current:var(--color-background);color:var(--color-text);min-height:100vh;background-color:var(--color-background-current);position:relative;z-index:1;}.gamut-q4okk-SkipToContentLink{color:var(--color-navy);background-color:var(--color-white);cursor:pointer;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;font-weight:700;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;opacity:0;padding:1.5rem 1rem;position:absolute;-webkit-text-decoration:none;text-decoration:none;-webkit-transform:translate(-50%, -100%);-moz-transform:translate(-50%, -100%);-ms-transform:translate(-50%, -100%);transform:translate(-50%, -100%);top:0;left:50%;z-index:calc(var(--elements-headerZ) + 1);width:12rem;-webkit-transition:opacity 150ms cubic-bezier(0.075, 0.82, 0.165, 1),-webkit-transform 150ms cubic-bezier(0.075, 0.82, 0.165, 1);transition:opacity 150ms cubic-bezier(0.075, 0.82, 0.165, 1),transform 150ms cubic-bezier(0.075, 0.82, 0.165, 1);}.gamut-q4okk-SkipToContentLink:hover{-webkit-text-decoration:none;text-decoration:none;}.gamut-q4okk-SkipToContentLink:focus{outline-color:var(--color-hyper);opacity:1;-webkit-transform:translate(-50%, 1rem);-moz-transform:translate(-50%, 1rem);-ms-transform:translate(-50%, 1rem);transform:translate(-50%, 1rem);}.gamut-1nszhsc-Svg{width:16px;height:16px;margin-left:0.5rem;}.gamut-1hwoqu3-Box{position:-webkit-sticky;position:sticky;top:0;z-index:var(--elements-headerZ);}.gamut-1vbty7x-Box-HeaderHeightAreaBase{display:none;height:var(--elements-headerHeight);-webkit-transition:background-color 150ms ease-in-out,border-bottom-color 150ms ease-in-out;transition:background-color 150ms ease-in-out,border-bottom-color 150ms ease-in-out;border-bottom:1px solid var(--color-secondary);width:100%;top:0;z-index:2;background-color:var(--color-background);border-color:var(--color-background-current);background-color:var(--color-background-current);}@media only screen and (min-width: 1200px){.gamut-1vbty7x-Box-HeaderHeightAreaBase{display:block;}}.gamut-riwa8u-Box-ContentContainer-StyledAppBar{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;height:100%;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;margin-left:auto;margin-right:auto;margin-top:0;margin-bottom:0;width:100%;height:100%;padding-left:1rem;padding-right:1rem;max-width:1440px;box-shadow:none;}@media only screen and (min-width: 480px){.gamut-riwa8u-Box-ContentContainer-StyledAppBar{padding-left:2rem;padding-right:2rem;}}@media only screen and (min-width: 768px){.gamut-riwa8u-Box-ContentContainer-StyledAppBar{padding-left:4rem;padding-right:4rem;}}@media only screen and (min-width: 1200px){.gamut-riwa8u-Box-ContentContainer-StyledAppBar{padding-left:6rem;padding-right:6rem;}}.gamut-6a1h4c-StyledMenuBar{padding:0;list-style:none;margin:0;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;width:100%;}.gamut-9hhgap-Box-StyledListItem{margin-right:0.5rem;margin-left:0.5rem;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;position:relative;}@media only screen and (min-width: 1024px){.gamut-9hhgap-Box-StyledListItem:first-of-type{margin-left:0;}}@media only screen and (min-width: 1024px){.gamut-9hhgap-Box-StyledListItem:last-of-type{margin-right:0;}}.gamut-lh98ns-ResetElement-Anchor-AnchorBase{cursor:pointer;border:none;background:none;padding:0;font-size:inherit;-webkit-text-decoration:none;text-decoration:none;box-shadow:none;color:var(--color-text);border:none;padding:0;font-size:inherit;white-space:initial;box-shadow:none;display:inline-block;position:relative;color:var(--color-text);background-color:transparent;padding-top:0.25rem;padding-bottom:0.25rem;}.gamut-lh98ns-ResetElement-Anchor-AnchorBase:hover{-webkit-text-decoration:none;text-decoration:none;}.gamut-lh98ns-ResetElement-Anchor-AnchorBase:focus{outline:none;}.gamut-lh98ns-ResetElement-Anchor-AnchorBase:before{content:'';border:2px solid var(--color-secondary);border-color:var(--color-primary);position:absolute;top:-4px;right:-4px;bottom:-4px;left:-4px;z-index:0;opacity:0;border-radius:4px;}.gamut-lh98ns-ResetElement-Anchor-AnchorBase:hover{cursor:pointer;-webkit-text-decoration:none;text-decoration:none;color:var(--color-primary);}.gamut-lh98ns-ResetElement-Anchor-AnchorBase [disabled],.gamut-lh98ns-ResetElement-Anchor-AnchorBase:disabled,.gamut-lh98ns-ResetElement-Anchor-AnchorBase[aria-disabled='true']{cursor:not-allowed;-webkit-text-decoration:none;text-decoration:none;color:var(--color-text-disabled);}.gamut-lh98ns-ResetElement-Anchor-AnchorBase[data-focus-visible-added]:before{opacity:1;}.gamut-lh98ns-ResetElement-Anchor-AnchorBase[data-focus-visible-added]{color:var(--color-primary);}.gamut-mmsbw8-LogoSvg{color:currentColor;height:27px;vertical-align:text-bottom;}.gamut-1pqrswb-ResetElement-Anchor-AnchorBase{cursor:pointer;border:none;background:none;padding:0;font-size:inherit;-webkit-text-decoration:none;text-decoration:none;box-shadow:none;color:var(--color-text);border:none;padding:0;font-size:inherit;white-space:initial;box-shadow:none;display:inline-block;position:relative;color:var(--color-text);background-color:transparent;margin-left:0;margin-right:0;padding-top:1rem;padding-bottom:1rem;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;min-width:0;font-weight:normal;line-height:1.5;text-align:left;white-space:nowrap;}.gamut-1pqrswb-ResetElement-Anchor-AnchorBase:hover{-webkit-text-decoration:none;text-decoration:none;}.gamut-1pqrswb-ResetElement-Anchor-AnchorBase:focus{outline:none;}.gamut-1pqrswb-ResetElement-Anchor-AnchorBase:before{content:'';border:2px solid var(--color-secondary);border-color:var(--color-primary);position:absolute;top:-4px;right:-4px;bottom:-4px;left:-4px;z-index:0;opacity:0;border-radius:4px;}.gamut-1pqrswb-ResetElement-Anchor-AnchorBase:hover{cursor:pointer;-webkit-text-decoration:none;text-decoration:none;color:var(--color-primary);}.gamut-1pqrswb-ResetElement-Anchor-AnchorBase [disabled],.gamut-1pqrswb-ResetElement-Anchor-AnchorBase:disabled,.gamut-1pqrswb-ResetElement-Anchor-AnchorBase[aria-disabled='true']{cursor:not-allowed;-webkit-text-decoration:none;text-decoration:none;color:var(--color-text-disabled);}.gamut-1pqrswb-ResetElement-Anchor-AnchorBase[data-focus-visible-added]:before{opacity:1;}.gamut-1pqrswb-ResetElement-Anchor-AnchorBase[data-focus-visible-added]{color:var(--color-primary);}@media only screen and (min-width: 1200px){.gamut-1pqrswb-ResetElement-Anchor-AnchorBase{padding-top:0.5rem;padding-bottom:0.5rem;}}.gamut-2i7nx7-ResetElement-Anchor-AnchorBase-DropdownAnchor{cursor:pointer;border:none;background:none;padding:0;font-size:inherit;-webkit-text-decoration:none;text-decoration:none;box-shadow:none;color:var(--color-text);border:none;padding:0;font-size:inherit;white-space:initial;box-shadow:none;display:inline-block;position:relative;color:var(--color-text);background-color:transparent;padding:0.5rem 0;text-align:center;white-space:nowrap;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;}.gamut-2i7nx7-ResetElement-Anchor-AnchorBase-DropdownAnchor:hover{-webkit-text-decoration:none;text-decoration:none;}.gamut-2i7nx7-ResetElement-Anchor-AnchorBase-DropdownAnchor:focus{outline:none;}.gamut-2i7nx7-ResetElement-Anchor-AnchorBase-DropdownAnchor:before{content:'';border:2px solid var(--color-secondary);border-color:var(--color-primary);position:absolute;top:-4px;right:-4px;bottom:-4px;left:-4px;z-index:0;opacity:0;border-radius:4px;}.gamut-2i7nx7-ResetElement-Anchor-AnchorBase-DropdownAnchor:hover{cursor:pointer;-webkit-text-decoration:none;text-decoration:none;color:var(--color-primary);}.gamut-2i7nx7-ResetElement-Anchor-AnchorBase-DropdownAnchor [disabled],.gamut-2i7nx7-ResetElement-Anchor-AnchorBase-DropdownAnchor:disabled,.gamut-2i7nx7-ResetElement-Anchor-AnchorBase-DropdownAnchor[aria-disabled='true']{cursor:not-allowed;-webkit-text-decoration:none;text-decoration:none;color:var(--color-text-disabled);}.gamut-2i7nx7-ResetElement-Anchor-AnchorBase-DropdownAnchor[data-focus-visible-added]:before{opacity:1;}.gamut-2i7nx7-ResetElement-Anchor-AnchorBase-DropdownAnchor[data-focus-visible-added]{color:var(--color-primary);}.gamut-2i7nx7-ResetElement-Anchor-AnchorBase-DropdownAnchor:focus::before{opacity:1;}.gamut-tkbg6w-Text-StyledText{font-size:inherit;display:inline-block;margin:0;font-weight:normal;text-align:center;}.gamut-tkbg6w-Text-StyledText::after{content:attr(title);visibility:hidden;overflow:hidden;font-weight:bold;display:block;height:1px;color:transparent;}.gamut-1yde4rw-Svg-DropdownIcon{width:12px;height:12px;margin-left:0.3125rem;-webkit-transition:-webkit-transform 0.35s ease-out;transition:transform 0.35s ease-out;transform-origin:center 0.3125rem;}.gamut-1yde4rw-Svg-DropdownIcon.open{-webkit-transform:rotate(-180deg);-moz-transform:rotate(-180deg);-ms-transform:rotate(-180deg);transform:rotate(-180deg);}.gamut-1hg8ogv-StyledDropdown{border-style:solid;border-color:var(--color-secondary);overflow:hidden;position:absolute;background-color:var(--color-background);}.gamut-w1izya-StyledList-StyledLinkSection{list-style:none;padding:0;padding:0.75rem 0;position:absolute;}.gamut-x4nxfu-ResetElement-Anchor-AnchorBase{cursor:pointer;border:none;background:none;padding:0;font-size:inherit;-webkit-text-decoration:none;text-decoration:none;box-shadow:none;color:var(--color-text);border:none;padding:0;font-size:inherit;white-space:initial;box-shadow:none;display:inline-block;position:relative;color:var(--color-text);background-color:transparent;padding-top:1rem;padding-bottom:1rem;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;min-width:0;font-weight:normal;line-height:1.5;text-align:left;white-space:nowrap;}.gamut-x4nxfu-ResetElement-Anchor-AnchorBase:hover{-webkit-text-decoration:none;text-decoration:none;}.gamut-x4nxfu-ResetElement-Anchor-AnchorBase:focus{outline:none;}.gamut-x4nxfu-ResetElement-Anchor-AnchorBase:before{content:'';border:2px solid var(--color-secondary);border-color:var(--color-primary);position:absolute;top:-4px;right:-4px;bottom:-4px;left:-4px;z-index:0;opacity:0;border-radius:4px;}.gamut-x4nxfu-ResetElement-Anchor-AnchorBase:hover{cursor:pointer;-webkit-text-decoration:none;text-decoration:none;color:var(--color-primary);}.gamut-x4nxfu-ResetElement-Anchor-AnchorBase [disabled],.gamut-x4nxfu-ResetElement-Anchor-AnchorBase:disabled,.gamut-x4nxfu-ResetElement-Anchor-AnchorBase[aria-disabled='true']{cursor:not-allowed;-webkit-text-decoration:none;text-decoration:none;color:var(--color-text-disabled);}.gamut-x4nxfu-ResetElement-Anchor-AnchorBase[data-focus-visible-added]:before{opacity:1;}.gamut-x4nxfu-ResetElement-Anchor-AnchorBase[data-focus-visible-added]{color:var(--color-primary);}@media only screen and (min-width: 1200px){.gamut-x4nxfu-ResetElement-Anchor-AnchorBase{margin-left:1.5rem;margin-right:1.5rem;}}.gamut-95bwlg-Badge{margin-left:0.5rem;-webkit-align-self:center;-ms-flex-item-align:center;align-self:center;padding-left:0.5rem;padding-right:0.5rem;font-family:"Suisse","Apercu",-apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;font-weight:400;white-space:nowrap;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;width:-webkit-min-content;width:-moz-min-content;width:min-content;border-radius:40px;color:var(--color-background);background-color:var(--color-text);font-size:10px;height:1rem;}.gamut-1jxg5g9-Box-StyledListItem{margin-right:0.5rem;margin-left:auto;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;position:relative;}@media only screen and (min-width: 1024px){.gamut-1jxg5g9-Box-StyledListItem:first-of-type{margin-left:0;}}@media only screen and (min-width: 1024px){.gamut-1jxg5g9-Box-StyledListItem:last-of-type{margin-right:0;}}.gamut-jp8sb8-ResetElement-createButtonComponent{cursor:pointer;border:none;background:none;padding:0;font-size:inherit;-webkit-text-decoration:none;text-decoration:none;box-shadow:none;color:var(--color-text);-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;-webkit-transition:border-color 150ms ease-in,color 150ms ease-in,background-color 150ms ease-in,box-shadow 150ms ease-in;transition:border-color 150ms ease-in,color 150ms ease-in,background-color 150ms ease-in,box-shadow 150ms ease-in;border:2px solid var(--color-secondary);border-color:transparent;white-space:nowrap;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;display:-webkit-inline-box;display:-webkit-inline-flex;display:-ms-inline-flexbox;display:inline-flex;position:relative;border-radius:4px;width:40px;height:40px;border-color:transparent;color:var(--color-text);}.gamut-jp8sb8-ResetElement-createButtonComponent:hover{-webkit-text-decoration:none;text-decoration:none;}.gamut-jp8sb8-ResetElement-createButtonComponent:focus{outline:none;}.gamut-jp8sb8-ResetElement-createButtonComponent:after{content:"";-webkit-transition:opacity 150ms ease-in;transition:opacity 150ms ease-in;position:absolute;top:-2px;right:-2px;bottom:-2px;left:-2px;z-index:0;opacity:0;border-radius:4px;background-color:var(--color-text);}.gamut-jp8sb8-ResetElement-createButtonComponent:hover:after{opacity:0.06;}.gamut-jp8sb8-ResetElement-createButtonComponent:active:after{opacity:0.025;}.gamut-jp8sb8-ResetElement-createButtonComponent [disabled]:after,.gamut-jp8sb8-ResetElement-createButtonComponent:disabled:after,.gamut-jp8sb8-ResetElement-createButtonComponent[aria-disabled='true']:after{opacity:0;}.gamut-jp8sb8-ResetElement-createButtonComponent [disabled],.gamut-jp8sb8-ResetElement-createButtonComponent:disabled,.gamut-jp8sb8-ResetElement-createButtonComponent[aria-disabled='true']{cursor:not-allowed;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;}.gamut-jp8sb8-ResetElement-createButtonComponent:before{content:"";-webkit-transition:opacity 150ms linear;transition:opacity 150ms linear;border:2px solid var(--color-secondary);position:absolute;top:-5px;right:-5px;bottom:-5px;left:-5px;z-index:0;opacity:0;border-radius:6px;}.gamut-jp8sb8-ResetElement-createButtonComponent[data-focus-visible-added]:before{opacity:1;}.gamut-jp8sb8-ResetElement-createButtonComponent:hover{color:var(--color-interface);}.gamut-jp8sb8-ResetElement-createButtonComponent[data-focus-visible-added]{color:var(--color-interface);}.gamut-jp8sb8-ResetElement-createButtonComponent:before{border-color:var(--color-interface);}.gamut-jp8sb8-ResetElement-createButtonComponent:active{color:var(--color-text);}.gamut-jp8sb8-ResetElement-createButtonComponent [disabled],.gamut-jp8sb8-ResetElement-createButtonComponent:disabled,.gamut-jp8sb8-ResetElement-createButtonComponent[aria-disabled='true']{color:var(--color-text-disabled);background-color:transparent;}.gamut-mcjj5j-Svg{width:calc(100% - 14px);height:calc(100% - 14px);}.gamut-1yjqrs3-ResetElement-createButtonComponent{cursor:pointer;border:none;background:none;padding:0;font-size:inherit;-webkit-text-decoration:none;text-decoration:none;box-shadow:none;color:var(--color-text);-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;-webkit-transition:border-color 150ms ease-in,color 150ms ease-in,background-color 150ms ease-in,box-shadow 150ms ease-in;transition:border-color 150ms ease-in,color 150ms ease-in,background-color 150ms ease-in,box-shadow 150ms ease-in;border:2px solid var(--color-secondary);border-color:transparent;white-space:nowrap;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;display:-webkit-inline-box;display:-webkit-inline-flex;display:-ms-inline-flexbox;display:inline-flex;position:relative;border-radius:4px;border-color:transparent;color:var(--color-text);font-weight:700;padding-left:1rem;padding-right:1rem;padding-top:0.25rem;padding-bottom:0.25rem;font-size:1rem;min-width:40px;height:40px;}.gamut-1yjqrs3-ResetElement-createButtonComponent:hover{-webkit-text-decoration:none;text-decoration:none;}.gamut-1yjqrs3-ResetElement-createButtonComponent:focus{outline:none;}.gamut-1yjqrs3-ResetElement-createButtonComponent:after{content:"";-webkit-transition:opacity 150ms ease-in;transition:opacity 150ms ease-in;position:absolute;top:-2px;right:-2px;bottom:-2px;left:-2px;z-index:0;opacity:0;border-radius:4px;background-color:var(--color-text);}.gamut-1yjqrs3-ResetElement-createButtonComponent:hover:after{opacity:0.06;}.gamut-1yjqrs3-ResetElement-createButtonComponent:active:after{opacity:0.025;}.gamut-1yjqrs3-ResetElement-createButtonComponent [disabled]:after,.gamut-1yjqrs3-ResetElement-createButtonComponent:disabled:after,.gamut-1yjqrs3-ResetElement-createButtonComponent[aria-disabled='true']:after{opacity:0;}.gamut-1yjqrs3-ResetElement-createButtonComponent [disabled],.gamut-1yjqrs3-ResetElement-createButtonComponent:disabled,.gamut-1yjqrs3-ResetElement-createButtonComponent[aria-disabled='true']{cursor:not-allowed;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;}.gamut-1yjqrs3-ResetElement-createButtonComponent:before{content:"";-webkit-transition:opacity 150ms linear;transition:opacity 150ms linear;border:2px solid var(--color-secondary);position:absolute;top:-5px;right:-5px;bottom:-5px;left:-5px;z-index:0;opacity:0;border-radius:6px;}.gamut-1yjqrs3-ResetElement-createButtonComponent[data-focus-visible-added]:before{opacity:1;}.gamut-1yjqrs3-ResetElement-createButtonComponent:hover{color:var(--color-interface);}.gamut-1yjqrs3-ResetElement-createButtonComponent[data-focus-visible-added]{color:var(--color-interface);}.gamut-1yjqrs3-ResetElement-createButtonComponent:before{border-color:var(--color-interface);}.gamut-1yjqrs3-ResetElement-createButtonComponent:active{color:var(--color-text);}.gamut-1yjqrs3-ResetElement-createButtonComponent [disabled],.gamut-1yjqrs3-ResetElement-createButtonComponent:disabled,.gamut-1yjqrs3-ResetElement-createButtonComponent[aria-disabled='true']{color:var(--color-text-disabled);background-color:transparent;}.gamut-olzyk2-ResetElement-createButtonComponent{cursor:pointer;border:none;background:none;padding:0;font-size:inherit;-webkit-text-decoration:none;text-decoration:none;box-shadow:none;color:var(--color-text);-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;-webkit-transition:border-color 150ms ease-in,color 150ms ease-in,background-color 150ms ease-in,box-shadow 150ms ease-in;transition:border-color 150ms ease-in,color 150ms ease-in,background-color 150ms ease-in,box-shadow 150ms ease-in;border:2px solid var(--color-secondary);border-color:transparent;white-space:nowrap;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;display:-webkit-inline-box;display:-webkit-inline-flex;display:-ms-inline-flexbox;display:inline-flex;position:relative;border-radius:4px;font-weight:700;padding-left:1rem;padding-right:1rem;padding-top:0.25rem;padding-bottom:0.25rem;font-size:1rem;min-width:40px;height:40px;color:var(--color-background);background-color:var(--color-interface);}.gamut-olzyk2-ResetElement-createButtonComponent:hover{-webkit-text-decoration:none;text-decoration:none;}.gamut-olzyk2-ResetElement-createButtonComponent:focus{outline:none;}.gamut-olzyk2-ResetElement-createButtonComponent:after{content:"";-webkit-transition:opacity 150ms ease-in;transition:opacity 150ms ease-in;position:absolute;top:-2px;right:-2px;bottom:-2px;left:-2px;z-index:0;opacity:0;border-radius:4px;background-color:var(--color-text);}.gamut-olzyk2-ResetElement-createButtonComponent:hover:after{opacity:0.06;}.gamut-olzyk2-ResetElement-createButtonComponent:active:after{opacity:0.025;}.gamut-olzyk2-ResetElement-createButtonComponent [disabled]:after,.gamut-olzyk2-ResetElement-createButtonComponent:disabled:after,.gamut-olzyk2-ResetElement-createButtonComponent[aria-disabled='true']:after{opacity:0;}.gamut-olzyk2-ResetElement-createButtonComponent [disabled],.gamut-olzyk2-ResetElement-createButtonComponent:disabled,.gamut-olzyk2-ResetElement-createButtonComponent[aria-disabled='true']{cursor:not-allowed;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;}.gamut-olzyk2-ResetElement-createButtonComponent:before{content:"";-webkit-transition:opacity 150ms linear;transition:opacity 150ms linear;border:2px solid var(--color-secondary);position:absolute;top:-5px;right:-5px;bottom:-5px;left:-5px;z-index:0;opacity:0;border-radius:6px;}.gamut-olzyk2-ResetElement-createButtonComponent[data-focus-visible-added]:before{opacity:1;}.gamut-olzyk2-ResetElement-createButtonComponent:before{border-color:var(--color-interface);}.gamut-olzyk2-ResetElement-createButtonComponent:hover{color:var(--color-background);background-color:var(--color-interface-hover);}.gamut-olzyk2-ResetElement-createButtonComponent:active{border-color:var(--color-text);color:var(--color-background);background-color:var(--color-interface);}.gamut-olzyk2-ResetElement-createButtonComponent [disabled],.gamut-olzyk2-ResetElement-createButtonComponent:disabled,.gamut-olzyk2-ResetElement-createButtonComponent[aria-disabled='true']{color:var(--color-text-disabled);background-color:var(--color-background-disabled);}.gamut-xhgjq-Box-HeaderHeightAreaBase{display:block;height:var(--elements-headerHeight);-webkit-transition:background-color 150ms ease-in-out,border-bottom-color 150ms ease-in-out;transition:background-color 150ms ease-in-out,border-bottom-color 150ms ease-in-out;border-bottom:1px solid var(--color-secondary);width:100%;top:0;z-index:2;background-color:var(--color-background);border-color:var(--color-background-current);background-color:var(--color-background-current);}@media only screen and (min-width: 1200px){.gamut-xhgjq-Box-HeaderHeightAreaBase{display:none;}}.gamut-1cm7mum-Box-StyledListItem{margin-left:0;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;position:relative;}@media only screen and (min-width: 480px){.gamut-1cm7mum-Box-StyledListItem{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;}}@media only screen and (min-width: 1024px){.gamut-1cm7mum-Box-StyledListItem:first-of-type{margin-left:0;}}@media only screen and (min-width: 1024px){.gamut-1cm7mum-Box-StyledListItem:last-of-type{margin-right:0;}}.gamut-17f3ssg-Box-StyledListItem{margin-left:auto;display:none;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;position:relative;}@media only screen and (min-width: 480px){.gamut-17f3ssg-Box-StyledListItem{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;}}@media only screen and (min-width: 1024px){.gamut-17f3ssg-Box-StyledListItem:first-of-type{margin-left:0;}}@media only screen and (min-width: 1024px){.gamut-17f3ssg-Box-StyledListItem:last-of-type{margin-right:0;}}.gamut-kw6tlj-ResetElement-createButtonComponent{cursor:pointer;border:none;background:none;padding:0;font-size:inherit;-webkit-text-decoration:none;text-decoration:none;box-shadow:none;color:var(--color-text);-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;-webkit-transition:border-color 150ms ease-in,color 150ms ease-in,background-color 150ms ease-in,box-shadow 150ms ease-in;transition:border-color 150ms ease-in,color 150ms ease-in,background-color 150ms ease-in,box-shadow 150ms ease-in;border:2px solid var(--color-secondary);border-color:transparent;white-space:nowrap;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;display:-webkit-inline-box;display:-webkit-inline-flex;display:-ms-inline-flexbox;display:inline-flex;position:relative;border-radius:4px;border-color:transparent;color:var(--color-text);font-weight:700;padding-left:0.5rem;padding-right:0.5rem;padding-top:0.25rem;padding-bottom:0.25rem;font-size:0.875rem;min-width:32px;height:32px;}.gamut-kw6tlj-ResetElement-createButtonComponent:hover{-webkit-text-decoration:none;text-decoration:none;}.gamut-kw6tlj-ResetElement-createButtonComponent:focus{outline:none;}.gamut-kw6tlj-ResetElement-createButtonComponent:after{content:"";-webkit-transition:opacity 150ms ease-in;transition:opacity 150ms ease-in;position:absolute;top:-2px;right:-2px;bottom:-2px;left:-2px;z-index:0;opacity:0;border-radius:4px;background-color:var(--color-text);}.gamut-kw6tlj-ResetElement-createButtonComponent:hover:after{opacity:0.06;}.gamut-kw6tlj-ResetElement-createButtonComponent:active:after{opacity:0.025;}.gamut-kw6tlj-ResetElement-createButtonComponent [disabled]:after,.gamut-kw6tlj-ResetElement-createButtonComponent:disabled:after,.gamut-kw6tlj-ResetElement-createButtonComponent[aria-disabled='true']:after{opacity:0;}.gamut-kw6tlj-ResetElement-createButtonComponent [disabled],.gamut-kw6tlj-ResetElement-createButtonComponent:disabled,.gamut-kw6tlj-ResetElement-createButtonComponent[aria-disabled='true']{cursor:not-allowed;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;}.gamut-kw6tlj-ResetElement-createButtonComponent:before{content:"";-webkit-transition:opacity 150ms linear;transition:opacity 150ms linear;border:2px solid var(--color-secondary);position:absolute;top:-5px;right:-5px;bottom:-5px;left:-5px;z-index:0;opacity:0;border-radius:6px;}.gamut-kw6tlj-ResetElement-createButtonComponent[data-focus-visible-added]:before{opacity:1;}.gamut-kw6tlj-ResetElement-createButtonComponent:hover{color:var(--color-interface);}.gamut-kw6tlj-ResetElement-createButtonComponent[data-focus-visible-added]{color:var(--color-interface);}.gamut-kw6tlj-ResetElement-createButtonComponent:before{border-color:var(--color-interface);}.gamut-kw6tlj-ResetElement-createButtonComponent:active{color:var(--color-text);}.gamut-kw6tlj-ResetElement-createButtonComponent [disabled],.gamut-kw6tlj-ResetElement-createButtonComponent:disabled,.gamut-kw6tlj-ResetElement-createButtonComponent[aria-disabled='true']{color:var(--color-text-disabled);background-color:transparent;}.gamut-yv5r9n-ResetElement-createButtonComponent{cursor:pointer;border:none;background:none;padding:0;font-size:inherit;-webkit-text-decoration:none;text-decoration:none;box-shadow:none;color:var(--color-text);-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;-webkit-transition:border-color 150ms ease-in,color 150ms ease-in,background-color 150ms ease-in,box-shadow 150ms ease-in;transition:border-color 150ms ease-in,color 150ms ease-in,background-color 150ms ease-in,box-shadow 150ms ease-in;border:2px solid var(--color-secondary);border-color:transparent;white-space:nowrap;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;display:-webkit-inline-box;display:-webkit-inline-flex;display:-ms-inline-flexbox;display:inline-flex;position:relative;border-radius:4px;font-weight:700;padding-left:0.5rem;padding-right:0.5rem;padding-top:0.25rem;padding-bottom:0.25rem;font-size:0.875rem;min-width:32px;height:32px;color:var(--color-background);background-color:var(--color-interface);}.gamut-yv5r9n-ResetElement-createButtonComponent:hover{-webkit-text-decoration:none;text-decoration:none;}.gamut-yv5r9n-ResetElement-createButtonComponent:focus{outline:none;}.gamut-yv5r9n-ResetElement-createButtonComponent:after{content:"";-webkit-transition:opacity 150ms ease-in;transition:opacity 150ms ease-in;position:absolute;top:-2px;right:-2px;bottom:-2px;left:-2px;z-index:0;opacity:0;border-radius:4px;background-color:var(--color-text);}.gamut-yv5r9n-ResetElement-createButtonComponent:hover:after{opacity:0.06;}.gamut-yv5r9n-ResetElement-createButtonComponent:active:after{opacity:0.025;}.gamut-yv5r9n-ResetElement-createButtonComponent [disabled]:after,.gamut-yv5r9n-ResetElement-createButtonComponent:disabled:after,.gamut-yv5r9n-ResetElement-createButtonComponent[aria-disabled='true']:after{opacity:0;}.gamut-yv5r9n-ResetElement-createButtonComponent [disabled],.gamut-yv5r9n-ResetElement-createButtonComponent:disabled,.gamut-yv5r9n-ResetElement-createButtonComponent[aria-disabled='true']{cursor:not-allowed;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;}.gamut-yv5r9n-ResetElement-createButtonComponent:before{content:"";-webkit-transition:opacity 150ms linear;transition:opacity 150ms linear;border:2px solid var(--color-secondary);position:absolute;top:-5px;right:-5px;bottom:-5px;left:-5px;z-index:0;opacity:0;border-radius:6px;}.gamut-yv5r9n-ResetElement-createButtonComponent[data-focus-visible-added]:before{opacity:1;}.gamut-yv5r9n-ResetElement-createButtonComponent:before{border-color:var(--color-interface);}.gamut-yv5r9n-ResetElement-createButtonComponent:hover{color:var(--color-background);background-color:var(--color-interface-hover);}.gamut-yv5r9n-ResetElement-createButtonComponent:active{border-color:var(--color-text);color:var(--color-background);background-color:var(--color-interface);}.gamut-yv5r9n-ResetElement-createButtonComponent [disabled],.gamut-yv5r9n-ResetElement-createButtonComponent:disabled,.gamut-yv5r9n-ResetElement-createButtonComponent[aria-disabled='true']{color:var(--color-text-disabled);background-color:var(--color-background-disabled);}.gamut-131si6e-Box-StyledListItem{margin-left:0;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;position:relative;}@media only screen and (min-width: 1024px){.gamut-131si6e-Box-StyledListItem:first-of-type{margin-left:0;}}@media only screen and (min-width: 1024px){.gamut-131si6e-Box-StyledListItem:last-of-type{margin-right:0;}}.gamut-1slall7-SkipToContentTarget-SkipToContentTarget-SkipToContentTarget{margin-top:calc(var(--elements-headerHeight) * -1);position:absolute;}.gamut-w0w3ov-FlexBox-OuterBox{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;padding-bottom:4rem;width:100vw;height:100vh;position:fixed;top:0;z-index:1;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:end;-ms-flex-pack:end;-webkit-justify-content:flex-end;justify-content:flex-end;-webkit-align-items:flex-end;-webkit-box-align:flex-end;-ms-flex-align:flex-end;align-items:flex-end;pointer-events:none;}.gamut-1hctfgq-Box-InnerBox{margin-left:1.5rem;margin-right:1.5rem;margin-top:0.5rem;margin-bottom:0.5rem;pointer-events:all;}.gamut-gdf8jv-FooterContainer{border-top:1px solid var(--color-navy);}@media print{.gamut-gdf8jv-FooterContainer{display:none;}}.gamut-3a1jmv-Box-ContentContainer{margin-left:auto;margin-right:auto;margin-top:0;margin-bottom:0;width:100%;height:100%;padding-left:1rem;padding-right:1rem;max-width:1440px;}@media only screen and (min-width: 480px){.gamut-3a1jmv-Box-ContentContainer{padding-left:2rem;padding-right:2rem;}}@media only screen and (min-width: 768px){.gamut-3a1jmv-Box-ContentContainer{padding-left:4rem;padding-right:4rem;}}@media only screen and (min-width: 1200px){.gamut-3a1jmv-Box-ContentContainer{padding-left:6rem;padding-right:6rem;}}.gamut-r98xii-LayoutGrid-FooterNavLinksGrid{grid-template-columns:repeat(12, minmax(0, 1fr));display:grid;width:100%;}@media only screen and (min-width: 768px){.gamut-r98xii-LayoutGrid-FooterNavLinksGrid{padding:2rem 0;}}.gamut-7d3xgk-Column{grid-column-end:span 12;grid-template-columns:minmax(0, 1fr);display:grid;grid-column-end:span 12;}@media only screen and (min-width: 1024px){.gamut-7d3xgk-Column{grid-column-end:span 6;}}.gamut-1l8m389-GridBox{display:grid;grid-template-columns:repeat(2, minmax(0, 1fr));}@media only screen and (min-width: 768px){.gamut-1l8m389-GridBox{grid-template-columns:repeat(3, minmax(0, 1fr));}}.gamut-126nnrg-Text-FooterHeading{font-weight:700;line-height:1.1;font-size:2.75rem;font-weight:400;line-height:1.5;font-size:0.875rem;text-transform:uppercase;margin-top:1.5rem;margin-bottom:1rem;}@media only screen and (min-width: 768px){.gamut-126nnrg-Text-FooterHeading{font-size:1rem;margin-top:0;}}.gamut-ve936v-Box-FooterLinkItems{margin-bottom:0;padding-left:0;list-style-type:none;}.gamut-1suzlqi-FooterLinkItem{font-size:0.875rem;margin:0.5rem 0;}@media only screen and (min-width: 768px){.gamut-1suzlqi-FooterLinkItem{font-size:1rem;margin:0.25rem 0;}}@media only screen and (min-width: 1024px){.gamut-1suzlqi-FooterLinkItem{margin:0.15rem 0;}}.gamut-1ssowio-ResetElement-Anchor-AnchorBase{cursor:pointer;border:none;background:none;padding:0;font-size:inherit;-webkit-text-decoration:none;text-decoration:none;box-shadow:none;color:var(--color-text);border:none;padding:0;font-size:inherit;white-space:initial;box-shadow:none;display:inline-block;position:relative;color:var(--color-text);background-color:transparent;}.gamut-1ssowio-ResetElement-Anchor-AnchorBase:hover{-webkit-text-decoration:none;text-decoration:none;}.gamut-1ssowio-ResetElement-Anchor-AnchorBase:focus{outline:none;}.gamut-1ssowio-ResetElement-Anchor-AnchorBase:before{content:'';border:2px solid var(--color-secondary);border-color:var(--color-primary);position:absolute;top:-4px;right:-4px;bottom:-4px;left:-4px;z-index:0;opacity:0;border-radius:4px;}.gamut-1ssowio-ResetElement-Anchor-AnchorBase:hover{cursor:pointer;-webkit-text-decoration:none;text-decoration:none;color:var(--color-primary);}.gamut-1ssowio-ResetElement-Anchor-AnchorBase [disabled],.gamut-1ssowio-ResetElement-Anchor-AnchorBase:disabled,.gamut-1ssowio-ResetElement-Anchor-AnchorBase[aria-disabled='true']{cursor:not-allowed;-webkit-text-decoration:none;text-decoration:none;color:var(--color-text-disabled);}.gamut-1ssowio-ResetElement-Anchor-AnchorBase[data-focus-visible-added]:before{opacity:1;}.gamut-1ssowio-ResetElement-Anchor-AnchorBase[data-focus-visible-added]{color:var(--color-primary);}.gamut-1grh0nu-Box{display:inline-block;}.gamut-vpiljb-ResetElement-Anchor-AnchorBase{cursor:pointer;border:none;background:none;padding:0;font-size:inherit;-webkit-text-decoration:none;text-decoration:none;box-shadow:none;color:var(--color-text);border:none;padding:0;font-size:inherit;white-space:initial;box-shadow:none;display:inline-block;position:relative;color:var(--color-text);background-color:transparent;font-size:1.25rem;margin-right:0.5rem;}.gamut-vpiljb-ResetElement-Anchor-AnchorBase:hover{-webkit-text-decoration:none;text-decoration:none;}.gamut-vpiljb-ResetElement-Anchor-AnchorBase:focus{outline:none;}.gamut-vpiljb-ResetElement-Anchor-AnchorBase:before{content:'';border:2px solid var(--color-secondary);border-color:var(--color-primary);position:absolute;top:-4px;right:-4px;bottom:-4px;left:-4px;z-index:0;opacity:0;border-radius:4px;}.gamut-vpiljb-ResetElement-Anchor-AnchorBase:hover{cursor:pointer;-webkit-text-decoration:none;text-decoration:none;color:var(--color-primary);}.gamut-vpiljb-ResetElement-Anchor-AnchorBase [disabled],.gamut-vpiljb-ResetElement-Anchor-AnchorBase:disabled,.gamut-vpiljb-ResetElement-Anchor-AnchorBase[aria-disabled='true']{cursor:not-allowed;-webkit-text-decoration:none;text-decoration:none;color:var(--color-text-disabled);}.gamut-vpiljb-ResetElement-Anchor-AnchorBase[data-focus-visible-added]:before{opacity:1;}.gamut-vpiljb-ResetElement-Anchor-AnchorBase[data-focus-visible-added]{color:var(--color-primary);}.gamut-sd6ku5-Svg{width:16px;height:16px;}.gamut-5ni28p-Box{display:-webkit-box;display:-webkit-unset;display:-ms-unsetbox;display:unset;}@media only screen and (min-width: 768px){.gamut-5ni28p-Box{margin-top:1rem;display:none;-webkit-order:3;-ms-flex-order:3;order:3;}}.gamut-v74lgd-Text-FooterHeading{font-weight:700;line-height:1.1;font-size:2.75rem;font-weight:400;line-height:1.5;font-size:0.875rem;text-transform:uppercase;margin-bottom:1rem;}@media only screen and (min-width: 768px){.gamut-v74lgd-Text-FooterHeading{font-size:1rem;}}.gamut-1htlgvz-Box{grid-column:1/3;}@media only screen and (min-width: 768px){.gamut-1htlgvz-Box{grid-row:2/4;padding-top:2rem;grid-column-end:1;}}.gamut-1uo0w30-Text-FooterHeading{font-weight:700;line-height:1.1;font-size:2.75rem;font-weight:400;line-height:1.5;font-size:0.875rem;text-transform:uppercase;margin-top:1.5rem;margin-bottom:0.5rem;}@media only screen and (min-width: 768px){.gamut-1uo0w30-Text-FooterHeading{font-size:1rem;margin-top:0;margin-bottom:1rem;}}@media only screen and (min-width: 1200px){.gamut-1uo0w30-Text-FooterHeading{margin-bottom:0;}}.gamut-3y8pr1-Box-FooterLinkItems{margin-bottom:0;padding-left:0;list-style-type:none;}@media only screen and (min-width: 768px){.gamut-3y8pr1-Box-FooterLinkItems{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;}}.gamut-xiov64-Box-MobileImageItem{margin-top:0.5rem;margin-bottom:0.5rem;display:inline-block;width:50%;}@media only screen and (min-width: 1024px){.gamut-xiov64-Box-MobileImageItem{width:90%;}}.gamut-k7y38v-ResetElement-Anchor-AnchorBase-MobileImageLink{cursor:pointer;border:none;background:none;padding:0;font-size:inherit;-webkit-text-decoration:none;text-decoration:none;box-shadow:none;color:var(--color-text);border:none;padding:0;font-size:inherit;white-space:initial;box-shadow:none;display:inline-block;position:relative;color:var(--color-text);background-color:transparent;display:inline-block;}.gamut-k7y38v-ResetElement-Anchor-AnchorBase-MobileImageLink:hover{-webkit-text-decoration:none;text-decoration:none;}.gamut-k7y38v-ResetElement-Anchor-AnchorBase-MobileImageLink:focus{outline:none;}.gamut-k7y38v-ResetElement-Anchor-AnchorBase-MobileImageLink:before{content:'';border:2px solid var(--color-secondary);border-color:var(--color-primary);position:absolute;top:-4px;right:-4px;bottom:-4px;left:-4px;z-index:0;opacity:0;border-radius:4px;}.gamut-k7y38v-ResetElement-Anchor-AnchorBase-MobileImageLink:hover{cursor:pointer;-webkit-text-decoration:none;text-decoration:none;color:var(--color-primary);}.gamut-k7y38v-ResetElement-Anchor-AnchorBase-MobileImageLink [disabled],.gamut-k7y38v-ResetElement-Anchor-AnchorBase-MobileImageLink:disabled,.gamut-k7y38v-ResetElement-Anchor-AnchorBase-MobileImageLink[aria-disabled='true']{cursor:not-allowed;-webkit-text-decoration:none;text-decoration:none;color:var(--color-text-disabled);}.gamut-k7y38v-ResetElement-Anchor-AnchorBase-MobileImageLink[data-focus-visible-added]:before{opacity:1;}.gamut-k7y38v-ResetElement-Anchor-AnchorBase-MobileImageLink[data-focus-visible-added]{color:var(--color-primary);}.gamut-1n1j9zi-Box{display:none;}@media only screen and (min-width: 768px){.gamut-1n1j9zi-Box{margin-top:1rem;display:-webkit-box;display:-webkit-unset;display:-ms-unsetbox;display:unset;-webkit-order:3;-ms-flex-order:3;order:3;}}.gamut-19cjgpb-CatalogLinksContainer{border-top:1px solid var(--color-navy);margin-top:2rem;}@media only screen and (min-width: 768px){.gamut-19cjgpb-CatalogLinksContainer{padding-top:2rem;}}@media only screen and (min-width: 1024px){.gamut-19cjgpb-CatalogLinksContainer{border-left:1px solid var(--color-navy);border-top:none;margin-left:0;margin-top:0;padding-left:2rem;padding-top:0;}}@media only screen and (min-width: 1200px){.gamut-19cjgpb-CatalogLinksContainer{padding-left:4rem;}}.gamut-11tw806-Box{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;}@media only screen and (min-width: 768px){.gamut-11tw806-Box{-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;}}.gamut-15rmtb8-Box{display:block;width:100%;}@media only screen and (min-width: 1024px){.gamut-15rmtb8-Box{display:none;width:50%;}}.gamut-13hprmi-Text-FooterSubHeading{font-weight:700;line-height:1.1;font-size:2.125rem;font-size:0.875rem;margin-top:1rem;}@media only screen and (min-width: 1200px){.gamut-13hprmi-Text-FooterSubHeading{margin-top:0;}}.gamut-17y66rx-Box-FooterLinkItems-CatalogLinkArea{margin-bottom:0;padding-left:0;list-style-type:none;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;max-height:14rem;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-box-flex-wrap:wrap;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;margin-bottom:1rem;}.gamut-1aj6u0o-FooterLinkItem-CatalogFooterLinkItem{font-size:0.875rem;margin:0.5rem 0;margin:0.25rem 0;}@media only screen and (min-width: 768px){.gamut-1aj6u0o-FooterLinkItem-CatalogFooterLinkItem{font-size:1rem;margin:0.25rem 0;}}@media only screen and (min-width: 1024px){.gamut-1aj6u0o-FooterLinkItem-CatalogFooterLinkItem{margin:0.15rem 0;}}.gamut-41j7uy-Box{width:100%;}@media only screen and (min-width: 1024px){.gamut-41j7uy-Box{width:50%;}}.gamut-1uo4pga-Box-FooterLinkItems-CatalogLinkArea{margin-bottom:0;padding-left:0;list-style-type:none;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;max-height:14rem;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-box-flex-wrap:wrap;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;margin-bottom:1rem;}@media only screen and (min-width: 1024px){.gamut-1uo4pga-Box-FooterLinkItems-CatalogLinkArea{max-height:none;}}.gamut-bk5xit-Box{display:none;width:100%;}@media only screen and (min-width: 1024px){.gamut-bk5xit-Box{display:block;width:50%;}}.gamut-13u8tr2-LegalLocalContainer{border-top:1px solid var(--color-navy);font-size:0.875rem;padding:1rem 0 0.5rem;margin:0;}@media only screen and (min-width: 1024px){.gamut-13u8tr2-LegalLocalContainer{-webkit-align-items:baseline;-webkit-box-align:baseline;-ms-flex-align:baseline;align-items:baseline;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;justify-content:space-between;}}.gamut-106htmh-LinksList{-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-flex-wrap:wrap;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;list-style-type:none;margin-bottom:0.5rem;padding-left:0;}@media only screen and (min-width: 1024px){.gamut-106htmh-LinksList{-webkit-box-pack:start;-ms-flex-pack:start;-webkit-justify-content:flex-start;justify-content:flex-start;display:-webkit-inline-box;display:-webkit-inline-flex;display:-ms-inline-flexbox;display:inline-flex;}}.gamut-1s19zy9-LinksItem::after{content:'|';margin:0 0.375rem;font-size:1rem;}.gamut-1s19zy9-LinksItem:last-of-type::after{opacity:0;}.gamut-1uhb0se-Box{text-align:center;}@media only screen and (min-width: 1024px){.gamut-1uhb0se-Box{display:inline-block;text-align:right;}}.gamut-1z13drh-ResetElement-Anchor-AnchorBase-HeartContainer{cursor:pointer;border:none;background:none;padding:0;font-size:inherit;-webkit-text-decoration:none;text-decoration:none;box-shadow:none;color:var(--color-text);border:none;padding:0;font-size:inherit;white-space:initial;box-shadow:none;display:inline-block;position:relative;color:var(--color-text);background-color:transparent;display:inline-block;-webkit-filter:saturate(0.7);filter:saturate(0.7);margin-right:0.25rem;min-width:1.75em;text-align:center;cursor:pointer;}.gamut-1z13drh-ResetElement-Anchor-AnchorBase-HeartContainer:hover{-webkit-text-decoration:none;text-decoration:none;}.gamut-1z13drh-ResetElement-Anchor-AnchorBase-HeartContainer:focus{outline:none;}.gamut-1z13drh-ResetElement-Anchor-AnchorBase-HeartContainer:before{content:'';border:2px solid var(--color-secondary);border-color:var(--color-primary);position:absolute;top:-4px;right:-4px;bottom:-4px;left:-4px;z-index:0;opacity:0;border-radius:4px;}.gamut-1z13drh-ResetElement-Anchor-AnchorBase-HeartContainer:hover{cursor:pointer;-webkit-text-decoration:none;text-decoration:none;color:var(--color-primary);}.gamut-1z13drh-ResetElement-Anchor-AnchorBase-HeartContainer [disabled],.gamut-1z13drh-ResetElement-Anchor-AnchorBase-HeartContainer:disabled,.gamut-1z13drh-ResetElement-Anchor-AnchorBase-HeartContainer[aria-disabled='true']{cursor:not-allowed;-webkit-text-decoration:none;text-decoration:none;color:var(--color-text-disabled);}.gamut-1z13drh-ResetElement-Anchor-AnchorBase-HeartContainer[data-focus-visible-added]:before{opacity:1;}.gamut-1z13drh-ResetElement-Anchor-AnchorBase-HeartContainer[data-focus-visible-added]{color:var(--color-primary);}</style>
     </div>
-</section>
-
-<section class="features1 cid-st2KAGhoWy" id="features01-3">
-    
-    <div class="container">
-        <div class="row justify-content-end">
-            <div class="col-12 col-md-12 md-pb col-lg-3 image-wrapper">
-                <img src="assets/images/features1.jpg" alt="Mobirise">
-            </div>
-            <div class="counter-container col-12 col-md-12 col-lg-9">
-                <div class="card">
-                    <div class="wrapper">
-                        <h3 class="mbr-section-subtitle align-left mbr-fonts-style mb-3 display-7">
-                            <strong>HTML, CSS, JS, Pytnon</strong>
-                        </h3>
-                        <h2 class="mbr-section-title align-left mbr-fonts-style mb-3 display-2"><strong>What We Do</strong></h2>
-                        <p class="mbr-text align-left mbr-fonts-style mb-4 display-7">Lorem ipsum dolor sit
-                            amet, consectetur adipiscing
-                            elit. Accumsan porttitor egestas&nbsp;fermentum nulla.</p>
-                        <div class="mbr-list mbr-fonts-style display-7">
-                            <ul>
-                                <li><strong>App Design &amp; Development</strong></li>
-                                <li><strong>Web Development &amp; CMS</strong></li>
-                                <li><strong>Sass &amp; Pos Software Design</strong></li>
-                            </ul>
-                        </div>
-                        <div class="align-left mbr-section-btn mt-4"><a class="btn btn-lg btn-info display-4" href="https://mobiri.se">Free Consultation</a></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="pricing1 cid-st2L1NX8yl" id="pricing01-d">
-    
-    
-    <div class="container">
-        <div class="row">
-            <div class="col-12 pb-5 col-lg-9">
-                <h5 class="mbr-section-subtitle mbr-fonts-style align-center mb-0 mb-2 display-7"><strong>Price &amp; Plans</strong></h5>
-
-                <h3 class="mbr-section-title mbr-fonts-style align-center mb-0 display-1"><strong>Price and Plans</strong></h3>
-            </div>
-        </div>
-        <div class="row">
-            <div class="card md-pb col-12 col-md-6 col-lg-4">
-                <div class="card-wrapper">
-                    <div class="card-box">
-                        <h4 class="card-subtitle align-left mbr-fonts-style pb-3 display-7">BASIC</h4>
-                        <h5 class="card-title align-left mbr-fonts-style pb-3 display-1"><strong>$10.00</strong></h5>
-                        <div class="mbr-list mbr-fonts-style display-7">
-                            <ul>
-                                <li>Lorem ipsum dolor</li>
-                                <li>Curabitur id libero&nbsp;</li>
-                                <li>Etiam cursus ex&nbsp;</li>
-                                <li>Etiam auctor, erat</li>
-                                <li>Eleifend arcu nulla</li>
-                                <li>Quisque ornare</li>
-                            </ul>
-                        </div>
-
-                        <div class="col-auto align-center pt-3"><a type="submit" class="btn btn-lg btn-warning display-7">Get Started</a></div>
-                    </div>
-                </div>
-            </div>
-            <div class="card md-pb col-12 col-md-6 col-lg-4">
-                <div class="card-wrapper center">
-                    <div class="card-box">
-                        <h4 class="card-subtitle1 align-left mbr-fonts-style pb-3 display-7">ADVANCED</h4>
-                        <h5 class="card-title1 align-left mbr-fonts-style pb-3 display-1"><strong>$99.00</strong></h5>
-                        <div class="mbr-list1 mbr-fonts-style display-7">
-                            <ul>
-                                <li>Lorem ipsum dolor</li>
-                                <li>Curabitur id libero&nbsp;</li>
-                                <li>Etiam cursus ex&nbsp;</li>
-                                <li>Etiam auctor, erat</li>
-                                <li>Eleifend arcu nulla</li>
-                                <li>Quisque ornare</li>
-                            </ul>
-                        </div>
-                        <div class="col-auto align-center pt-3"><a type="submit" class="btn btn-lg btn-white display-7">Get Started</a></div>
-                    </div>
-                </div>
-            </div>
-            <div class="card col-12 col-md-6 col-lg-4">
-                <div class="card-wrapper">
-                    <div class="card-box">
-                        <h4 class="card-subtitle align-left mbr-fonts-style pb-3 display-7">TEAM</h4>
-                        <h5 class="card-title align-left mbr-fonts-style pb-3 display-1"><strong>$299.00</strong></h5>
-                        <div class="mbr-list mbr-fonts-style display-7">
-                            <ul>
-                                <li>Lorem ipsum dolor</li>
-                                <li>Curabitur id libero&nbsp;</li>
-                                <li>Etiam cursus ex&nbsp;</li>
-                                <li>Etiam auctor, erat</li>
-                                <li>Eleifend arcu nulla</li>
-                                <li>Quisque ornare</li>
-                            </ul>
-                        </div>
-                        <div class="col-auto align-center pt-3"><a type="submit" class="btn btn-lg btn-warning display-7">Get Started</a></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="numbers01 cid-st2LmwKCWJ" id="numbers01-f">
-    
-    
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="card md-pb col-12 col-md-6 col-lg-4">
-                <div class="card-wrapper">
-                    <div class="icon-wrapper">
-                        <span class="mbr-iconfont m-auto mobi-mbri-up mobi-mbri"></span>
-                    </div>
-                    <div class="card-box">
-                        <h4 class="card-title mbr-fonts-style mb-1 display-1"><strong>5.37%</strong></h4>
-                        <h5 class="card-text mbr-fonts-style display-7">Monthly income</h5>
-                    </div>
-                </div>
-            </div>
-            <div class="card md-pb col-12 col-md-6 col-lg-4">
-                <div class="card-wrapper">
-                    <div class="icon-wrapper">
-                        <span class="mbr-iconfont m-auto mobi-mbri-up mobi-mbri"></span>
-                    </div>
-                    <div class="card-box">
-                        <h4 class="card-title mbr-fonts-style mb-1 display-1"><strong>8.93%</strong></h4>
-                        <h5 class="card-text mbr-fonts-style display-7">New clients</h5>
-                    </div>
-                </div>
-            </div>
-            <div class="card col-12 col-md-6 col-lg-4">
-                <div class="card-wrapper">
-                    <div class="icon-wrapper">
-                        <span class="mbr-iconfont m-auto mobi-mbri-up mobi-mbri"></span>
-                    </div>
-                    <div class="card-box">
-                        <h4 class="card-title mbr-fonts-style mb-1 display-1">
-                            <strong>4.25%</strong>
-                        </h4>
-                        <h5 class="card-text mbr-fonts-style display-7">Good reviews</h5>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="list2 cid-st2L3FzgcK" id="list02-e">
-    
-    
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-12 col-md-12 col-lg-6 img-col">
-                <div class="img-item">
-                    <img src="assets/images/features2.jpg" alt="">
-                    
-                </div>
-            </div>
-            <div class="col-12 col-md-12 col-lg-6 m-auto">
-                <div class="content">
-                    <div class="mbr-section-head align-left mb-5">
-                        <h4 class="mbr-section-subtitle mb-2 mbr-fonts-style display-7"><strong>FAQ</strong></h4>
-                        <h3 class="mbr-section-title mb-2 mbr-fonts-style display-2"><strong>Get every answers From here.</strong></h3>
-                    </div>
-                    <div id="bootstrap-accordion_5" class="panel-group accordionStyles accordion" role="tablist" aria-multiselectable="true">
-                        <div class="card mb-3">
-                            <div class="card-header" role="tab" id="headingOne">
-                                <a role="button" class="panel-title collapsed" data-toggle="collapse" data-core="" href="#collapse1_5" aria-expanded="false" aria-controls="collapse1">
-                                    <span class="sign mbr-iconfont mobi-mbri-plus"></span>
-                                    <h6 class="panel-title-edit mbr-semibold mbr-fonts-style mb-0 display-7">Lorem ipsum dolor sit amet
-                                        augue neque</h6>
-                                </a>
-                            </div>
-                            <div id="collapse1_5" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#bootstrap-accordion_5">
-                                <div class="panel-body">
-                                    <p class="mbr-fonts-style panel-text display-4">Lorem ipsum dolor sit amet, consectetur
-                                        adipiscing elit. Pellentesque nec purus ut massa hendrerit fringilla luctus
-                                        mattis diam. Integer mollis sollicitudin tincidunt.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card mb-3">
-                            <div class="card-header" role="tab" id="headingOne">
-                                <a role="button" class="panel-title collapsed" data-toggle="collapse" data-core="" href="#collapse2_5" aria-expanded="false" aria-controls="collapse2"><span class="sign mbr-iconfont mobi-mbri-plus"></span>
-                                    <h6 class="panel-title-edit mbr-semibold mbr-fonts-style mb-0 display-7">Pellentesque
-                                        nec purus ut massa finibus</h6>
-                                </a>
-                            </div>
-                            <div id="collapse2_5" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#bootstrap-accordion_5">
-                                <div class="panel-body">
-                                    <p class="mbr-fonts-style panel-text display-4">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nec purus
-                                        ut massa hendrerit fringilla luctus mattis diam. Integer mollis sollicitudin
-                                        tincidunt.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card mb-3">
-                            <div class="card-header" role="tab" id="headingOne">
-                                <a role="button" class="panel-title collapsed" data-toggle="collapse" data-core="" href="#collapse3_5" aria-expanded="false" aria-controls="collapse3"><span class="sign mbr-iconfont mobi-mbri-plus"></span>
-                                    <h6 class="panel-title-edit mbr-semibold mbr-fonts-style mb-0 display-7">Mauris
-                                        porttitor tempor orci vitae molestie&nbsp;</h6>
-                                </a>
-                            </div>
-                            <div id="collapse3_5" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#bootstrap-accordion_5">
-                                <div class="panel-body">
-                                    <p class="mbr-fonts-style panel-text display-4">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nec purus
-                                        ut massa hendrerit fringilla luctus mattis diam. Integer mollis sollicitudin
-                                        tincidunt.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card mb-3">
-                            <div class="card-header" role="tab" id="headingOne">
-                                <a role="button" class="panel-title collapsed" data-toggle="collapse" data-core="" href="#collapse4_5" aria-expanded="false" aria-controls="collapse4"><span class="sign mbr-iconfont mobi-mbri-plus"></span>
-                                    <h6 class="panel-title-edit mbr-semibold mbr-fonts-style mb-0 display-7">Ut ultricies
-                                        imperdiet volutpat</h6>
-                                </a>
-                            </div>
-                            <div id="collapse4_5" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#bootstrap-accordion_5">
-                                <div class="panel-body">
-                                    <p class="mbr-fonts-style panel-text display-4">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nec purus
-                                        ut massa hendrerit fringilla luctus mattis diam. Integer mollis sollicitudin
-                                        tincidunt.</p>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="features13 cid-st2KLTxC9B" id="features013-5">
     
 
-    
-    <div class="container">
-        <div class="row">
-            <div class="col-12 mb-5 col-lg-9">
-                <h5 class="mbr-section-subtitle mbr-fonts-style align-center mb-2 display-7"><strong>
-                        Intregrations
-                    </strong></h5>
-                <h3 class="mbr-section-title mbr-fonts-style align-center display-2"><strong>Mobile App Intregrations</strong></h3>
+      <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KTLK85W"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
-            </div>
-        </div>
-        <div class="row">
-            <div class="card col-12 col-md-6 md-pb col-lg-4">
-                <div class="card-wrapper">
-                    <div class="card-box align-left">
-                        <div class="iconfont-wrapper">
-                            <span class="mbr-iconfont mobi-mbri-change-style mobi-mbri"></span>
-                        </div>
-                        <h5 class="card-title mbr-fonts-style m-0 p-0 display-5"><strong>Design</strong></h5>
 
-                    </div>
-                    <p class="card-text align-left mbr-fonts-style pt-4 mb-0 display-7">Lorem ipsum dolor sit amet, consectetur
-                        adipiscing elit. Curabitur id libero.</p>
-                    <h6 class="card-link align-left mbr-fonts-style pt-3 display-7"><a href="#" class="text-success">Read More</a></h6>
-                </div>
-            </div>
-            <div class="card col-12 col-md-6 md-pb col-lg-4">
-                <div class="card-wrapper">
-                    <div class="card-box align-center">
-                        <div class="iconfont-wrapper">
-                            <span class="mbr-iconfont mobi-mbri-code mobi-mbri"></span>
-                        </div>
-                        <h5 class="card-title align-left mbr-fonts-style m-0 p-0 display-5"><strong>Code</strong></h5>
+        <div class="react-root" data-react-class="PortalRouter"><div class="gamut-otnx7u-AppWrapper e123k1yw0"><div data-testid="global-page-wrapper" class="e151iuzl0 gamut-dvsltw-VariableProvider-GlobalPageWrapper-AppWrapper e1skjn880"><div role="region" aria-labelledby="skip-to-content" class="gamut-1efsrtw-Box ebnwbv90"><a id="skip-to-content" href="#page-skip-to-content-target" class="gamut-q4okk-SkipToContentLink e1ojr4z31">Skip to Content<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 140" fill="currentColor" role="img" aria-hidden="true" class="gamut-1nszhsc-Svg eol2zvm0"><title>Mini Arrow Down Icon</title><path d="M27.93 102.07l35 35a10 10 0 0014.14 0l35-35a10 10 0 00-14.14-14.14l-13.66 13.66A2.5 2.5 0 0180 99.82V10a10 10 0 00-20 0v89.82a2.5 2.5 0 01-4.27 1.77L42.07 87.93a10 10 0 00-14.14 14.14z"></path></svg></a></div><header class="gamut-1hwoqu3-Box ebnwbv90"><nav title="Main Navigation" class="gamut-1vbty7x-Box-HeaderHeightAreaBase e1n8bpez0"><div class="wrapper__1dnPck0u33mkdYUTSOz3YZ eppx78a1 gamut-riwa8u-Box-ContentContainer-StyledAppBar e1dgn4f70"><ul role="menubar" class="gamut-6a1h4c-StyledMenuBar eppx78a0"><li role="none" class="gamut-9hhgap-Box-StyledListItem eargl5z0"><a data-testid="header-logo" tabindex="0" class="e14vpv2g1 gamut-lh98ns-ResetElement-Anchor-AnchorBase e1bhhzie0" href="/" role="menuitem"><svg viewBox="0 0 102 21.705" class="gamut-mmsbw8-LogoSvg ektf5w70"><title>Codecademy Logo</title><g fill="none" fill-rule="nonzero"><path fill="currentColor" d="M4.213 14.896c-.192-.562-.278-1.275-.278-2.226 0-.95.086-1.664.278-2.226.513-1.599 1.86-2.485 3.637-2.485 1.326 0 2.353.54 3.06 1.404a.18.18 0 01-.022.26L9.732 10.66c-.086.066-.192.066-.256-.043-.45-.497-.9-.778-1.626-.778-.792 0-1.39.39-1.648 1.167-.128.454-.17.973-.17 1.664 0 .692.042 1.232.192 1.686.257.756.856 1.167 1.647 1.167.727 0 1.198-.28 1.626-.778.064-.086.171-.086.257-.022l1.155 1.038c.086.065.064.173.022.26-.707.842-1.734 1.382-3.06 1.382-1.775-.021-3.145-.886-3.658-2.507zm39.704 0c-.192-.562-.278-1.275-.278-2.226 0-.95.086-1.664.278-2.226.514-1.599 1.862-2.485 3.637-2.485 1.326 0 2.375.54 3.06 1.404a.18.18 0 01-.022.26l-1.155 1.037c-.086.066-.193.066-.257-.043-.45-.497-.899-.778-1.626-.778-.791 0-1.39.39-1.647 1.167-.15.454-.193.973-.193 1.664 0 .692.043 1.232.193 1.686.257.756.856 1.167 1.647 1.167.727 0 1.198-.28 1.626-.778.064-.086.171-.086.257-.022l1.155 1.038c.086.065.064.173.022.26-.707.842-1.734 1.382-3.06 1.382-1.775-.021-3.123-.886-3.637-2.507zm46.552 2.27c-.107 0-.192-.066-.192-.195v-5.187c0-1.167-.578-1.967-1.67-1.967-1.069 0-1.69.8-1.69 1.967v5.187c0 .108-.064.195-.192.195h-1.69c-.107 0-.192-.066-.192-.195v-5.187c0-1.167-.578-1.967-1.67-1.967-1.069 0-1.69.8-1.69 1.967v5.187c0 .108-.063.195-.192.195h-1.69c-.107 0-.192-.066-.192-.195V8.348c0-.108.064-.195.192-.195h1.69c.107 0 .193.065.193.195v.648h.021c.385-.562 1.155-1.037 2.332-1.037 1.048 0 1.883.432 2.418 1.189h.021c.684-.757 1.562-1.19 2.824-1.19 2.054 0 3.209 1.427 3.209 3.35v5.685c0 .108-.064.194-.193.194l-1.647-.021zm4.228 3.177c-.108 0-.193-.066-.193-.195v-1.491c0-.108.064-.194.193-.194h.32c.707 0 1.048-.325 1.327-1.06l.257-.756-3.231-8.494c-.043-.108.043-.194.15-.194h1.818c.107 0 .193.065.214.194l1.99 5.879h.043l1.904-5.879c.043-.108.107-.194.213-.194h1.733c.108 0 .193.065.15.194l-3.337 9.401c-.77 2.14-1.498 2.81-2.974 2.81l-.577-.021zm-76.93-6.009c.15-.475.192-.908.192-1.664 0-.756-.043-1.167-.192-1.664-.257-.757-.835-1.167-1.647-1.167-.813 0-1.412.432-1.669 1.167-.15.475-.193.886-.193 1.664 0 .756.043 1.189.193 1.664.257.757.835 1.167 1.669 1.167.812.022 1.39-.41 1.647-1.167zm-5.306.562c-.192-.627-.3-1.232-.3-2.226s.087-1.578.3-2.226c.492-1.578 1.84-2.485 3.637-2.485 1.776 0 3.124.907 3.615 2.485.193.627.3 1.232.3 2.226s-.086 1.578-.3 2.226c-.491 1.578-1.84 2.485-3.615 2.485-1.775 0-3.123-.907-3.637-2.485zm43.085-6.937c2.695 0 3.68.95 3.722 3.155v5.857c0 .13-.085.195-.192.195h-1.54c-.13 0-.193-.087-.193-.195v-.648h-.022c-.406.605-1.24 1.037-2.481 1.037-1.626 0-2.974-.865-2.974-2.745 0-1.945 1.348-2.853 3.53-2.853h.728c.128 0 .192.087.192.195v1.189c0 .13-.086.194-.192.194h-.407c-1.327 0-1.904.368-1.904 1.21 0 .757.535 1.124 1.519 1.124 1.262 0 1.968-.497 1.968-1.534v-3.004c-.043-.973-.535-1.405-1.968-1.405-.984 0-1.583.281-2.011.627-.086.064-.193.043-.257-.043l-.685-1.233c-.042-.086-.021-.172.043-.237.706-.54 1.67-.886 3.124-.886zm-21.66 3.803h2.502c.065 0 .108-.043.108-.108 0-.302-.043-.54-.108-.756-.235-.735-.877-1.167-1.711-1.167-.834 0-1.498.432-1.733 1.167-.021.087-.043.173-.064.28v.044c-.064.41-.086.735-.107 1.254-.003.434.033.868.107 1.296.021.13.064.26.107.39.278.885.984 1.361 1.968 1.361 1.006 0 1.626-.367 2.075-.864.086-.109.193-.109.278-.044l1.07.973c.086.065.086.173.021.26-.77.907-2.01 1.534-3.636 1.534-1.862 0-3.188-.93-3.68-2.507-.193-.584-.321-1.276-.321-2.205 0-.93.107-1.642.3-2.226.492-1.577 1.86-2.485 3.615-2.485 1.818 0 3.145.95 3.637 2.485.214.627.3 1.254.3 2.702 0 .13-.065.194-.193.194h-4.536c-.064 0-.085-.043-.085-.086v-1.405c0-.065.043-.087.085-.087zm-4.83-7.42c.107 0 .193.064.214.107v12.319c0 .13-.085.195-.192.195h-1.69c-.128 0-.193-.087-.193-.195v-.67h-.021c-.407.605-1.134 1.06-2.332 1.06-1.498 0-2.61-.714-3.06-2.162-.234-.692-.32-1.319-.32-2.529s.107-1.837.32-2.528c.45-1.427 1.52-2.14 2.996-2.161h1.262c.043.02.064.043.064.086v1.707c0 .044-.021.087-.064.087h-.727c-.792.021-1.348.432-1.583 1.167-.129.41-.193.864-.193 1.685 0 .822.064 1.276.193 1.686.235.735.812 1.146 1.625 1.146.835 0 1.412-.39 1.648-1.146a4.85 4.85 0 00.171-1.167V4.536c0-.13.085-.195.192-.195h1.69zm44.176 7.42h2.503c.064 0 .107-.043.107-.108 0-.302-.043-.54-.107-.756-.235-.735-.877-1.167-1.712-1.167-.834 0-1.497.432-1.732 1.167a5.779 5.779 0 00-.064.28v.044c-.064.41-.086.735-.107 1.254-.003.434.033.868.106 1.296.022.13.065.26.108.39.278.885.984 1.361 1.968 1.361 1.006 0 1.626-.367 2.075-.864.086-.109.193-.109.278-.044l1.07.973c.085.065.085.173.021.26-.77.907-2.011 1.534-3.637 1.534-1.86 0-3.187-.93-3.68-2.507-.192-.584-.32-1.276-.32-2.205 0-.93.107-1.642.3-2.226.491-1.577 1.86-2.485 3.614-2.485 1.819 0 3.145.95 3.638 2.485.213.627.3 1.254.3 2.702 0 .13-.065.194-.193.194h-4.536c-.064 0-.086-.043-.086-.086v-1.405c0-.065.043-.087.086-.087zm-4.829-7.42c.107 0 .193.064.236.172v12.319c0 .13-.086.194-.193.194h-1.69c-.128 0-.192-.086-.192-.194v-.67h-.022c-.428.605-1.155 1.059-2.353 1.059-1.498 0-2.61-.713-3.06-2.161-.235-.692-.32-1.34-.32-2.55 0-1.232.107-1.86.32-2.551.45-1.426 1.54-2.14 3.017-2.161h1.24c.129 0 .193.086.193.194v1.492c0 .13-.085.194-.192.194h-.727c-.792.022-1.349.433-1.584 1.167-.128.41-.192.865-.192 1.686s.064 1.275.192 1.686c.235.756.792 1.167 1.626 1.167.835 0 1.412-.41 1.648-1.167.085-.302.15-.649.17-1.167V4.536c0-.13.086-.195.193-.195h1.69zM50.078 19.534c.295 0 .357.09.357.362v1.447c0 .294-.083.362-.357.362h-5.723c-.296 0-.358-.09-.358-.362v-1.447c0-.295.052-.362.358-.362h5.723zM0 .362C0 .109.043.043 0 0h42.208c.23 0 .272.022.358 0v21.344c0 .231-.021.275 0 .362-.086-.022-.129 0-.358 0H0v-.002l.007-.028c.006-.037-.002-.053-.006-.012L0 21.69V.361zm2.146 19.173H40.42c-.043-.043 0-.107 0-.362V2.171H2.146v17.364z"></path></g></svg></a></li><li role="none" class="gamut-9hhgap-Box-StyledListItem eargl5z0"><a data-testid="header-catalog" target="" tabindex="-1" class="e14vpv2g1 gamut-1pqrswb-ResetElement-Anchor-AnchorBase e1bhhzie0" href="/catalog" role="menuitem">Catalog</a></li><li role="none" class="gamut-9hhgap-Box-StyledListItem eargl5z0"><button title="Resources" tabindex="-1" aria-expanded="false" aria-haspopup="true" class="er1dlwl4 gamut-2i7nx7-ResetElement-Anchor-AnchorBase-DropdownAnchor e1bhhzie0" type="button" role="button"><span title="Resources" class="gamut-tkbg6w-Text-StyledText er1dlwl2">Resources</span><svg viewBox="0 0 8 8" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" aria-label="dropdown" class=" er1dlwl3 gamut-1yde4rw-Svg-DropdownIcon eol2zvm0"><title>Arrow Chevron Down Filled Icon</title><path d="M7.066 1.5L4 6.099.934 1.5h6.132z" fill="currentColor"></path></svg></button><div style="right:;top:2.25rem;width:0;border-width:0px;height:0px" aria-hidden="true" class="gamut-1hg8ogv-StyledDropdown er1dlwl1"><ul role="menu" id="menu-containerResources" aria-controls="menu-containerResources" aria-label="Resources" aria-hidden="true" class="er1dlwl0 gamut-w1izya-StyledList-StyledLinkSection e9an02l1"><li role="none" class="gamut-1wip52v-StyledListItem e9an02l0"><a target="" tabindex="-1" class="e14vpv2g1 gamut-x4nxfu-ResetElement-Anchor-AnchorBase e1bhhzie0" href="/projects" role="menuitem">Projects<div class="gamut-95bwlg-Badge emeh29k0">New</div></a></li><li role="none" class="gamut-1wip52v-StyledListItem e9an02l0"><a target="" tabindex="-1" class="e14vpv2g1 gamut-x4nxfu-ResetElement-Anchor-AnchorBase e1bhhzie0" href="/code-challenges" role="menuitem">Challenges</a></li><li role="none" class="gamut-1wip52v-StyledListItem e9an02l0"><a target="" tabindex="-1" class="e14vpv2g1 gamut-x4nxfu-ResetElement-Anchor-AnchorBase e1bhhzie0" href="/resources/docs" role="menuitem">Docs</a></li><li role="none" class="gamut-1wip52v-StyledListItem e9an02l0"><a target="" tabindex="-1" class="e14vpv2g1 gamut-x4nxfu-ResetElement-Anchor-AnchorBase e1bhhzie0" href="/resources/cheatsheets/all" role="menuitem">Cheatsheets</a></li><li role="none" class="gamut-1wip52v-StyledListItem e9an02l0"><a target="" tabindex="-1" class="e14vpv2g1 gamut-x4nxfu-ResetElement-Anchor-AnchorBase e1bhhzie0" href="/articles" role="menuitem">Articles</a></li><li role="none" class="gamut-1wip52v-StyledListItem e9an02l0"><a target="" tabindex="-1" class="e14vpv2g1 gamut-x4nxfu-ResetElement-Anchor-AnchorBase e1bhhzie0" href="/resources/videos" role="menuitem">Videos</a></li><li role="none" class="gamut-1wip52v-StyledListItem e9an02l0"><a target="blank" tabindex="-1" class="e14vpv2g1 gamut-x4nxfu-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://codecademy.com/resources/blog" role="menuitem">Blog</a></li><li role="none" class="gamut-1wip52v-StyledListItem e9an02l0"><a target="" tabindex="-1" class="e14vpv2g1 gamut-x4nxfu-ResetElement-Anchor-AnchorBase e1bhhzie0" href="/pages/career-center" role="menuitem">Career Center</a></li></ul></div></li><li role="none" class="gamut-9hhgap-Box-StyledListItem eargl5z0"><button title="Community" tabindex="-1" aria-expanded="false" aria-haspopup="true" class="er1dlwl4 gamut-2i7nx7-ResetElement-Anchor-AnchorBase-DropdownAnchor e1bhhzie0" type="button" role="button"><span title="Community" class="gamut-tkbg6w-Text-StyledText er1dlwl2">Community</span><svg viewBox="0 0 8 8" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" aria-label="dropdown" class=" er1dlwl3 gamut-1yde4rw-Svg-DropdownIcon eol2zvm0"><title>Arrow Chevron Down Filled Icon</title><path d="M7.066 1.5L4 6.099.934 1.5h6.132z" fill="currentColor"></path></svg></button><div style="right:;top:2.25rem;width:0;border-width:0px;height:0px" aria-hidden="true" class="gamut-1hg8ogv-StyledDropdown er1dlwl1"><ul role="menu" id="menu-containerCommunity" aria-controls="menu-containerCommunity" aria-label="Community" aria-hidden="true" class="er1dlwl0 gamut-w1izya-StyledList-StyledLinkSection e9an02l1"><li role="none" class="gamut-1wip52v-StyledListItem e9an02l0"><a target="blank" tabindex="-1" class="e14vpv2g1 gamut-x4nxfu-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://discuss.codecademy.com/" role="menuitem">Forums</a></li><li role="none" class="gamut-1wip52v-StyledListItem e9an02l0"><a target="blank" tabindex="-1" class="e14vpv2g1 gamut-x4nxfu-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://discord.com/invite/codecademy" role="menuitem">Chat</a></li><li role="none" class="gamut-1wip52v-StyledListItem e9an02l0"><a target="blank" tabindex="-1" class="e14vpv2g1 gamut-x4nxfu-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://community.codecademy.com/" role="menuitem">Chapters</a></li><li role="none" class="gamut-1wip52v-StyledListItem e9an02l0"><a target="" tabindex="-1" class="e14vpv2g1 gamut-x4nxfu-ResetElement-Anchor-AnchorBase e1bhhzie0" href="/events" role="menuitem">Events</a></li><li role="none" class="gamut-1wip52v-StyledListItem e9an02l0"><a target="" tabindex="-1" class="e14vpv2g1 gamut-x4nxfu-ResetElement-Anchor-AnchorBase e1bhhzie0" href="/learner-stories" role="menuitem">Learner Stories</a></li></ul></div></li><li role="none" class="gamut-9hhgap-Box-StyledListItem eargl5z0"><button title="Pro Pricing" tabindex="-1" aria-expanded="false" aria-haspopup="true" class="er1dlwl4 gamut-2i7nx7-ResetElement-Anchor-AnchorBase-DropdownAnchor e1bhhzie0" type="button" role="button"><span title="Pro Pricing" class="gamut-tkbg6w-Text-StyledText er1dlwl2">Pro Pricing</span><svg viewBox="0 0 8 8" fill="currentColor" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" aria-label="dropdown" class=" er1dlwl3 gamut-1yde4rw-Svg-DropdownIcon eol2zvm0"><title>Arrow Chevron Down Filled Icon</title><path d="M7.066 1.5L4 6.099.934 1.5h6.132z" fill="currentColor"></path></svg></button><div style="right:;top:2.25rem;width:0;border-width:0px;height:0px" aria-hidden="true" class="gamut-1hg8ogv-StyledDropdown er1dlwl1"><ul role="menu" id="menu-containerPro Pricing" aria-controls="menu-containerPro Pricing" aria-label="Pro Pricing" aria-hidden="true" class="er1dlwl0 gamut-w1izya-StyledList-StyledLinkSection e9an02l1"><li role="none" class="gamut-1wip52v-StyledListItem e9an02l0"><a target="" tabindex="-1" class="e14vpv2g1 gamut-x4nxfu-ResetElement-Anchor-AnchorBase e1bhhzie0" href="/pricing" role="menuitem">For Individuals</a></li><li role="none" class="gamut-1wip52v-StyledListItem e9an02l0"><a target="" tabindex="-1" class="e14vpv2g1 gamut-x4nxfu-ResetElement-Anchor-AnchorBase e1bhhzie0" href="/student-center" role="menuitem">For Students</a></li></ul></div></li><li role="none" class="gamut-9hhgap-Box-StyledListItem eargl5z0"><a target="" tabindex="-1" class="e14vpv2g1 gamut-1pqrswb-ResetElement-Anchor-AnchorBase e1bhhzie0" href="/business" role="menuitem">For Business</a></li><li role="none" class="gamut-1jxg5g9-Box-StyledListItem eargl5z0"><button aria-label="Search Codecademy Content" data-testid="header-search" tabindex="-1" class="e1w6mdco0 gamut-jp8sb8-ResetElement-createButtonComponent e1bhhzie0" type="button" role="menuitem"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="gamut-mcjj5j-Svg eol2zvm0"><title>Search Icon</title><circle cx="9.813" cy="9.812" r="9.063" transform="rotate(-23.025 9.813 9.812)" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></circle><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M16.221 16.22l7.029 7.03"></path></svg></button></li><li role="none" class="gamut-9hhgap-Box-StyledListItem eargl5z0"><a data-testid="header-sign-in" tabindex="-1" class="e1w6mdco0 gamut-1yjqrs3-ResetElement-createButtonComponent e1bhhzie0" href="/login" role="menuitem">Log In</a></li><li role="none" class="gamut-9hhgap-Box-StyledListItem eargl5z0"><a data-testid="header-sign-up" tabindex="-1" class="e1w6mdco0 gamut-olzyk2-ResetElement-createButtonComponent e1bhhzie0" href="/register" role="menuitem">Sign Up</a></li></ul></div></nav><nav title="Mobile Navigation" class="gamut-xhgjq-Box-HeaderHeightAreaBase e1n8bpez0"><div class="wrapper__1dnPck0u33mkdYUTSOz3YZ eppx78a1 gamut-riwa8u-Box-ContentContainer-StyledAppBar e1dgn4f70"><ul role="menubar" class="gamut-6a1h4c-StyledMenuBar eppx78a0"><li role="none" class="gamut-1cm7mum-Box-StyledListItem eargl5z0"><a data-testid="header-logo" tabindex="0" class="e14vpv2g1 gamut-lh98ns-ResetElement-Anchor-AnchorBase e1bhhzie0" href="/" role="menuitem"><svg viewBox="0 0 102 21.705" class="gamut-mmsbw8-LogoSvg ektf5w70"><title>Codecademy Logo</title><g fill="none" fill-rule="nonzero"><path fill="currentColor" d="M4.213 14.896c-.192-.562-.278-1.275-.278-2.226 0-.95.086-1.664.278-2.226.513-1.599 1.86-2.485 3.637-2.485 1.326 0 2.353.54 3.06 1.404a.18.18 0 01-.022.26L9.732 10.66c-.086.066-.192.066-.256-.043-.45-.497-.9-.778-1.626-.778-.792 0-1.39.39-1.648 1.167-.128.454-.17.973-.17 1.664 0 .692.042 1.232.192 1.686.257.756.856 1.167 1.647 1.167.727 0 1.198-.28 1.626-.778.064-.086.171-.086.257-.022l1.155 1.038c.086.065.064.173.022.26-.707.842-1.734 1.382-3.06 1.382-1.775-.021-3.145-.886-3.658-2.507zm39.704 0c-.192-.562-.278-1.275-.278-2.226 0-.95.086-1.664.278-2.226.514-1.599 1.862-2.485 3.637-2.485 1.326 0 2.375.54 3.06 1.404a.18.18 0 01-.022.26l-1.155 1.037c-.086.066-.193.066-.257-.043-.45-.497-.899-.778-1.626-.778-.791 0-1.39.39-1.647 1.167-.15.454-.193.973-.193 1.664 0 .692.043 1.232.193 1.686.257.756.856 1.167 1.647 1.167.727 0 1.198-.28 1.626-.778.064-.086.171-.086.257-.022l1.155 1.038c.086.065.064.173.022.26-.707.842-1.734 1.382-3.06 1.382-1.775-.021-3.123-.886-3.637-2.507zm46.552 2.27c-.107 0-.192-.066-.192-.195v-5.187c0-1.167-.578-1.967-1.67-1.967-1.069 0-1.69.8-1.69 1.967v5.187c0 .108-.064.195-.192.195h-1.69c-.107 0-.192-.066-.192-.195v-5.187c0-1.167-.578-1.967-1.67-1.967-1.069 0-1.69.8-1.69 1.967v5.187c0 .108-.063.195-.192.195h-1.69c-.107 0-.192-.066-.192-.195V8.348c0-.108.064-.195.192-.195h1.69c.107 0 .193.065.193.195v.648h.021c.385-.562 1.155-1.037 2.332-1.037 1.048 0 1.883.432 2.418 1.189h.021c.684-.757 1.562-1.19 2.824-1.19 2.054 0 3.209 1.427 3.209 3.35v5.685c0 .108-.064.194-.193.194l-1.647-.021zm4.228 3.177c-.108 0-.193-.066-.193-.195v-1.491c0-.108.064-.194.193-.194h.32c.707 0 1.048-.325 1.327-1.06l.257-.756-3.231-8.494c-.043-.108.043-.194.15-.194h1.818c.107 0 .193.065.214.194l1.99 5.879h.043l1.904-5.879c.043-.108.107-.194.213-.194h1.733c.108 0 .193.065.15.194l-3.337 9.401c-.77 2.14-1.498 2.81-2.974 2.81l-.577-.021zm-76.93-6.009c.15-.475.192-.908.192-1.664 0-.756-.043-1.167-.192-1.664-.257-.757-.835-1.167-1.647-1.167-.813 0-1.412.432-1.669 1.167-.15.475-.193.886-.193 1.664 0 .756.043 1.189.193 1.664.257.757.835 1.167 1.669 1.167.812.022 1.39-.41 1.647-1.167zm-5.306.562c-.192-.627-.3-1.232-.3-2.226s.087-1.578.3-2.226c.492-1.578 1.84-2.485 3.637-2.485 1.776 0 3.124.907 3.615 2.485.193.627.3 1.232.3 2.226s-.086 1.578-.3 2.226c-.491 1.578-1.84 2.485-3.615 2.485-1.775 0-3.123-.907-3.637-2.485zm43.085-6.937c2.695 0 3.68.95 3.722 3.155v5.857c0 .13-.085.195-.192.195h-1.54c-.13 0-.193-.087-.193-.195v-.648h-.022c-.406.605-1.24 1.037-2.481 1.037-1.626 0-2.974-.865-2.974-2.745 0-1.945 1.348-2.853 3.53-2.853h.728c.128 0 .192.087.192.195v1.189c0 .13-.086.194-.192.194h-.407c-1.327 0-1.904.368-1.904 1.21 0 .757.535 1.124 1.519 1.124 1.262 0 1.968-.497 1.968-1.534v-3.004c-.043-.973-.535-1.405-1.968-1.405-.984 0-1.583.281-2.011.627-.086.064-.193.043-.257-.043l-.685-1.233c-.042-.086-.021-.172.043-.237.706-.54 1.67-.886 3.124-.886zm-21.66 3.803h2.502c.065 0 .108-.043.108-.108 0-.302-.043-.54-.108-.756-.235-.735-.877-1.167-1.711-1.167-.834 0-1.498.432-1.733 1.167-.021.087-.043.173-.064.28v.044c-.064.41-.086.735-.107 1.254-.003.434.033.868.107 1.296.021.13.064.26.107.39.278.885.984 1.361 1.968 1.361 1.006 0 1.626-.367 2.075-.864.086-.109.193-.109.278-.044l1.07.973c.086.065.086.173.021.26-.77.907-2.01 1.534-3.636 1.534-1.862 0-3.188-.93-3.68-2.507-.193-.584-.321-1.276-.321-2.205 0-.93.107-1.642.3-2.226.492-1.577 1.86-2.485 3.615-2.485 1.818 0 3.145.95 3.637 2.485.214.627.3 1.254.3 2.702 0 .13-.065.194-.193.194h-4.536c-.064 0-.085-.043-.085-.086v-1.405c0-.065.043-.087.085-.087zm-4.83-7.42c.107 0 .193.064.214.107v12.319c0 .13-.085.195-.192.195h-1.69c-.128 0-.193-.087-.193-.195v-.67h-.021c-.407.605-1.134 1.06-2.332 1.06-1.498 0-2.61-.714-3.06-2.162-.234-.692-.32-1.319-.32-2.529s.107-1.837.32-2.528c.45-1.427 1.52-2.14 2.996-2.161h1.262c.043.02.064.043.064.086v1.707c0 .044-.021.087-.064.087h-.727c-.792.021-1.348.432-1.583 1.167-.129.41-.193.864-.193 1.685 0 .822.064 1.276.193 1.686.235.735.812 1.146 1.625 1.146.835 0 1.412-.39 1.648-1.146a4.85 4.85 0 00.171-1.167V4.536c0-.13.085-.195.192-.195h1.69zm44.176 7.42h2.503c.064 0 .107-.043.107-.108 0-.302-.043-.54-.107-.756-.235-.735-.877-1.167-1.712-1.167-.834 0-1.497.432-1.732 1.167a5.779 5.779 0 00-.064.28v.044c-.064.41-.086.735-.107 1.254-.003.434.033.868.106 1.296.022.13.065.26.108.39.278.885.984 1.361 1.968 1.361 1.006 0 1.626-.367 2.075-.864.086-.109.193-.109.278-.044l1.07.973c.085.065.085.173.021.26-.77.907-2.011 1.534-3.637 1.534-1.86 0-3.187-.93-3.68-2.507-.192-.584-.32-1.276-.32-2.205 0-.93.107-1.642.3-2.226.491-1.577 1.86-2.485 3.614-2.485 1.819 0 3.145.95 3.638 2.485.213.627.3 1.254.3 2.702 0 .13-.065.194-.193.194h-4.536c-.064 0-.086-.043-.086-.086v-1.405c0-.065.043-.087.086-.087zm-4.829-7.42c.107 0 .193.064.236.172v12.319c0 .13-.086.194-.193.194h-1.69c-.128 0-.192-.086-.192-.194v-.67h-.022c-.428.605-1.155 1.059-2.353 1.059-1.498 0-2.61-.713-3.06-2.161-.235-.692-.32-1.34-.32-2.55 0-1.232.107-1.86.32-2.551.45-1.426 1.54-2.14 3.017-2.161h1.24c.129 0 .193.086.193.194v1.492c0 .13-.085.194-.192.194h-.727c-.792.022-1.349.433-1.584 1.167-.128.41-.192.865-.192 1.686s.064 1.275.192 1.686c.235.756.792 1.167 1.626 1.167.835 0 1.412-.41 1.648-1.167.085-.302.15-.649.17-1.167V4.536c0-.13.086-.195.193-.195h1.69zM50.078 19.534c.295 0 .357.09.357.362v1.447c0 .294-.083.362-.357.362h-5.723c-.296 0-.358-.09-.358-.362v-1.447c0-.295.052-.362.358-.362h5.723zM0 .362C0 .109.043.043 0 0h42.208c.23 0 .272.022.358 0v21.344c0 .231-.021.275 0 .362-.086-.022-.129 0-.358 0H0v-.002l.007-.028c.006-.037-.002-.053-.006-.012L0 21.69V.361zm2.146 19.173H40.42c-.043-.043 0-.107 0-.362V2.171H2.146v17.364z"></path></g></svg></a></li><li role="none" class="gamut-17f3ssg-Box-StyledListItem eargl5z0"><a data-testid="header-sign-in" tabindex="-1" class="e1w6mdco0 gamut-kw6tlj-ResetElement-createButtonComponent e1bhhzie0" href="/login" role="menuitem">Log In</a></li><li role="none" class="gamut-1cm7mum-Box-StyledListItem eargl5z0"><a data-testid="header-sign-up" tabindex="-1" class="e1w6mdco0 gamut-yv5r9n-ResetElement-createButtonComponent e1bhhzie0" href="/register" role="menuitem">Sign Up</a></li><li role="none" class="gamut-131si6e-Box-StyledListItem eargl5z0"><button data-testid="header-mobile-menu" aria-label="open navigation menu" class="e1w6mdco0 gamut-jp8sb8-ResetElement-createButtonComponent e1bhhzie0" type="button" role="button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="gamut-mcjj5j-Svg eol2zvm0"><title>Menu Icon</title><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M2.25 18.003h19.5m-19.5-6h19.5m-19.5-6h19.5"></path></svg></button></li></ul></div></nav></header><div id="page-skip-to-content-target" tabindex="-1" data-testid="skip-to-content-target" class="gamut-1slall7-SkipToContentTarget-SkipToContentTarget-SkipToContentTarget e1ojr4z30"></div><div class="gamut-otnx7u-AppWrapper e123k1yw0"><div class="gamut-otnx7u-AppWrapper e123k1yw0"><div class="fullPage__26aU0gfpV0SyClsB4BZf51 flex__3Bn8_xPP40dn7KC2irK0j0 align-center__13CiCBy3n3ENVo-Pcg6-GQ justify-center__itqEVc69KPEP50Vnp_sOH"><div class=""><svg class="loading__313xsVv6Ko8oPIdYo4RT3E" data-testid="loading" xmlns="https://www.w3.org/2000/svg" width="123" height="98.7" viewBox="0 0 123 98.7"><title>Loading Icon</title><path class="path__EFk0p2xkpk6dQsI86xY8B c__1d2Art6L_Ffl5IR0zDyWZ7" stroke="var(--color-gray-300)" fill="none" stroke-miterlimit="10" d="M18.7 57.6c0 4.2.4 7.4 1.2 9.8 2.3 7.1 8.4 11 16.3 11 5.9 0 10.6-2.4 13.7-6.1.2-.4.3-.8-.1-1.2l-5.2-4.5c-.4-.3-.8-.3-1.2.1-2 2.2-4 3.5-7.3 3.5-3.5 0-6.2-1.7-7.4-5.1-.7-2-.8-4.4-.8-7.4 0-3.1.2-5.4.8-7.4 1.1-3.5 3.9-5.2 7.4-5.2 3.3 0 5.3 1.2 7.3 3.5.3.4.7.5 1.2.2l5.2-4.5c.4-.3.3-.8.1-1.2-3.1-3.8-7.8-6.2-13.7-6.2-7.9 0-14 3.9-16.3 11-.8 2.3-1.2 5.5-1.2 9.7"></path><path class="path__EFk0p2xkpk6dQsI86xY8B underline__3s7ePbU2JEcw4lONKClRZU" stroke="var(--color-gray-300)" fill="none" stroke-miterlimit="10" d="M120.7 97.2c.5 0 .8-.3.8-.8v-7.5c0-.5-.3-.8-.8-.8h-28c-.5 0-.8.3-.8.8v7.5c0 .5.3.8.8.8h28"></path><path class="path__EFk0p2xkpk6dQsI86xY8B outer__SuzjEMHyG4OpQxIszCbJp" stroke="var(--color-gray-300)" fill="none" stroke-miterlimit="10" d="M42.7 1.5H2.1 2c-.3.2-.5.5-.5.8v94c0 .3.1.5.3.7.1.1.3.1.5.1h80.8c.3 0 .5-.1.6-.3.1-.1.2-.3.2-.5v-94c0-.2-.1-.4-.2-.6-.1-.1-.3-.2-.6-.2H42.7"></path><path class="path__EFk0p2xkpk6dQsI86xY8B inner__3xNTjr9h_d6fk-V-pSkWAG" stroke="var(--color-gray-300)" fill="none" stroke-miterlimit="10" d="M42.7 88H11.3h-.1c-.3-.1-.5-.4-.5-.7V11.5c0-.4.2-.6.5-.8h63.1c.3.1.5.4.5.8v75.7c0 .4-.2.6-.5.7H42.7"></path><path class="pathTwo__1kjIPfYgMbGtcPpmqVD71A c__1d2Art6L_Ffl5IR0zDyWZ7" stroke="var(--color-blue-800)" fill="none" stroke-width="3" stroke-miterlimit="10" d="M18.7 57.6c0 4.2.4 7.4 1.2 9.8 2.3 7.1 8.4 11 16.3 11 5.9 0 10.6-2.4 13.7-6.1.2-.4.3-.8-.1-1.2l-5.2-4.5c-.4-.3-.8-.3-1.2.1-2 2.2-4 3.5-7.3 3.5-3.5 0-6.2-1.7-7.4-5.1-.7-2-.8-4.4-.8-7.4 0-3.1.2-5.4.8-7.4 1.1-3.5 3.9-5.2 7.4-5.2 3.3 0 5.3 1.2 7.3 3.5.3.4.7.5 1.2.2l5.2-4.5c.4-.3.3-.8.1-1.2-3.1-3.8-7.8-6.2-13.7-6.2-7.9 0-14 3.9-16.3 11-.8 2.3-1.2 5.5-1.2 9.7"></path><path class="pathTwo__1kjIPfYgMbGtcPpmqVD71A underline__3s7ePbU2JEcw4lONKClRZU" stroke="var(--color-blue-800)" fill="none" stroke-width="3" stroke-miterlimit="10" d="M120.7 97.2c.5 0 .8-.3.8-.8v-7.5c0-.5-.3-.8-.8-.8h-28c-.5 0-.8.3-.8.8v7.5c0 .5.3.8.8.8h28"></path><path class="pathTwo__1kjIPfYgMbGtcPpmqVD71A outer__SuzjEMHyG4OpQxIszCbJp" stroke="var(--color-blue-800)" fill="none" stroke-width="3" stroke-miterlimit="10" d="M42.7 1.5H2.1 2c-.3.2-.5.5-.5.8v94c0 .3.1.5.3.7.1.1.3.1.5.1h80.8c.3 0 .5-.1.6-.3.1-.1.2-.3.2-.5v-94c0-.2-.1-.4-.2-.6-.1-.1-.3-.2-.6-.2H42.7"></path><path class="pathTwo__1kjIPfYgMbGtcPpmqVD71A inner__3xNTjr9h_d6fk-V-pSkWAG" stroke="var(--color-blue-800)" fill="none" stroke-width="3" stroke-miterlimit="10" d="M42.7 88H11.3h-.1c-.3-.1-.5-.4-.5-.7V11.5c0-.4.2-.6.5-.8h63.1c.3.1.5.4.5.8v75.7c0 .4-.2.6-.5.7H42.7"></path></svg></div></div></div><div style="opacity:1;left:0px"><div class="gamut-w0w3ov-FlexBox-OuterBox e1pwtrqv1"><div class="gamut-1hctfgq-Box-InnerBox e1pwtrqv0"></div><div class="gamut-1hctfgq-Box-InnerBox e1pwtrqv0"></div></div></div></div><footer class="gamut-gdf8jv-FooterContainer e1mgdsdy0" role="contentinfo"><div class="gamut-3a1jmv-Box-ContentContainer e1dgn4f70"><div class="gamut-r98xii-LayoutGrid-FooterNavLinksGrid ebedupr0"><div class="gamut-7d3xgk-Column e1y0e4q30"><div class="gamut-1l8m389-GridBox e13vpdv0"><div class="gamut-1efsrtw-Box ebnwbv90"><h2 class="gamut-126nnrg-Text-FooterHeading e1dtfyug0">Company</h2><ul class="gamut-ve936v-Box-FooterLinkItems e14jx4vs1"><li class="gamut-1suzlqi-FooterLinkItem e14jx4vs0"><a class="e14vpv2g1 gamut-1ssowio-ResetElement-Anchor-AnchorBase e1bhhzie0" href="/about">About</a></li><li class="gamut-1suzlqi-FooterLinkItem e14jx4vs0"><a class="e14vpv2g1 gamut-1ssowio-ResetElement-Anchor-AnchorBase e1bhhzie0" href="/about/careers">Careers</a></li><li class="gamut-1suzlqi-FooterLinkItem e14jx4vs0"><a class="e14vpv2g1 gamut-1ssowio-ResetElement-Anchor-AnchorBase e1bhhzie0" href="/pages/codecademy-affiliate-program">Affiliates</a></li><li class="gamut-1suzlqi-FooterLinkItem e14jx4vs0"><ul aria-label="Social Media" class="gamut-ve936v-Box-FooterLinkItems e14jx4vs1"><li class="gamut-1grh0nu-Box ebnwbv90"><a aria-label="Follow us on Twitter" rel="noopener noreferrer" target="_blank" class="e14vpv2g1 gamut-vpiljb-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://twitter.com/Codecademy"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><title>Twitter Icon</title><path fill="currentColor" d="M16 3c-.6.3-1.2.4-1.9.5.7-.4 1.2-1 1.4-1.8-.6.4-1.3.6-2.1.8-.6-.6-1.5-1-2.4-1-1.7 0-3.2 1.5-3.2 3.3 0 .3 0 .5.1.8-2.7-.2-5.2-1.5-6.8-3.5-.3.5-.4 1.1-.4 1.6 0 1.1.6 2.1 1.5 2.7-.5 0-1-.2-1.5-.4 0 1.6 1.1 2.9 2.6 3.2-.3.2-.6.2-.9.2-.2 0-.4 0-.6-.1.4 1.3 1.6 2.3 3.1 2.3-1.1.9-2.5 1.4-4.1 1.4H0c1.5.9 3.2 1.5 5 1.5 6 0 9.3-5 9.3-9.3v-.4C15 4.3 15.6 3.7 16 3z"></path></svg></a></li><li class="gamut-1grh0nu-Box ebnwbv90"><a aria-label="Like us on Facebook" rel="noopener noreferrer" target="_blank" class="e14vpv2g1 gamut-vpiljb-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://codecademy.com/users/redirect?redirect_url=https://www.facebook.com/groups/codecademy.community"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><title>Facebook Icon</title><path fill="currentColor" d="M6.1 16V8.5h-2V5.8h2V3.5C6.1 1.7 7.3 0 10 0c1.1 0 1.9.1 1.9.1l-.1 2.5h-1.7C9.1 2.6 9 3 9 3.8v2h2.9l-.1 2.7H8.9V16H6.1z"></path></svg></a></li><li class="gamut-1grh0nu-Box ebnwbv90"><a aria-label="Follow us on Instagram" rel="noopener noreferrer" target="_blank" class="e14vpv2g1 gamut-vpiljb-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://instagram.com/codecademy"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><title>Instagram Icon</title><path fill="currentColor" d="M14 16H2c-1.1 0-2-.9-2-2V2C0 .9.9 0 2 0h12c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2zM8 4.9c-1.2 0-2.3.7-2.8 1.8 0 .1-.1.1-.1.2V7c-.1.1-.1.2-.1.2v.7C5 9.6 6.4 11 8.1 11s3.1-1.4 3.1-3.1v-.7s0-.1-.1-.2v-.1c0-.1-.1-.1-.1-.2-.7-1.1-1.8-1.8-3-1.8zm6.2-2.3c0-.4-.4-.8-.8-.8h-1.6c-.4 0-.8.4-.8.8v1.6c0 .4.4.8.8.8h1.6c.4 0 .8-.4.8-.8V2.6zm0 4.1h-1.5c.1.4.2.8.2 1.3 0 2.7-2.2 4.9-4.9 4.9S3.1 10.7 3.1 8c0-.5.1-.9.2-1.3H1.8v6.7c0 .4.4.8.8.8h10.8c.4 0 .8-.4.8-.8V6.7z"></path></svg></a></li><li class="gamut-1grh0nu-Box ebnwbv90"><a aria-label="Subscribe to Codecademy on YouTube" rel="noopener noreferrer" target="_blank" class="e14vpv2g1 gamut-vpiljb-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://www.youtube.com/channel/UC5CMtpogD_P3mOoeiDHD5eQ"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" aria-hidden="true" class="gamut-sd6ku5-Svg eol2zvm0"><title>Youtube Icon</title><path d="M5.9 5.12v4.26a.75.75 0 001.5 0V5.12l2.85-3.8A.75.75 0 109 .42l-2.4 3.2L4.25.42a.75.75 0 10-1.2.9zm3.55-.24v3a2.25 2.25 0 004.5 0v-3a2.25 2.25 0 10-4.5 0zm1.5 0a.75.75 0 111.5 0v3a.75.75 0 01-1.5 0zm4.86 4.44a2.73 2.73 0 001.94.8 2.72 2.72 0 001.36-.38.74.74 0 00.64.38.75.75 0 00.75-.75v-6a.75.75 0 00-1.5 0v4a1.25 1.25 0 01-1.25 1.25 1.25 1.25 0 01-1.25-1.25v-4a.75.75 0 10-1.5 0v4a2.73 2.73 0 00.81 1.95zm2.69 8.05a.5.5 0 00-1 0v.5h1zm-4.5-.5a.5.5 0 00-.5.5v2a.5.5 0 001 0v-2a.5.5 0 00-.5-.5z"></path><path d="M19 11.87H5a4.5 4.5 0 00-4.5 4.5v3a4.5 4.5 0 004.5 4.5h14a4.5 4.5 0 004.5-4.5v-3a4.5 4.5 0 00-4.5-4.5zm-11 4H6.5v4.48a.5.5 0 01-1 0v-4.48H4a.5.5 0 010-1h4a.5.5 0 110 1zm3.48 3.5v1a.5.5 0 01-.86.35 1.48 1.48 0 01-.64.15 1.5 1.5 0 01-1.5-1.5v-3a.5.5 0 011 0v3a.5.5 0 001 0v-3a.5.5 0 011 0zm4 0a1.5 1.5 0 01-1.5 1.5 1.48 1.48 0 01-.66-.16.5.5 0 01-.84-.36v-6a.5.5 0 011 0V16a1.48 1.48 0 01.5-.09 1.5 1.5 0 011.5 1.5zm2.59 1.5a1.69 1.69 0 01-1.59-1.62v-1.88a1.5 1.5 0 013 0v1a.5.5 0 01-.5.5H17.5v.38a.7.7 0 00.59.62c.23 0 .59-.1.59-.37a.5.5 0 011 0 1.46 1.46 0 01-1.59 1.37z"></path></svg></a></li></ul></li></ul></div><div class="gamut-1efsrtw-Box ebnwbv90"><h2 class="gamut-126nnrg-Text-FooterHeading e1dtfyug0">Resources</h2><ul class="gamut-ve936v-Box-FooterLinkItems e14jx4vs1"><li class="gamut-1suzlqi-FooterLinkItem e14jx4vs0"><a target="" class="e14vpv2g1 gamut-1ssowio-ResetElement-Anchor-AnchorBase e1bhhzie0" href="/projects">Projects</a></li><li class="gamut-1suzlqi-FooterLinkItem e14jx4vs0"><a target="" class="e14vpv2g1 gamut-1ssowio-ResetElement-Anchor-AnchorBase e1bhhzie0" href="/code-challenges">Challenges</a></li><li class="gamut-1suzlqi-FooterLinkItem e14jx4vs0"><a target="" class="e14vpv2g1 gamut-1ssowio-ResetElement-Anchor-AnchorBase e1bhhzie0" href="/resources/docs">Docs</a></li><li class="gamut-1suzlqi-FooterLinkItem e14jx4vs0"><a target="" class="e14vpv2g1 gamut-1ssowio-ResetElement-Anchor-AnchorBase e1bhhzie0" href="/resources/cheatsheets/all">Cheatsheets</a></li><li class="gamut-1suzlqi-FooterLinkItem e14jx4vs0"><a target="" class="e14vpv2g1 gamut-1ssowio-ResetElement-Anchor-AnchorBase e1bhhzie0" href="/articles">Articles</a></li><li class="gamut-1suzlqi-FooterLinkItem e14jx4vs0"><a target="" class="e14vpv2g1 gamut-1ssowio-ResetElement-Anchor-AnchorBase e1bhhzie0" href="/resources/videos">Videos</a></li><li class="gamut-1suzlqi-FooterLinkItem e14jx4vs0"><a target="_blank" class="e14vpv2g1 gamut-1ssowio-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://codecademy.com/resources/blog">Blog</a></li><li class="gamut-1suzlqi-FooterLinkItem e14jx4vs0"><a target="" class="e14vpv2g1 gamut-1ssowio-ResetElement-Anchor-AnchorBase e1bhhzie0" href="/pages/career-center">Career Center</a></li></ul></div><div class="gamut-5ni28p-Box ebnwbv90"><h2 class="gamut-126nnrg-Text-FooterHeading e1dtfyug0">Support</h2><ul class="gamut-ve936v-Box-FooterLinkItems e14jx4vs1"><li class="gamut-1suzlqi-FooterLinkItem e14jx4vs0"><a class="e14vpv2g1 gamut-1ssowio-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://help.codecademy.com">Help Center</a></li></ul></div><div class="gamut-1efsrtw-Box ebnwbv90"><h2 class="gamut-126nnrg-Text-FooterHeading e1dtfyug0">Community</h2><ul class="gamut-ve936v-Box-FooterLinkItems e14jx4vs1"><li class="gamut-1suzlqi-FooterLinkItem e14jx4vs0"><a class="e14vpv2g1 gamut-1ssowio-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://discuss.codecademy.com">Forums</a></li><li class="gamut-1suzlqi-FooterLinkItem e14jx4vs0"><a class="e14vpv2g1 gamut-1ssowio-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://community.codecademy.com/chapters">Chapters</a></li><li class="gamut-1suzlqi-FooterLinkItem e14jx4vs0"><a class="e14vpv2g1 gamut-1ssowio-ResetElement-Anchor-AnchorBase e1bhhzie0" href="/events">Events</a></li><li class="gamut-1suzlqi-FooterLinkItem e14jx4vs0"><a class="e14vpv2g1 gamut-1ssowio-ResetElement-Anchor-AnchorBase e1bhhzie0" href="/learner-stories">Learner Stories</a></li></ul></div><div class="gamut-1efsrtw-Box ebnwbv90"><h2 class="gamut-126nnrg-Text-FooterHeading e1dtfyug0">Individual Plans</h2><ul class="gamut-ve936v-Box-FooterLinkItems e14jx4vs1"><li class="gamut-1suzlqi-FooterLinkItem e14jx4vs0"><a class="e14vpv2g1 gamut-1ssowio-ResetElement-Anchor-AnchorBase e1bhhzie0" href="/pro/membership">Pro Membership</a></li><li class="gamut-1suzlqi-FooterLinkItem e14jx4vs0"><a class="e14vpv2g1 gamut-1ssowio-ResetElement-Anchor-AnchorBase e1bhhzie0" href="/student-center">For Students</a></li></ul></div><div class="gamut-1efsrtw-Box ebnwbv90"><h2 class="gamut-v74lgd-Text-FooterHeading e1dtfyug0">Enterprise Plans</h2><ul class="gamut-ve936v-Box-FooterLinkItems e14jx4vs1"><li class="gamut-1suzlqi-FooterLinkItem e14jx4vs0"><a class="e14vpv2g1 gamut-1ssowio-ResetElement-Anchor-AnchorBase e1bhhzie0" href="/business">For Business</a></li></ul></div><div class="gamut-1htlgvz-Box ebnwbv90"><h2 class="gamut-1uo0w30-Text-FooterHeading e1dtfyug0">Mobile</h2><ul class="gamut-3y8pr1-Box-FooterLinkItems e14jx4vs1"><li class="gamut-xiov64-Box-MobileImageItem ese2wcm1"><a target="_blank" rel="noopener" class="ese2wcm0 gamut-k7y38v-ResetElement-Anchor-AnchorBase-MobileImageLink e1bhhzie0" href="https://itunes.apple.com/us/app/codecademy-go/id1376029326"><img alt="Download on the App Store" height="calc(40px + 1rem)" src="/webpack/88f2b695da0acbecad60ed9ea386b6b5.svg" width="calc(120px + 1.5rem)"/></a></li><li class="gamut-xiov64-Box-MobileImageItem ese2wcm1"><a target="_blank" rel="noopener" class="ese2wcm0 gamut-k7y38v-ResetElement-Anchor-AnchorBase-MobileImageLink e1bhhzie0" href="https://play.google.com/store/apps/details?id=com.ryzac.codecademygo"><img alt="Get it on Google Play" height="calc(40px + 1rem)" src="/webpack/c2cb3310b4be600e8b5974fb025e84f1.png" width="calc(133px + 1.5rem)"/></a></li></ul></div><div class="gamut-1n1j9zi-Box ebnwbv90"><h2 class="gamut-126nnrg-Text-FooterHeading e1dtfyug0">Support</h2><ul class="gamut-ve936v-Box-FooterLinkItems e14jx4vs1"><li class="gamut-1suzlqi-FooterLinkItem e14jx4vs0"><a class="e14vpv2g1 gamut-1ssowio-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://help.codecademy.com">Help Center</a></li></ul></div></div></div><div class="gamut-7d3xgk-Column e1y0e4q30"><div class="gamut-19cjgpb-CatalogLinksContainer e662mk52"><h2 class="gamut-126nnrg-Text-FooterHeading e1dtfyug0">Course Catalog</h2><div class="gamut-11tw806-Box ebnwbv90"><div class="gamut-15rmtb8-Box ebnwbv90"><h3 class="gamut-13hprmi-Text-FooterSubHeading e1cp9k1d0">Languages</h3><ul class="gamut-17y66rx-Box-FooterLinkItems-CatalogLinkArea e662mk51"><li class="gamut-1aj6u0o-FooterLinkItem-CatalogFooterLinkItem e662mk50"><a class="e14vpv2g1 gamut-1ssowio-ResetElement-Anchor-AnchorBase e1bhhzie0" href="/catalog/language/html-css">HTML &amp; CSS</a></li><li class="gamut-1aj6u0o-FooterLinkItem-CatalogFooterLinkItem e662mk50"><a class="e14vpv2g1 gamut-1ssowio-ResetElement-Anchor-AnchorBase e1bhhzie0" href="/catalog/language/python">Python</a></li><li class="gamut-1aj6u0o-FooterLinkItem-CatalogFooterLinkItem e662mk50"><a class="e14vpv2g1 gamut-1ssowio-ResetElement-Anchor-AnchorBase e1bhhzie0" href="/catalog/language/javascript">JavaScript</a></li><li class="gamut-1aj6u0o-FooterLinkItem-CatalogFooterLinkItem e662mk50"><a class="e14vpv2g1 gamut-1ssowio-ResetElement-Anchor-AnchorBase e1bhhzie0" href="/catalog/language/java">Java</a></li><li class="gamut-1aj6u0o-FooterLinkItem-CatalogFooterLinkItem e662mk50"><a class="e14vpv2g1 gamut-1ssowio-ResetElement-Anchor-AnchorBase e1bhhzie0" href="/catalog/language/sql">SQL</a></li><li class="gamut-1aj6u0o-FooterLinkItem-CatalogFooterLinkItem e662mk50"><a class="e14vpv2g1 gamut-1ssowio-ResetElement-Anchor-AnchorBase e1bhhzie0" href="/catalog/language/bash">Bash/Shell</a></li><li class="gamut-1aj6u0o-FooterLinkItem-CatalogFooterLinkItem e662mk50"><a class="e14vpv2g1 gamut-1ssowio-ResetElement-Anchor-AnchorBase e1bhhzie0" href="/catalog/language/ruby">Ruby</a></li><li class="gamut-1aj6u0o-FooterLinkItem-CatalogFooterLinkItem e662mk50"><a class="e14vpv2g1 gamut-1ssowio-ResetElement-Anchor-AnchorBase e1bhhzie0" href="/catalog/language/c-plus-plus">C++</a></li><li class="gamut-1aj6u0o-FooterLinkItem-CatalogFooterLinkItem e662mk50"><a class="e14vpv2g1 gamut-1ssowio-ResetElement-Anchor-AnchorBase e1bhhzie0" href="/catalog/language/r">R</a></li><li class="gamut-1aj6u0o-FooterLinkItem-CatalogFooterLinkItem e662mk50"><a class="e14vpv2g1 gamut-1ssowio-ResetElement-Anchor-AnchorBase e1bhhzie0" href="/catalog/language/c-sharp">C#</a></li><li class="gamut-1aj6u0o-FooterLinkItem-CatalogFooterLinkItem e662mk50"><a class="e14vpv2g1 gamut-1ssowio-ResetElement-Anchor-AnchorBase e1bhhzie0" href="/catalog/language/php">PHP</a></li><li class="gamut-1aj6u0o-FooterLinkItem-CatalogFooterLinkItem e662mk50"><a class="e14vpv2g1 gamut-1ssowio-ResetElement-Anchor-AnchorBase e1bhhzie0" href="/catalog/language/go">Go</a></li><li class="gamut-1aj6u0o-FooterLinkItem-CatalogFooterLinkItem e662mk50"><a class="e14vpv2g1 gamut-1ssowio-ResetElement-Anchor-AnchorBase e1bhhzie0" href="/catalog/language/swift">Swift</a></li><li class="gamut-1aj6u0o-FooterLinkItem-CatalogFooterLinkItem e662mk50"><a class="e14vpv2g1 gamut-1ssowio-ResetElement-Anchor-AnchorBase e1bhhzie0" href="/catalog/language/kotlin">Kotlin</a></li></ul></div><div class="gamut-41j7uy-Box ebnwbv90"><h3 class="gamut-13hprmi-Text-FooterSubHeading e1cp9k1d0">Subjects</h3><ul class="gamut-1uo4pga-Box-FooterLinkItems-CatalogLinkArea e662mk51"><li class="gamut-1aj6u0o-FooterLinkItem-CatalogFooterLinkItem e662mk50"><a class="e14vpv2g1 gamut-1ssowio-ResetElement-Anchor-AnchorBase e1bhhzie0" href="/catalog/subject/web-development">Web Development</a></li><li class="gamut-1aj6u0o-FooterLinkItem-CatalogFooterLinkItem e662mk50"><a class="e14vpv2g1 gamut-1ssowio-ResetElement-Anchor-AnchorBase e1bhhzie0" href="/catalog/subject/data-science">Data Science</a></li><li class="gamut-1aj6u0o-FooterLinkItem-CatalogFooterLinkItem e662mk50"><a class="e14vpv2g1 gamut-1ssowio-ResetElement-Anchor-AnchorBase e1bhhzie0" href="/catalog/subject/computer-science">Computer Science</a></li><li class="gamut-1aj6u0o-FooterLinkItem-CatalogFooterLinkItem e662mk50"><a class="e14vpv2g1 gamut-1ssowio-ResetElement-Anchor-AnchorBase e1bhhzie0" href="/catalog/subject/developer-tools">Developer Tools</a></li><li class="gamut-1aj6u0o-FooterLinkItem-CatalogFooterLinkItem e662mk50"><a class="e14vpv2g1 gamut-1ssowio-ResetElement-Anchor-AnchorBase e1bhhzie0" href="/catalog/subject/machine-learning">Machine Learning</a></li><li class="gamut-1aj6u0o-FooterLinkItem-CatalogFooterLinkItem e662mk50"><a class="e14vpv2g1 gamut-1ssowio-ResetElement-Anchor-AnchorBase e1bhhzie0" href="/catalog/subject/code-foundations">Code Foundations</a></li><li class="gamut-1aj6u0o-FooterLinkItem-CatalogFooterLinkItem e662mk50"><a class="e14vpv2g1 gamut-1ssowio-ResetElement-Anchor-AnchorBase e1bhhzie0" href="/catalog/subject/web-design">Web Design</a></li><li aria-hidden="true" class="gamut-1aj6u0o-FooterLinkItem-CatalogFooterLinkItem e662mk50">—</li><li class="gamut-1aj6u0o-FooterLinkItem-CatalogFooterLinkItem e662mk50"><a class="e14vpv2g1 gamut-1ssowio-ResetElement-Anchor-AnchorBase e1bhhzie0" href="/catalog/all">Full Catalog</a></li><li class="gamut-1aj6u0o-FooterLinkItem-CatalogFooterLinkItem e662mk50"><a class="e14vpv2g1 gamut-1ssowio-ResetElement-Anchor-AnchorBase e1bhhzie0" href="/catalog/subject/beta">Beta Content</a></li><li class="gamut-1aj6u0o-FooterLinkItem-CatalogFooterLinkItem e662mk50"><a class="e14vpv2g1 gamut-1ssowio-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://trello.com/b/vAgDXtT6/codecademy-releases-roadmap">Roadmap</a></li></ul></div><div class="gamut-bk5xit-Box ebnwbv90"><h3 class="gamut-13hprmi-Text-FooterSubHeading e1cp9k1d0">Languages</h3><ul class="gamut-17y66rx-Box-FooterLinkItems-CatalogLinkArea e662mk51"><li class="gamut-1aj6u0o-FooterLinkItem-CatalogFooterLinkItem e662mk50"><a class="e14vpv2g1 gamut-1ssowio-ResetElement-Anchor-AnchorBase e1bhhzie0" href="/catalog/language/html-css">HTML &amp; CSS</a></li><li class="gamut-1aj6u0o-FooterLinkItem-CatalogFooterLinkItem e662mk50"><a class="e14vpv2g1 gamut-1ssowio-ResetElement-Anchor-AnchorBase e1bhhzie0" href="/catalog/language/python">Python</a></li><li class="gamut-1aj6u0o-FooterLinkItem-CatalogFooterLinkItem e662mk50"><a class="e14vpv2g1 gamut-1ssowio-ResetElement-Anchor-AnchorBase e1bhhzie0" href="/catalog/language/javascript">JavaScript</a></li><li class="gamut-1aj6u0o-FooterLinkItem-CatalogFooterLinkItem e662mk50"><a class="e14vpv2g1 gamut-1ssowio-ResetElement-Anchor-AnchorBase e1bhhzie0" href="/catalog/language/java">Java</a></li><li class="gamut-1aj6u0o-FooterLinkItem-CatalogFooterLinkItem e662mk50"><a class="e14vpv2g1 gamut-1ssowio-ResetElement-Anchor-AnchorBase e1bhhzie0" href="/catalog/language/sql">SQL</a></li><li class="gamut-1aj6u0o-FooterLinkItem-CatalogFooterLinkItem e662mk50"><a class="e14vpv2g1 gamut-1ssowio-ResetElement-Anchor-AnchorBase e1bhhzie0" href="/catalog/language/bash">Bash/Shell</a></li><li class="gamut-1aj6u0o-FooterLinkItem-CatalogFooterLinkItem e662mk50"><a class="e14vpv2g1 gamut-1ssowio-ResetElement-Anchor-AnchorBase e1bhhzie0" href="/catalog/language/ruby">Ruby</a></li><li class="gamut-1aj6u0o-FooterLinkItem-CatalogFooterLinkItem e662mk50"><a class="e14vpv2g1 gamut-1ssowio-ResetElement-Anchor-AnchorBase e1bhhzie0" href="/catalog/language/c-plus-plus">C++</a></li><li class="gamut-1aj6u0o-FooterLinkItem-CatalogFooterLinkItem e662mk50"><a class="e14vpv2g1 gamut-1ssowio-ResetElement-Anchor-AnchorBase e1bhhzie0" href="/catalog/language/r">R</a></li><li class="gamut-1aj6u0o-FooterLinkItem-CatalogFooterLinkItem e662mk50"><a class="e14vpv2g1 gamut-1ssowio-ResetElement-Anchor-AnchorBase e1bhhzie0" href="/catalog/language/c-sharp">C#</a></li><li class="gamut-1aj6u0o-FooterLinkItem-CatalogFooterLinkItem e662mk50"><a class="e14vpv2g1 gamut-1ssowio-ResetElement-Anchor-AnchorBase e1bhhzie0" href="/catalog/language/php">PHP</a></li><li class="gamut-1aj6u0o-FooterLinkItem-CatalogFooterLinkItem e662mk50"><a class="e14vpv2g1 gamut-1ssowio-ResetElement-Anchor-AnchorBase e1bhhzie0" href="/catalog/language/go">Go</a></li><li class="gamut-1aj6u0o-FooterLinkItem-CatalogFooterLinkItem e662mk50"><a class="e14vpv2g1 gamut-1ssowio-ResetElement-Anchor-AnchorBase e1bhhzie0" href="/catalog/language/swift">Swift</a></li><li class="gamut-1aj6u0o-FooterLinkItem-CatalogFooterLinkItem e662mk50"><a class="e14vpv2g1 gamut-1ssowio-ResetElement-Anchor-AnchorBase e1bhhzie0" href="/catalog/language/kotlin">Kotlin</a></li></ul></div></div></div></div></div></div><div class="gamut-3a1jmv-Box-ContentContainer e1dgn4f70"><div class="gamut-13u8tr2-LegalLocalContainer ebgfpqa0"><ul aria-label="Legal" role="list" class="gamut-106htmh-LinksList ez6q0cs1"><li class="gamut-1s19zy9-LinksItem ez6q0cs0"><a class="e14vpv2g1 gamut-1ssowio-ResetElement-Anchor-AnchorBase e1bhhzie0" href="/policy">Privacy Policy</a></li><li class="gamut-1s19zy9-LinksItem ez6q0cs0"><a class="e14vpv2g1 gamut-1ssowio-ResetElement-Anchor-AnchorBase e1bhhzie0" href="/cookie-policy">Cookie Policy</a></li><li class="gamut-1s19zy9-LinksItem ez6q0cs0"><a class="e14vpv2g1 gamut-1ssowio-ResetElement-Anchor-AnchorBase e1bhhzie0" href="https://privacy.codecademy.com">Do Not Sell My Personal Information</a></li><li class="gamut-1s19zy9-LinksItem ez6q0cs0"><a class="e14vpv2g1 gamut-1ssowio-ResetElement-Anchor-AnchorBase e1bhhzie0" href="/terms">Terms</a></li></ul><div class="gamut-1uhb0se-Box ebnwbv90"><button class="e14vpv2g1 gamut-1ssowio-ResetElement-Anchor-AnchorBase e1bhhzie0" type="button" role="button">Made</button> <!-- -->with<button class="eaw4eyk0 gamut-1z13drh-ResetElement-Anchor-AnchorBase-HeartContainer e1bhhzie0" type="button" role="button">️❤️</button>in<!-- --> <button class="e14vpv2g1 gamut-1ssowio-ResetElement-Anchor-AnchorBase e1bhhzie0" type="button" role="button">NYC</button> <!-- -->©<!-- --> 2022 <button class="e14vpv2g1 gamut-1ssowio-ResetElement-Anchor-AnchorBase e1bhhzie0" type="button" role="button">Codecademy</button></div></div></div></footer></div></div></div>
 
-                    </div>
-                    <p class="card-text align-left mbr-fonts-style pt-4 mb-0 display-7">Lorem ipsum dolor sit amet, consectetur
-                        adipiscing elit. Curabitur id libero.</p>
-                    <h6 class="card-link align-left mbr-fonts-style pt-3 display-7"><a href="#" class="text-success">Read More</a></h6>
-                </div>
-            </div>
-            <div class="card col-12 col-md-6 md-pb col-lg-4">
-                <div class="card-wrapper">
-                    <div class="card-box align-center">
-                        <div class="iconfont-wrapper">
-                            <span class="mbr-iconfont mobi-mbri-touch mobi-mbri"></span>
-                        </div>
-                        <h5 class="card-title align-left mbr-fonts-style m-0 p-0 display-5"><strong>Testing</strong></h5>
 
-                    </div>
-                    <p class="card-text align-left mbr-fonts-style pt-4 mb-0 display-7">Lorem ipsum dolor sit amet, consectetur
-                        adipiscing elit. Curabitur id libero.</p>
-                    <h6 class="card-link align-left mbr-fonts-style pt-3 display-7"><a href="#" class="text-success">Read More</a></h6>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+      
 
-<section class="team1 cid-st2KPSL23H" id="team01-7">
-    
-    
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-12 mb-5">
-                <p class="mbr-section-subtitle mbr-fonts-style align-center mb-2 display-7"><strong>
-                        Experts
-                    </strong></p>
-                <h3 class="mbr-section-title mbr-fonts-style align-center mb-2 display-1"><strong>Our Team Members</strong></h3>
-            </div>
-            <div class="col-sm-6 col-lg-3">
-                <div class="card-wrap">
-                    <div class="image-wrap">
-                        <img src="assets/images/team1.jpg">
-                    </div>
-                    <div class="content-wrap">
-                        <h5 class="mbr-section-title card-title mbr-fonts-style align-center m-0 display-5">
-                            <strong>John Smith</strong>
-                        </h5>
-                        <h6 class="mbr-role mbr-fonts-style align-center mb-3 display-4">
-                            Programmer
-                        </h6>
-                        
-                        <div class="social-row display-7">
-                            <div class="soc-item">
-                                <a href="https://www.facebook.com/Mobirise/" target="_blank">
-                                    <span class="mbr-iconfont socicon socicon-facebook"></span>
-                                </a>
-                            </div>
-                            <div class="soc-item">
-                                <a href="https://twitter.com/mobirise" target="_blank">
-                                    <span class="mbr-iconfont socicon socicon-twitter"></span>
-                                </a>
-                            </div>
-                            <div class="soc-item">
-                                <a href="https://instagram.com/mobirise" target="_blank">
-                                    <span class="mbr-iconfont socicon socicon-instagram"></span>
-                                </a>
-                            </div>
-                            
-                            
-                        </div>
-                        
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-6 col-lg-3">
-                <div class="card-wrap">
-                    <div class="image-wrap">
-                        <img src="assets/images/team2.jpg">
-                    </div>
-                    <div class="content-wrap">
-                        <h5 class="mbr-section-title card-title mbr-fonts-style align-center m-0 display-5">
-                            <strong>Sarah Palmer</strong>
-                        </h5>
-                        <h6 class="mbr-role mbr-fonts-style align-center mb-3 display-4">
-                            Manager
-                        </h6>
-                        
-                        <div class="social-row display-7">
-                            <div class="soc-item">
-                                <a href="https://www.facebook.com/Mobirise/" target="_blank">
-                                    <span class="mbr-iconfont socicon socicon-facebook"></span>
-                                </a>
-                            </div>
-                            <div class="soc-item">
-                                <a href="https://twitter.com/mobirise" target="_blank">
-                                    <span class="mbr-iconfont socicon socicon-twitter"></span>
-                                </a>
-                            </div>
-                            <div class="soc-item">
-                                <a href="https://instagram.com/mobirise" target="_blank">
-                                    <span class="mbr-iconfont socicon socicon-instagram"></span>
-                                </a>
-                            </div>
-                            
-                            
-                        </div>
-                        
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-6 col-lg-3">
-                <div class="card-wrap">
-                    <div class="image-wrap">
-                        <img src="assets/images/team3.jpg">
-                    </div>
-                    <div class="content-wrap">
-                        <h5 class="mbr-section-title card-title mbr-fonts-style align-center m-0 display-5">
-                            <strong>Adam Swift</strong>
-                        </h5>
-                        <h6 class="mbr-role mbr-fonts-style align-center mb-3 display-4">
-                            Analyst
-                        </h6>
-                        
-                        <div class="social-row display-7">
-                            <div class="soc-item">
-                                <a href="https://www.facebook.com/Mobirise/" target="_blank">
-                                    <span class="mbr-iconfont socicon socicon-facebook"></span>
-                                </a>
-                            </div>
-                            <div class="soc-item">
-                                <a href="https://twitter.com/mobirise" target="_blank">
-                                    <span class="mbr-iconfont socicon socicon-twitter"></span>
-                                </a>
-                            </div>
-                            <div class="soc-item">
-                                <a href="https://instagram.com/mobirise" target="_blank">
-                                    <span class="mbr-iconfont socicon socicon-instagram"></span>
-                                </a>
-                            </div>
-                            
-                            
-                        </div>
-                        
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-6 col-lg-3">
-                <div class="card-wrap">
-                    <div class="image-wrap">
-                        <img src="assets/images/team4.jpg">
-                    </div>
-                    <div class="content-wrap">
-                        <h5 class="mbr-section-title card-title mbr-fonts-style align-center m-0 display-5">
-                            <strong>Helen Smith</strong>
-                        </h5>
-                        <h6 class="mbr-role mbr-fonts-style align-center mb-3 display-4">
-                            Designer
-                        </h6>
-                        
-                        <div class="social-row display-7">
-                            <div class="soc-item">
-                                <a href="https://www.facebook.com/Mobirise/" target="_blank">
-                                    <span class="mbr-iconfont socicon socicon-facebook"></span>
-                                </a>
-                            </div>
-                            <div class="soc-item">
-                                <a href="https://twitter.com/mobirise" target="_blank">
-                                    <span class="mbr-iconfont socicon socicon-twitter"></span>
-                                </a>
-                            </div>
-                            <div class="soc-item">
-                                <a href="https://instagram.com/mobirise" target="_blank">
-                                    <span class="mbr-iconfont socicon socicon-instagram"></span>
-                                </a>
-                            </div>
-                            
-                            
-                        </div>
-                        
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="progress-bars1 cid-st2MbvALGc" id="progress-bars01-g">
 
     
 
-    
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12 col-lg-6 text-elements pb-4 md-pb">
-                <h3 class="mbr-section-subtitle mbr-fonts-style align-left mb-3 display-7"><strong>
-                        About Us</strong></h3>
-                <h4 class="section-content-title pb-3 align-left mbr-fonts-style display-2"><strong>Choose What Matters To Your
-                        Software</strong></h4>
-                <p class="section-content-text align-left mbr-fonts-style display-7">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elitdo eiusmod temporeum dicant partem
-                    scripserit.</p>
-            </div>
-            <div class="progress_elements col-md-12 col-lg-6 pt-4">
-                <div class="progress1 pb-5">
-                    <div class="title-wrap">
-                        <div class="progressbar-title mbr-fonts-style display-7">
-                            <p><strong>User Research </strong><br></p>
-                        </div>
-                        <div class="progress_value mbr-fonts-style display-7">
-                            <div class="progressbar-number">
-                            </div>
-                            <span>%</span>
-                        </div>
-                    </div>
-                    <progress class="progress progress-primary " max="100" value="92">
-                    </progress>
-                </div>
+      
+        <script type='application/json' id="_INITIAL_REACT_PROPS_">
+    {"contentful":{"title":"Build a Website with HTML, CSS, and Github Pages","codecademy_id":"5cadfefe5f1de806e9704577","header":{"heading":"Learn how to build websites","description":"One of the best ways to start coding is by building websites. Whether you want to tweak your business’s site, hone your web development skills, or learn to collaborate with developers, this Skill Path will help you get there.\n","call_to_action":"Get Started"},"header_primary_color":"#141e3b","header_secondary_color":"#2d5dcc","card_content":[{"title":"Includes","items":["HTML","CSS","Responsive Design","Flexbox","CSS Transitions","Github Pages","and more..."]},{"title":"Experience","items":["Beginners welcome"]},{"title":"For those who want to","items":["Get started with coding","Create a personal website","Learn the basics of web dev"]}],"outcome_headline":{"title":"What will you be able to do?","description":"Here are just a few things you’ll be able to do with this skill."},"outcomes":[{"title":"READ AND WRITE CODE","description":"Gain a basic understanding of web development languages by building real sites from scratch."},{"title":"CREATE YOUR OWN DESIGN","description":"Skip the website builders and design exactly what you want with your own layouts, colors, and even animation."},{"title":"LAUNCH YOUR WEBSITE","description":"When it’s time to make your idea real, you’ll be able to launch it online.\n"}],"shapes_fill_color":"#5788fa","shapes_shadow_color":"blue","projects_headline":"What projects will you build?","content_item_ids":["ea5f7e78f38656992aea726aaf1b693a","0c78f215281944b8a1bc4dcee5fd823e","26089e7b31c646267fef63d3709a1c1c"],"side_shapes_color":"#C8D7FA","syllabus":{"heading":"What will you learn?","call_to_action":"Get Started"},"testimonial":{"name":"Joey","occupation":"Codecademy Learner","quote":"You really feel like there's nothing you can't learn, which in turn builds so much confidence in your skills and gives the momentum to keep learning."},"different_headline":"How are Skill Paths different?","differences":[{"title":"Get a specialized skill.","description":"Want to level up at work? Gain a practical, real-world skill that you can use right away to stand out at your job."},{"title":"Get step-by-step guidance.","description":"We guide you through exactly where to start and what to learn next to build a new skill.\n"},{"title":"Get there quickly.","description":"We’ve hand-picked the content in each Skill Path to fast-track your journey and help you gain a new skill in just a few months."}],"upsell":{"title":"Codecademy Pro","description":"To get Skill Paths, sign up for Codecademy Pro. With Pro, you’ll have unlimited access to everything you need to take your learning to the next level. "},"upsell_button_more":"Learn More","upsell_button_less":"Show Less","upsell_items":[{"title":"ACCESS MEMBERS-ONLY CONTENT","description":"Take your learning up a notch with exclusive courses, quizzes, extra practice, and more."},{"title":"GET A STEP-BY-STEP ROADMAP","description":"Skill Paths and Career Paths guide you through where to start and what to learn next to reach your goal."},{"title":"CREATE REAL-WORLD PROJECTS","description":"The best way to learn is to do. Put your skills to work with real-world projects and get portfolio-ready results."},{"title":"GET SUPPORT FROM THE COMMUNITY","description":"Rally together with other Pro members to collaborate, share resources, stay accountable, and more."}],"cta_section":{"heading":"Ready to learn a whole new skill?","call_to_action":"Get Started"},"other_paths_headline":"Looking for something else?","other_path_ids":["5b32457b646caa5007c30975","5cb678013709022f5b908913"],"other_skill_path":{"title":"Need a different skill?","description":"View Skill Paths \u003e"},"other_career_path":{"title":"Looking for a new career?","description":"View Career Paths \u003e"},"web_meta":{"description":"One of the best ways to start coding is by building websites. Whether you want your team to be empowered to tweak your business’s site, hone their web development skills, or learn to better collaborate with developers, this Skill Path will get them there.","social_title":"Master a Skill - Build Websites for your Business","social_description":"One of the best ways to start coding is by building websites. Whether you want your team to be empowered to tweak your business’s site, hone their web development skills, or learn to better collaborate with developers, this Skill Path will get them there."}},"reduxData":{"currentUser":{"completions":{},"achievements":null,"canAccessProExclusiveCourse":false,"canAccessCareerPaths":false,"experiments":{},"location":{"geo_continent":"Asia","geo_country":"IN","geo_city":"Pune","geo_postal":"411005","geo_region":"MH","in_eu":false},"jwt":"eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6Ijh5bjVOcFI2N1FHb0xxQ1lGT3RIRnQtOUIxMGVENHVPNUR0RzJjZmZVS2cifQ.eyJqdGkiOiJmMzc1YjU5MjY3NmRlMjI2ZDVlZWNkMzlmZGM1ODQ0OSIsImlzcyI6Imh0dHBzOi8vd3d3LmNvZGVjYWRlbXkuY29tLyIsImV4cCI6MTY0NTYxMDQ0MCwibmJmIjoxNjQ1MDA1NjQwLCJzdWIiOiJzZXJ2aWNlOmNvZGVjYWRlbXkiLCJ1c2VyX2lkIjoiY29kZWNhZGVteSIsImNvdW50cnkiOiJJTiJ9.WTvIb5sNfIXmyFWE4bl5jp8wRZODukX1sCOjn7dxZfi4OI6KWa2VdhN3W7pipibNkGu_dfJ4_9kbF5PKnE_qq4fvG5-JIVLn9t9WmnPhrAHIWqvVlXwaDu0AIlge6EfNAPzl6XWUPTFB1C9rpGVFoPFpepULABl3fE52MkRbu5hqyI6m2hsnC6_8-ksylJA_vyCfgUupTeTB3CgUz8BRiCxaHXAxKTP8DWbhnVKAqJag3pwge3ErBj6_z8n7grEZvy2C79j_tU5zYXDjhhIhAAEqScLJRHVI6ouzBntmzRLstnTNyIhoRqxchHCiY-RB-j99zYp0yqQZJV2rzEoI-w","roles":{"isAnonymous":true,"isForumModerator":false,"isChapterLeader":false,"isTalent":false,"isPro":false,"isReviewer":false,"isAdmin":false,"isAuthor":false,"isCustomerService":false,"isBusinessAdmin":false},"id":"620ccb344da5697f14fc14e6","experimentationId":"620ccb344da5697f14fc14e6","showTrialCTA":true},"entities":{"paths":{"byId":{"5cadfefe5f1de806e9704577":{"alert_cta":null,"alert_cta_destination":null,"alert_description":null,"alert_type":null,"category_ids":["61001b34406048002239a9af","610033f22904860026ac7b6e","6100212ec2b60b000fd3598b","5f5a7a05cd50ba06ed7e277f","5ef4b138dd98a830e8f7734a","5ef4b137dd98a830e8f7733b","6100328bedae15001d4beed2","61003308c2b60b0017d357b5","6100338291954f00223280c5","5ef4b138dd98a830e8f77349"],"completion_message":null,"completion_time":"10 weeks","created_at":"2019-04-10T14:34:38Z","description":"One of the best ways to start coding is by building websites. Whether you want to tweak your business’s site, hone your web development skills, or learn to collaborate with developers, this Skill Path will help you get there.","difficulty":"Beginner","goal":"skill","id":"5cadfefe5f1de806e9704577","last_modified_at":"2019-08-19T02:48:18Z","logo_url":null,"organization_id":"codecademy","published":true,"released":true,"short_description":"Learn the basics of web development to build your own website.","slug":"learn-how-to-build-websites","source_id":null,"theme_color":"141e3b","title":"Build a Website with HTML, CSS, and Github Pages","track_ids":["c3f1c4da70d1ac4f367176bb4c6c6895","bf819a06b22232984f7b6cb22e9aa852","d9ad89c769b878a6fad7842b0b4b2216","8057ad2101ab3ab38e8ad1eda23c772e","e8d91521e2faeccae143d9bfab5bcf41","b06017cf5d73c6dfa85c27a48f1659f3","3bdda063aa20174317c2148e38e2b562","8874ae29436f957c8d94565bb4dda977","db08bea662bbdb11f2096d76fa918853"],"video_url":null,"content_item_type_counts":{"article":12,"external_resource":0,"informational":10,"kanban_project":0,"lesson":18,"project":15,"quiz":14,"video":2}}}}},"features":{"active":["bam_ia","bam_nav_redesign","bam_nav_redesign_banner","benefits_tab_panel","block_email_domains","blp_pricing_table","business_auto_trial_invites","business_checkout","business_cohorts","business_content_recommendation","business_insights","business_reporting","business_reporting_quiz_scores","business_teams_quote_page","business_trial_hubspot_chatbot","business_trial_opt_in","code_challenges_2021","cohort_experiment","cohort_experiment_enrollment_gate","content_v4","content_v4_dashboard","content_v4_draft_preview","content_v4_frontend_assessments","content_v4_frontend_content_items","content_v4_frontend_exercises","content_v4_frontend_modules","content_v4_frontend_paths","content_v4_frontend_review_cards","content_v4_frontend_tracks","content_v4_portal","content_v4_portal_perf_audit","enrolled_course_syllabus_upgrades_2021","enterprise_sso","free_account_manager","free_workspaces","generate_trustpilot_invites","kill_intensives","lazy_load_homepage_learner_images","more_forkable_content","override_ga_referrer","port_to_workspace","pwa_payments","pwa_toasts","service_workers_always_for_chromeos","service_workers_enabled","smart_practice","teams_plus_toast","user_authz","worker_support_application","wsa_auto_approve"]},"releasedContent":{"beta_track_ids":["f90e4aa8908c56141562c1c6d88e5afa"],"beta_track_slugs":["beta-content"],"certificate_denylist_track_ids":["decd910a1c5debbcc8d321cfa4529f5a","8b72ecdc6095d5390871be1a9d5dcd9b","b8860151bce58aa30c6f272f89e22788"],"path_ids":["5f85dd867b67b60014ac9ea3","60f972dd27e2ab0023c43cbf","61055a5c709af400167da7ff","6130e8cb1042c20023c9bbda","5fd12100603a6c0012428fe7","607878ed81004d0017706259","60be9457b5b5e40021a60fc9","5f64e3b492de0000131ecbe0","5fc508b822eca90012fb25eb","5fd2955807d2090012d00544","60c23c238e9a07000e7f6acf","5ec9a3897d4c940011f50142","5ee3bf2c187929001393af70","5f29ae1fc9647d0013a7284b","5f8f903b4c5f2700128bf8ea","60c10a2a4f82ff0023dbefee","5cab64c55f1de8039db366ef","5d24b4845808221825fadca1","61427ba3ae2b35001106e73c","5ff882c953c2ed000e17bf1d","5cb678013709022f5b908913","5b5001a11d176d7acd8b2bf8","5c9ce0b45f1de879ebcad4fd","61e87909d59db0001779401a","5d8a2f26510e9000118ef3b8","5ddbff3dd1bd3b001397ae9f","5cadfefe5f1de806e9704577","61f8af7dd831aa000f1e63b6","5e946e121bc8bd0011e2b932","5f7e644d833c070013ef47c4","5f85c4b9c431a800138a60e0","6030107a6a5a49000e798480","604255fe3d6454000dce1f3e","5b520caa1d176d21f5a65a61","5cafb2d937090210d7df3652","5cacbe7b3709024753e7c3ff","60be75b5592ab2001a120e4a","60f1edf0ac9368001c6025c4","60afcbf040cef3001a0ba7bb","60fae94455bc86001687f1d9","5e15fa478b1c550011ec7046","5e46f39b68800d0011f5b923","5ea997e832f098001378ca08","60198396cd6fb3000e88e8e4","5b55e668646caa552f8e4d1d"],"path_slugs":["front-end-engineer-career-path","intprep-ds-ds-interview-prep","build-an-intermediate-ios-app-with-swiftui","fe-path-feature-engineering","master-statistics-with-python","build-python-web-apps-with-django","learn-how-to-build-websites-cfb","design-databases-with-postgresql","ap-computer-science-a","pass-the-technical-interview-with-python","data-analyst-training-for-your-business-cfb","build-web-apps-with-asp-net","build-python-web-apps-flask","pass-the-technical-interview-with-java","back-end-engineer-career-path","intprep-data-analyst-interview-prep","machine-learning","visualize-data-with-python","securing-express-applications","data-analyst","create-a-back-end-app-with-javascript","computer-science","build-web-apps-with-react","build-a-social-media-ios-app-with-firebase-and-swiftui","finance-python","create-video-games-with-phaser","learn-how-to-build-websites","ios-developer","pass-the-technical-interview-with-javascript","full-stack-engineer-career-path","build-deep-learning-models-with-tensorflow","natural-language-processing","build-ios-apps-with-swiftui","data-science","analyze-data-with-sql","analyze-data-with-python","analyze-business-data-with-sql-cfb","create-rest-apis-with-spring-and-java","full-stack-engineering-cfb","fundamental-math-for-data-science","build-chatbots-with-python","introduction-to-android-with-java","analyze-data-with-r","advanced-react-redux-sp","code-foundations"],"pro_exclusive_track_ids":["f4276e8c08a3ba174ef0147deb0c3013","a8ab218d5950c29861635cc0bf12fd13","52a1fa1160a49f2b861e7fd58380cc5a","b788eb15a25d8a69d5adcdbbb0070b3f","178999765bc2aed426212106616dec03","e5a7d252b2274abca4ea306d5fa4b4b6","3e67b57aafb07ef7221c3051a23ff2ca","05226ac87e20192597adea00b851c15a","855bb2fbe77b93b232d5a59da1f3aa55","3a62023b0054dc793edc0adecd715fd7","4793dc6ced9e3c8a37bd8e9b5761cc8e","920e83367c1e1b29ef2ce88c8086a0b6","95dd3ed417d7d6c449afffc6401b310a","c87ba0541f8be78bc2f4ba1128233f6f","358e250fca144526a6b2934ff44fbc01","f21a464d190cb43e78b83ca8d1f0c6b0","f4cba58fa21e556a6a8f5a975cef5388","3280edcd0d1bd827ba63f80f8eef4098","c27ef2c16c395ccfba6169ab50c268fb","43135f7494712f4c3b1ced1a55be7be1","b6d2d1d0d1c2d9dfae7a6ea0197354ba","93274c15b5d1b933de1c61f63461b69f","6a4c3e274d5e0465254f0a2cf6052e44","d0f004b5ab60b2bda59b6e38892b931b","4f064b951668b2f8eb2b96e3fe32f928","d15981111c9e2f41215fd5bf5f2cad48","18580789eaba28f09e116f4fc2acec44","7a1021b263de1990c643feb15d9f1f7a","094a9c7ea6f4ba69e25567f1475e363f","8b72ecdc6095d5390871be1a9d5dcd9b","5d21dc9e5c51390f8f49eb6f2985bab5","db927a84bf4bba96bb285ee6a85466fc","79735c9d76222d32368a4e4f1fb2580f","0508ba5df9a2422f333f4f6bceaced00","dee8cc79cfe5e46834989e0d0ec1d2d5","b08b3374d7eec0280c728b0ffeeddfdb","e5d179605242c2cd60f29f6d366638ba","9360ffd5f85216dc4fbe5b19fe1db5e4","1353857e7ad5c1d0d578073e0d5e31e4","0becf7c1cd2bd715f24331dddd23425a","eb1ffda40f347629dcef6de33d3f9741","36ae898a1d1c8524815305b2d1d2ebab","13df149ad4f7cadbb4c65603fb695cf8","6c152bd262967f8c941c9707ed636bda","e90f98a54c25da16810fb00fbf40454a","860af2d9669986c16383635c3a16d4aa","257c50bca4561663476f2fa8f6ac410c","85396dd6e2e850ab34e904243aa464c6","8dfb9e7a1f2561f63ceb017e329ffbd0","91cf4a1767724a02a20b1eba7eca74ea","0a6884fad1dbf4afe5df084d2ec1e7c3","7ef6f23b56de87623eb4e74e2fca3923","37c55263a9f1b1f7603f7551c293ecbd","1a8408d7088d22611272532016ad31b0","6156c9bebf9046929b95afa8fa67ffd5","c0eefa59f85ca2202141275e50ef449b","78ecd4af7c5008882c6fcad1cf157595","3b1eb6cd5edcf2b76e68d1531691e46a","050d7cf465567fdd0c9abb1fbf20e269","33af3a7ba2bd8a4291d5188f2d436696","abe75630eb1ba0fda976c5d1053ecd29","1cb76ac48943853ca32c394afeb491c9","5b4a7c00ec9175d141a8b6e611d4812a","a84c236261e60ceac3d9839106e3830a","e773a003314c1be60da8388a90a77e78","05ded7635e6bfe1d3d1f776db3f1fa32","3571635cd0e42654ab139dd59ceb650f","df5cd23425d43d23a967efebf18f5a8e","9081f9bf9cbfb10d63d199c30bf0c739","0595479d03627a8cb816b069000e4d06"],"pro_exclusive_track_slugs":["learn-javascript-unit-testing","learn-git","learn-d3","technical-interview-practice-with-java","learn-recursion-python","sql-table-transformation","language-parsing","learn-statistics-with-python","cs-101-livestream-series","learn-responsive-design","learn-ggplot-2","software-design-principles","data-processing-pandas","learn-the-command-line","deploy-a-website","introduction-to-blockchain","learn-web-scraping","machine-learning","learn-circuitpython","intro-statistics-numpy","natural-language-processing","text-generation","learn-asp-net","learn-websockets","defending-express-applications-from-sql-injection-xss-csrf-attacks","hypothesis-testing-python","learn-intermediate-python-3","learn-data-structures-and-algorithms-with-python","sql-marketing","learn-handlebars","technical-interview-practice-with-javascript","learn-vue-js","linear-data-structures","learn-spring","computer-architecture","api-development-with-swagger-and-openapi","handling-missing-data","learn-advanced-python","foundations-of-cloud-computing","learn-jquery","learn-sass","build-interactive-websites","learn-rails","learn-python-3","rails-auth","data-visualization-python","asynchronous-javascript","learn-express","technical-interview-practice-python","learn-navigation-design","learn-color-design","search-algorithms","bash-scripting","sorting-algorithms","deploying-with-netlify-and-heroku","text-preprocessing","learn-linear-regression-in-r","learn-flask","bi-dashboards-with-tableau","eda-exploratory-data-analysis-python","learn-build-tools","bi-dashboards-with-power-bi","connecting-front-end-to-back-end","complex-data-structures","practical-data-cleaning","learn-testing-for-web-development","javascript-errors-debugging","sql-analyzing-business-metrics","learn-the-basics-of-android","learn-bootstrap"],"track_ids":["decd910a1c5debbcc8d321cfa4529f5a","f4276e8c08a3ba174ef0147deb0c3013","a8ab218d5950c29861635cc0bf12fd13","52a1fa1160a49f2b861e7fd58380cc5a","45813902051c602373ff73fd4923a471","b788eb15a25d8a69d5adcdbbb0070b3f","e2b09fcfe6f5a5edad64f6556de7946e","c3d9caa4d5b5eafd08472da3f2f0b41e","178999765bc2aed426212106616dec03","e5a7d252b2274abca4ea306d5fa4b4b6","705dcb15de0da4dd9d9fc4f3274b430e","56fb1e71303e37b643bb1905f31c8a09","3e67b57aafb07ef7221c3051a23ff2ca","042a4e5884e3eb6ea1f2a12be6abb851","05226ac87e20192597adea00b851c15a","de0bd5c89521d004ce449a86b0ad3319","df765ae3c535f37c36b83eaeae2b88b6","7bec2ab40c4dcf741cd2ff8d50a35e2d","a91441dbbdef30f84253d6c7ddded445","0e832ced60be84063c15cc804795d04c","458aef4eef5f5130685423fc15e6493d","855bb2fbe77b93b232d5a59da1f3aa55","3a62023b0054dc793edc0adecd715fd7","497d64b859e76f307b65270d130a4603","4793dc6ced9e3c8a37bd8e9b5761cc8e","920e83367c1e1b29ef2ce88c8086a0b6","95dd3ed417d7d6c449afffc6401b310a","af00e5032d0a68cc84879983f5d8333b","9605a581bda107153c433f7889dbc268","c87ba0541f8be78bc2f4ba1128233f6f","358e250fca144526a6b2934ff44fbc01","9e672fecb88f2c4fc228cc954fd8ed01","60773d2e920679c8e46ff634b9ed2e6e","b3f89d757e7fd64ff90ad13b873d5a8d","f21a464d190cb43e78b83ca8d1f0c6b0","f4cba58fa21e556a6a8f5a975cef5388","3280edcd0d1bd827ba63f80f8eef4098","c27ef2c16c395ccfba6169ab50c268fb","a549293c6e8d62a61ef1bec410b58162","43135f7494712f4c3b1ced1a55be7be1","9eb0741e5ebef1f9f58a53bfac67d3a7","65f0ff88f4fc58e0536b3b51648dff24","b6d2d1d0d1c2d9dfae7a6ea0197354ba","f0257b235b081aca2766010aad2df800","b3dec49423da50603c25618aee635027","fbf9a2530cd4e38897255815c0c46a18","93274c15b5d1b933de1c61f63461b69f","36081e84299196c1c909061be59c5cf9","6a4c3e274d5e0465254f0a2cf6052e44","7ea163c1176d53d69063f6e6386100f1","d0f004b5ab60b2bda59b6e38892b931b","1790781f3857d258b06a24f3c53424cd","4f064b951668b2f8eb2b96e3fe32f928","d15981111c9e2f41215fd5bf5f2cad48","18580789eaba28f09e116f4fc2acec44","02c8c9f4eed7545e0b4cc37a785ae026","deed3d23a4d60bcf88d0879d1628d98d","7a1021b263de1990c643feb15d9f1f7a","094a9c7ea6f4ba69e25567f1475e363f","b81c5d52c6c907691d897ca28b3649c1","8b72ecdc6095d5390871be1a9d5dcd9b","5d21dc9e5c51390f8f49eb6f2985bab5","db927a84bf4bba96bb285ee6a85466fc","79735c9d76222d32368a4e4f1fb2580f","9a5bb1fc45b4281af1fffec93b0aaf05","1c05e0382bc5681c824c4cbe85c126fd","c2f9dcf0d7387b7d3029cfb8c9e8a0bb","0508ba5df9a2422f333f4f6bceaced00","512386fdc7f6c934f98b01e6afa8285a","dee8cc79cfe5e46834989e0d0ec1d2d5","dbb4f91b33eac7ef7b07ef9127b435e5","89fdcd447074cc7c95193b1e5c508457","b08b3374d7eec0280c728b0ffeeddfdb","e5d179605242c2cd60f29f6d366638ba","5ec3dad8317e08c1835f121c53a97bc2","26e34ccfe2bb60dad6d46d3bd7ce42e7","8c3029c4a6e5894e74da756e3a7c0ae3","9360ffd5f85216dc4fbe5b19fe1db5e4","1353857e7ad5c1d0d578073e0d5e31e4","451f96e6ed7270d49283e833c58285fd","6065891fafe7a44561a881b728669922","0becf7c1cd2bd715f24331dddd23425a","18e90daa65479a37c8f909893ada3694","cee6adef085ce6ba88c1b689da6eed99","eb1ffda40f347629dcef6de33d3f9741","36ae898a1d1c8524815305b2d1d2ebab","2a8016bdec8d07f1a9c30b505a041c2e","13df149ad4f7cadbb4c65603fb695cf8","6c152bd262967f8c941c9707ed636bda","e90f98a54c25da16810fb00fbf40454a","860af2d9669986c16383635c3a16d4aa","257c50bca4561663476f2fa8f6ac410c","85396dd6e2e850ab34e904243aa464c6","b97fd4d87a816c761a674af1b5391ef1","d24ce3aa4ed99ac04afffec4a78e2e44","784d26120f51200ae424fb86becd7dbb","801e44b60717b6bde20fbeebd162c70c","8dfb9e7a1f2561f63ceb017e329ffbd0","91cf4a1767724a02a20b1eba7eca74ea","d3f89367b558583e361640f778191345","0a6884fad1dbf4afe5df084d2ec1e7c3","7ef6f23b56de87623eb4e74e2fca3923","37c55263a9f1b1f7603f7551c293ecbd","1a8408d7088d22611272532016ad31b0","6156c9bebf9046929b95afa8fa67ffd5","c0eefa59f85ca2202141275e50ef449b","78ecd4af7c5008882c6fcad1cf157595","8149b07e106bb4b49aad31a6432bf648","23a06f0af71448c0a2ed456d6191e11e","90966026f83232720c6d04c056fb3360","1d8082be757299e1da03b664a757a410","ab8dec2a7871eddeca66f873f58ee750","69cb3e8083ed4c2866b8ac264adf8512","42c1811f5887a20e8f0b114d426748b6","3b1eb6cd5edcf2b76e68d1531691e46a","eb4a0e9e3ec6c4776b445b48c7819bcd","050d7cf465567fdd0c9abb1fbf20e269","a1baf79a447e82a1190c24a83682045e","15b32ebcd95f164740d02275674fc5ee","61405f6622624095551ad01ffd8e6f3a","33af3a7ba2bd8a4291d5188f2d436696","abe75630eb1ba0fda976c5d1053ecd29","34c14a8d82ce7e5eb8077bd356946169","ddc94032dd07fd43ee02f994e8f72af9","1cb76ac48943853ca32c394afeb491c9","ae1ae475371754beeda65dc1dc02cd08","ea3393a7494383023c17a96830b95be8","5b4a7c00ec9175d141a8b6e611d4812a","b8860151bce58aa30c6f272f89e22788","a84c236261e60ceac3d9839106e3830a","e773a003314c1be60da8388a90a77e78","05ded7635e6bfe1d3d1f776db3f1fa32","3571635cd0e42654ab139dd59ceb650f","df5cd23425d43d23a967efebf18f5a8e","9081f9bf9cbfb10d63d199c30bf0c739","b74a2390dfc4127fa5d43fe147425ad0","11a686a7fd57b8c214f7f92749388d42","240305d50b925c17868f1ac7a21a3261","666120308fc207a66d8afaa0dcf4ee19","1e862f2e780818ebfc52948a80e5b77c","0595479d03627a8cb816b069000e4d06","9da8e26980d5139405439ee7578b8b69"],"track_slugs":["using-storytelling-to-prove-a-case-with-data","learn-javascript-unit-testing","learn-git","learn-d3","livestreams","technical-interview-practice-with-java","learn-angularjs","learn-lolcode","learn-recursion-python","sql-table-transformation","introduction-to-javascript","learn-typescript","language-parsing","learn-sql","learn-statistics-with-python","introduction-to-cybersecurity","make-a-website","learn-redux","learn-dplyr","learn-p5js","learn-react-native","cs-101-livestream-series","learn-responsive-design","learn-r","learn-ggplot-2","software-design-principles","data-processing-pandas","react-101","create-a-professional-website-with-velo-by-wix","learn-the-command-line","deploy-a-website","learn-alexa","learn-go","learn-a-frame","introduction-to-blockchain","learn-web-scraping","machine-learning","learn-circuitpython","learn-kotlin","intro-statistics-numpy","learn-html","learn-c-sharp","natural-language-processing","learn-node-sqlite","learn-intermediate-css","linear-regression-mssp","text-generation","java-conditionals-and-control-flow","learn-asp-net","learn-intermediate-swift","learn-websockets","learn-react-testing","defending-express-applications-from-sql-injection-xss-csrf-attacks","hypothesis-testing-python","learn-intermediate-python-3","java-going-further-with-classes-and-methods","java-loops-and-arrays","learn-data-structures-and-algorithms-with-python","sql-marketing","learn-statistics-with-r","learn-handlebars","technical-interview-practice-with-javascript","learn-vue-js","linear-data-structures","learn-css","learn-ruby","user-authentication-authorization-express","learn-spring","learn-intermediate-javascript","computer-architecture","learn-object-oriented-programming-with-python","getting-started-off-platform-for-data-science","api-development-with-swagger-and-openapi","handling-missing-data","nontech-life-skills","learn-what-to-learn","learn-c","learn-advanced-python","foundations-of-cloud-computing","r-for-programmers","intro-to-algorithms-and-linear-data-structures-in-swift","learn-jquery","learn-swift","learn-phaser","learn-sass","build-interactive-websites","learn-the-basics-of-causal-inference-with-r","learn-rails","learn-python-3","rails-auth","data-visualization-python","asynchronous-javascript","learn-express","learn-python","learn-php","learn-emojicode","alexa-conversational-design","technical-interview-practice-python","learn-navigation-design","learn-java","learn-color-design","search-algorithms","bash-scripting","sorting-algorithms","deploying-with-netlify-and-heroku","text-preprocessing","learn-linear-regression-in-r","java-introductions-and-variables","java-object-oriented-programming","java-for-programmers","probability-mssp","java-algorithms","java-inheritance-and-polymorphism","connect-four","learn-flask","lgbtq-stem-icons","bi-dashboards-with-tableau","discrete-math","learn-react-router","learn-differential-calculus","eda-exploratory-data-analysis-python","learn-build-tools","learn-linear-algebra","c-plus-plus-for-programmers","bi-dashboards-with-power-bi","fundamentals-of-operating-systems","learn-css-in-js","connecting-front-end-to-back-end","welcome-to-codecademy","complex-data-structures","practical-data-cleaning","learn-testing-for-web-development","javascript-errors-debugging","sql-analyzing-business-metrics","learn-the-basics-of-android","learn-c-plus-plus","learn-how-to-code","learn-node-js","react-102","ibm-watson","learn-bootstrap","introduction-to-regular-expressions"]},"apiConfig":{"contentServiceV4":{"baseUrl":"https://contentv4.production-eks.codecademy.com/graphql"},"freeResponse":{"baseUrl":"https://free-response.production-eks.codecademy.com/v1"},"kanban":{"baseUrl":"https://kanban.production-eks.codecademy.com/v1"},"notifications":{"baseUrl":"https://notifications.production-eks.codecademy.com/api/v1"}},"notifications":{"polling":false,"entities":{},"areas":{}},"alerts":[],"brandedBanner":{"content":"[PRO SALE: Get 50% off annual Pro memberships | __USE CODE FEB50__](https://www.codecademy.com/subscriptions/proAnnualV4a/checkout?periods=year\u0026discountCode=FEB50)","backgroundColor":"navy","id":"3R0xRQAOeucL97mFJNWQkz"},"catalogNavLinks":{"language":{"html-css":"HTML \u0026 CSS","python":"Python","javascript":"JavaScript","java":"Java","sql":"SQL","bash":"Bash/Shell","ruby":"Ruby","c-plus-plus":"C++","r":"R","c-sharp":"C#","php":"PHP","go":"Go","swift":"Swift","kotlin":"Kotlin","c":"C"},"subject":{"web-development":"Web Development","data-science":"Data Science","computer-science":"Computer Science","developer-tools":"Developer Tools","machine-learning":"Machine Learning","code-foundations":"Code Foundations","web-design":"Web Design","game-development":"Game Development","mobile-development":"Mobile Development","data-visualization":"Data Visualization","interview-prep":"Interview Prep","cybersecurity":"Cybersecurity","math":"Math","for-business":"For Business","beta":"Beta Catalog"}}},"statusCode":200,"prerender":{"duration":44.852024,"error":null,"hostname":"ip-10-33-12-54\n"}}
+  </script>
 
-                <div class="progress2 pb-5">
-                    <div class="title-wrap">
-                        <div class="progressbar-title mbr-fonts-style display-7">
-                            <p><strong>UX Focus </strong><br></p>
-                        </div>
-                        <div class="progress_value mbr-fonts-style display-7">
-                            <div class="progressbar-number">
-                            </div>
-                            <span>%</span>
-                        </div>
-                    </div>
-                    <progress class="progress progress-primary" max="100" value="71">
-                    </progress>
-                </div>
-
-                <div class="progress3 pb-5">
-                    <div class="title-wrap">
-                        <div class="progressbar-title mbr-fonts-style display-7">
-                            <p><strong>Clients Support </strong><br></p>
-                        </div>
-                        <div class="progress_value mbr-fonts-style display-7">
-                            <div class="progressbar-number">
-                            </div>
-                            <span>%</span>
-                        </div>
-                    </div>
-                    <progress class="progress progress-primary" max="100" value="53">
-                    </progress>
-                </div>
-                
-                
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="image1 cid-st2KOSUUhW" id="image01-6">
-    
-    
-    <div class="container">
-        <div class="row">
-            <div class="col-12 col-md-12">
-                <div class="row">
-                    <div class="col-12 col-lg-6">
-                        <div class="img-item mb-4">
-                            <img src="assets/images/features3.jpg" alt="">
-                            
-                        </div>
-                    </div>
-                    <div class="col-12 col-lg">
-                        <div class="img-item mb-4">
-                            <img src="assets/images/features2.jpg" alt="">
-                            
-                        </div>
-                    </div>
-                    <div class="col-12 col-lg-12">
-                        <div class="img-item">
-                            <img src="assets/images/background3.jpg" alt="">
-                            
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="clients2 cid-st2MKsC9no" id="clients02-i">
-    
-    <div class="images-container container">
-        <div class="mbr-section-head mb-5">
-            <h3 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
-                <strong>Our Clients</strong>
-            </h3>
-            
-            
-        </div>
-        <div class="row justify-content-center">
-
-            <div class="col-md-3 card">
-                <img src="assets/images/1.png">
-            </div>
-            <div class="col-md-3 card">
-                <img src="assets/images/2.png">
-            </div>
-            <div class="col-md-3 card">
-                <img src="assets/images/3.png">
-            </div>
-            <div class="col-md-3 card">
-                <img src="assets/images/4.png">
-            </div>
-        </div>
-
-    </div>
-</section>
-
-<section class="form cid-st2KYI2kYn" id="form01-b">
-    
-    
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-12 col-lg-6 img-col">
-                <div class="img-item">
-                    <img src="assets/images/background4.jpg" alt="">
-                </div>
-            </div>
-            <div class="col-lg-6 m-auto mbr-form">
-                <div class="content align-left" data-form-type="formoid">
-                    <h4 class="mbr-section-subtitle mb-2 mbr-fonts-style display-7"><strong>Get Newsletter</strong></h4>
-                    <h3 class="mbr-section-title mb-5 mbr-fonts-style display-2">
-                        <strong>Get every weekly update feeds</strong>
-                    </h3>
-                    <!--Formbuilder Form-->
-                    <form action="https://mobirise.eu/" method="POST" class="mbr-form form-with-styler" data-form-title="Form Name"><input type="hidden" name="email" data-form-email="true" value="R7xHHbxqj8Wq4hengycoU2c46cYVdE1ra8jFDg/qaRkdQrHwObO925Opx0tFWyLBBtXfw1KnHrAXXp48qWgxEgQ7sAv/FNTF5hpKFg7nJSh9tkb5RzuR5BjP3fMCgpgQ.mvHO7vXJ0c+n2ww/PjaBAlf/+LlXByQm1pVgW09BEQGCif7S6LsIA0XWB0CVb4W1av7vHrewj2XGPORf3QvBHdzfQ9SrG1VSXD8k53khJG5NzatkKbeKInnh6EGIXYca">
-                        <div class="form-row">
-                            <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">Thanks for filling
-                                out the form!</div>
-                            <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12">Oops...! some
-                                problem!</div>
-                        </div>
-                        <div class="dragArea form-row align-right">
-                            <div class="col-lg-12 col-md-12 col-sm-12 form-group" data-for="name">
-                                <input type="text" name="name" placeholder="Enter full name" data-form-field="name" class="form-control display-7" value="" id="name-form01-b">
-                            </div>
-                            <div class="col-lg-12 col-md-12 col-sm-12 form-group" data-for="email">
-                                <input type="email" name="email" placeholder="Enter email adress" data-form-field="email" class="form-control display-7" value="" id="email-form01-b">
-                            </div>
-                            <div class="col-auto"><button type="submit" class="btn btn-lg btn-secondary display-7">Subscribe Now</button>
-                            </div>
-                        </div>
-                    </form>
-                    <!--Formbuilder Form-->
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="testimonials4 cid-st2KTHCt9Q" id="testimonials04-9">
-    
-    
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-12 mb-5">
-                <p class="mbr-section-subtitle mbr-fonts-style align-left mb-2 display-7"><strong>Testimonials</strong><br></p>
-                <h3 class="mbr-section-title mbr-fonts-style align-left mb-2 display-1"><strong>Our Client Feedbacks</strong></h3>
-            </div>
-            <div class="col-sm-6 col-lg-4">
-                <div class="card-wrap">
-                    <span class="mbr-iconfont mobi-mbri-quote-right mobi-mbri"></span>
-                    <p class="card-text mbr-fonts-style pb-3 align-left display-5"><em>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae curabitur libero felis
-                            ullamcorper.</em></p>
-                    <img src="assets/images/team1.jpg">
-                    <div class="content-wrap">
-                        <h5 class="mbr-section-title card-title mbr-fonts-style m-0 display-5">
-                            <strong>John Smith</strong>
-                        </h5>
-                        <h6 class="mbr-role mbr-fonts-style m-0 display-4">
-                            Programmer
-                        </h6>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-6 col-lg-4">
-                <div class="card-wrap">
-                    <span class="mbr-iconfont mobi-mbri-quote-right mobi-mbri"></span>
-                    <p class="card-text mbr-fonts-style pb-3 align-left display-5"><em>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae curabitur libero felis
-                            ullamcorper.</em></p>
-                    <img src="assets/images/team2.jpg">
-                    <div class="content-wrap">
-                        <h5 class="mbr-section-title card-title mbr-fonts-style m-0 display-5"><strong>Sarah Palmer</strong></h5>
-                        <h6 class="mbr-role mbr-fonts-style m-0 display-4">
-                            Manager
-                        </h6>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-6 col-lg-4">
-                <div class="card-wrap">
-                    <span class="mbr-iconfont mobi-mbri-quote-right mobi-mbri"></span>
-                    <p class="card-text mbr-fonts-style pb-3 align-left display-5"><em>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae curabitur libero felis
-                            ullamcorper.</em></p>
-                    <img src="assets/images/team3.jpg">
-
-                    <div class="content-wrap">
-                        <h5 class="mbr-section-title card-title mbr-fonts-style m-0 display-5"><strong>Adam Swift</strong></h5>
-                        <h6 class="mbr-role mbr-fonts-style m-0 display-4">
-                            Designer
-                        </h6>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="map1 cid-st2KZwV6ZE" id="map01-c">
-    
-    
-    <div>
-        
-        <div class="google-map"><iframe frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDk89J4FSunMF33ruMVWJaJht_Ro0kvoXs&amp;q=350 5th Ave, New York, NY 10118" allowfullscreen=""></iframe></div>
-    </div>
-</section>
-
-<section class="footer2 cid-st2KXorDtr" once="footers" id="footer02-a">
-    
-    
-    <div class="container">
-        <div class="row mbr-white">
-            <div class="col-12 col-md-6 col-lg-4 padding border-col">
-                <h5 class="mbr-section-subtitle mbr-fonts-style mb-4 display-5"><strong>Main Links</strong></h5>
-                <div class="row">
-                    <div class="col-lg-6">
-                        <ul class="list mbr-fonts-style m-0 display-4">
-                            <li class="mbr-text list item-wrap"><a href="#" class="text-info">About Us</a></li>
-                            <li class="mbr-text list item-wrap"><a href="#" class="text-info">Services</a></li>
-                            <li class="mbr-text list item-wrap"><a href="#" class="text-info">Pricing</a></li>
-                            <li class="mbr-text list item-wrap"><a href="#" class="text-info">Portfolio</a></li>
-                            <li class="mbr-text list item-wrap"><a href="#" class="text-info">Contacts</a></li>
-                            <li class="mbr-text list item-wrap"><a href="#" class="text-info">Help</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-lg-6">
-                        <ul class="list mbr-fonts-style m-0 display-4">
-                            <li class="mbr-text item-wrap"><a href="#" class="text-info">Reviews</a>
-                            </li>
-                            <li class="mbr-text item-wrap"><a href="#" class="text-info">Best Products</a>
-                            </li>
-                            <li class="mbr-text item-wrap"><a href="#" class="text-info">Categories</a>
-                            </li>
-                            <li class="mbr-text item-wrap"><a href="#" class="text-info">Brands</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-6 col-lg-4 padding padding-col border-col">
-                <h5 class="mbr-section-subtitle mbr-fonts-style mb-4 display-5"><strong>Get In Touch</strong></h5>
-                <ul class="list mbr-fonts-style mb-4 display-4">
-                    <li class="mbr-text item-wrap"><a href="#" class="text-info">New Address
-                        </a></li>
-                    <li class="mbr-text item-wrap">14/A, New Home Town, Nyc</li>
-                    <li class="mbr-text item-wrap"><a href="#" class="text-info">Head Quatar</a>
-                    </li>
-                    <li class="mbr-text item-wrap">71, Qlex Tower, Onthon, UK</li>
-                </ul>
-
-                <div class="mbr-section-btn"><a class="btn btn-primary btn-lg display-4" href="https://mobiri.se"><span class="mobi-mbri mobi-mbri-right mbr-iconfont mbr-iconfont-btn"></span>Contact Us</a></div>
-
-            </div>
-            <div class="col-12 col-md-6 col-lg-4 padding-col padding">
-                <h5 class="mbr-section-subtitle mbr-fonts-style mb-4 display-5">
-                    <strong>About</strong>
-                </h5>
-                <p class="mbr-text mbr-fonts-style mb-4 display-7">
-                    Mobirise is a free offline app for
-                    Windows and Mac to easily create small/medium websites, landing pages, online resumes and
-                    portfolios.</p>
-                <h5 class="mbr-section-subtitle mbr-fonts-style mb-3 display-7"><strong>Social Contact</strong></h5>
-                <div class="social-row display-7">
-                    <div class="soc-item">
-                        <a href="https://twitter.com/mobirise" target="_blank">
-                            <span class="mbr-iconfont socicon socicon-facebook"></span>
-                        </a>
-                    </div>
-                    <div class="soc-item">
-                        <a href="https://twitter.com/mobirise" target="_blank">
-                            <span class="mbr-iconfont socicon socicon-twitter"></span>
-                        </a>
-                    </div>
-                    <div class="soc-item">
-                        <a href="https://twitter.com/mobirise" target="_blank">
-                            <span class="mbr-iconfont socicon socicon-instagram"></span>
-                        </a>
-                    </div>
-                    <div class="soc-item">
-                        <a href="https://twitter.com/mobirise" target="_blank">
-                            <span class="mbr-iconfont socicon-behance socicon"></span>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-<script src="assets/web/assets/jquery/jquery.min.js"></script>
-  <script src="assets/popper/popper.min.js"></script>
-  <script src="assets/tether/tether.min.js"></script>
-  <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-  <script src="assets/smoothscroll/smooth-scroll.js"></script>
-  <script src="assets/dropdown/js/nav-dropdown.js"></script>
-  <script src="assets/dropdown/js/navbar-dropdown.js"></script>
-  <script src="assets/touchswipe/jquery.touch-swipe.min.js"></script>
-  <script src="assets/mbr-switch-arrow/mbr-switch-arrow.js"></script>
-  <script src="assets/formstyler/jquery.formstyler.js"></script>
-  <script src="assets/formstyler/jquery.formstyler.min.js"></script>
-  <script src="assets/datepicker/jquery.datetimepicker.full.js"></script>
-  <script src="assets/theme/js/script.js"></script>
-  <script src="assets/formoid.min.js"></script>
-  
-  
-  
-</body>
+  </body>
 </html>
+
